@@ -1,0 +1,16 @@
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.dll
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.pdb
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.xml
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.Resources.resources
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.vbproj.GenerateResource.Cache
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.dll
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.xml
+C:\CodeToCheck\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.pdb
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.dll
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.pdb
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\bin\Debug\Common.Interfaces.xml
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.Resources.resources
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.vbproj.GenerateResource.Cache
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.dll
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.xml
+C:\CodeToCheck\_Demo\DemoEDA-FSharp\Common.Interfaces\obj\Debug\Common.Interfaces.pdb

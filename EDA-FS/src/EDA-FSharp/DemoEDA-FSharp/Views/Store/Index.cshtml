@@ -1,0 +1,72 @@
+﻿@using Domain.Entities
+@model DemoEDAFSharp.Models.ShoppingCartViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home";
+}
+
+@Html.ActionLink("Back to Home page", "Index", "Home")
+
+<h1>Welcome to EDA MVC Store!</h1>
+
+@Html.Action("Products", "Store")
+
+<div>
+    @if (Model != null && Model.CartItems != null && Model.CartItems.Count > 0)
+    {
+        <p style="float: left">
+            <span class="label label-warning">
+                @Html.ActionLink("< Checkout >", "Checkout", "Store")
+            </span>
+
+            @using (Html.BeginForm("EmptyCart", "Store", FormMethod.Post))
+            {
+                <span class="label label-inverse">
+                    <input type="submit" value="< Empty Cart >" class="btn-link" />
+                </span>
+            }
+        </p>
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <th>Price (each)</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+            @foreach (Cart item in Model.CartItems)
+            {
+                <tr id="row-@item.ProductId">
+                    <td>
+                        @Html.ActionLink(item.Product.Name, "Details", "Store", new {id = item.ProductId}, null)
+                    </td>
+                    <td>
+                        @item.Product.Price
+                    </td>
+                    <td id="item-count-@item.ProductId">
+                        @item.Count
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Remove", "Store", new {id = item.ProductId}))
+                        {
+                            <input type="submit" value="Remove" class="btn-link" />
+                        }
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td>Total
+                </td>
+                <td></td>
+                <td></td>
+                <td id="cart-total">
+                    @Model.CartTotal
+                </td>
+            </tr>
+        </table>
+    }
+    else
+    {
+        <h3>Cart Empty</h3>
+    }
+
+</div>

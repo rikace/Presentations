@@ -1,0 +1,1 @@
+C:\CodeToCheck\_Demo\DemoEDA-FSharp>msbuild c:\CodeToCheck\_Demo\DemoEDA-FSharp\DemoEDA-FSharp.sln /t:clean;build /p:MvcBuildViews=true

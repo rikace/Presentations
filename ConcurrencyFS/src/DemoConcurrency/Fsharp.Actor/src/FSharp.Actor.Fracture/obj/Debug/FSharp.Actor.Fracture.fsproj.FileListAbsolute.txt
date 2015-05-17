@@ -1,0 +1,6 @@
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Fracture.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Fracture.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Fracture.XML
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Fracture\obj\Debug\FSharp.Actor.Fracture.fsprojResolveAssemblyReference.cache
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Fracture\obj\Debug\FSharp.Actor.Fracture.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Fracture\obj\Debug\FSharp.Actor.Fracture.pdb

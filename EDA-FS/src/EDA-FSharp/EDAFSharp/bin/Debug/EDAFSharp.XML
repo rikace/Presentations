@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>EDAFSharp</name></assembly>
+<members>
+<member name="T:DbAccess.sqlStore">
+<summary>Provides the types to access a database, using a LINQ-to-SQL mapping</summary><param name='ConnectionString'>The connection string for the database connection. If using Visual Studio, a connection string can be found in database properties in the Server Explorer window.</param><param name='ConnectionStringName'>The name of the connection string for the database connection in the configuration file.</param><param name='LocalSchemaFile'>The local .dbml file for the database schema (default: no local schema file)</param><param name='ForceUpdate'>Require that a direct connection to the database be available at design-time and force the refresh of the local schema file (default: true)</param><param name='Pluralize'>Automatically pluralize or singularize class and member names using English language rules (default: false)</param><param name='Views'>Extract database views (default: true)</param><param name='Functions'>Extract database functions (default: true)</param><param name='ConfigFile'>The name of the configuration file used for connection strings (default: app.config or web.config is used)</param><param name='DataDirectory'>The name of the data directory, used to replace |DataDirectory| in connection strings (default: the project or script directory)</param><param name='ResolutionFolder'>The folder used to resolve relative file paths at compile-time (default: folder containing the project or script)</param><param name='StoredProcedures'>Extract stored procedures (default: true)</param><param name='Timeout'>Timeout value in seconds to use when SqlMetal accesses the database (default: 0, which means infinite)</param><param name='ContextTypeName'>The name of data context class (default: derived from database name)</param><param name='Serializable'>Generate uni-directional serializable classes (default: false, which means no serialization)</param>
+</member>
+<member name="T:DbAccess.EntityConnection">
+<summary>Provides the types to access a database, using a LINQ-to-Entities mapping</summary><param name='ConnectionString'>The connection string for the database connection</param><param name='ConnectionStringName'>The name of the connection string for the database connection in the configuration file.</param><param name='LocalSchemaFile'>The local file for the database schema</param><param name='Provider'>The name of the ADO.NET data provider to be used for ssdl generation (default: System.Data.SqlClient)</param><param name='EntityContainer'>The name to use for the EntityContainer in the conceptual model</param><param name='ConfigFile'>The name of the configuration file used for connection strings (default: app.config or web.config is used)</param><param name='DataDirectory'>The name of the data directory, used to replace |DataDirectory| in connection strings (default: the project or script directory)</param><param name='ResolutionFolder'>The folder used to resolve relative file paths at compile-time (default: folder containing the project or script)</param><param name='ForceUpdate'>Require that a direct connection to the database be available at design-time and force the refresh of the local schema file (default: true)</param><param name='Pluralize'>Automatically pluralize or singularize class and member names using English language rules (default: false)</param><param name='SuppressForeignKeyProperties'>Exclude foreign key properties in entity type definitions (default: false)</param>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:DbAccess">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:EDAFSharp.AgentHelper">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:EDAFSharp.CommandHandlers">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:EDAFSharp.MessageBus">
+
+</member>
+</members>
+</doc>

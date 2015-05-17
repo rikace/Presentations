@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSharpx.TypeProviders.Management</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.WmiQueryBuilder">
+<summary>
+ The query syntax builder for WMI collection queries
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.WmiEventBuilder">
+<summary>
+ The query syntax builder for WMI event queries
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.WmiEvent`2">
+<summary>
+ Represents an event that supports WMI event queries
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.WmiCollection`1">
+<summary>
+ Represents collection that supports WMI queries
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.RuntimeAPI">
+<summary>
+ The operations used at runtime by the provided types
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.DoesntRequireWithin">
+<summary>
+ A phantom type to indicate a logical property of a WMI query
+</summary>
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.RequiresWithin">
+<summary>
+ A phantom type to indicate a logical property of a WMI query
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.IWmiQueryable`2">
+<summary>
+ Represents WMI query
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.Condition">
+<summary>
+ Represents a condition in a WMI query
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.UnaryCmp">
+<summary>
+ Represents a unary operation in a WMI query
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.BinaryCmp">
+<summary>
+ Represents a binary operation  in a WMI query
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.MethodInvocation`1">
+<summary>
+ The data associated with the invocation event for a WMI instance
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.InstanceModification`1">
+<summary>
+ The data associated with the modification event for a WMI instance
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.InstanceOperation`1">
+<summary>
+ The data associated with the creation or deletion event for a WMI instance
+</summary>
+</member>
+<member name="F:FSharpx.TypeProviders.Management.Runtime.FSharpx.TypeProviders.Management.Runtime.DataContext.Scope@">
+<summary>
+ Represents the WMI scope associated with the service
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FSharpx.TypeProviders.Management.Runtime.DataContext.remove_QueryExecuted(Microsoft.FSharp.Control.FSharpHandler{System.String})">
+<summary>
+ Occurs immediately before an underlying WMI query is executed 
+</summary>
+</member>
+<member name="P:FSharpx.TypeProviders.Management.Runtime.DataContext.Scope">
+<summary>
+ Represents the WMI scope associated with the service
+</summary>
+</member>
+<member name="P:FSharpx.TypeProviders.Management.Runtime.DataContext.QueryExecuted">
+<summary>
+ Occurs immediately before an underlying WMI query is executed 
+</summary>
+</member>
+<member name="M:FSharpx.TypeProviders.Management.Runtime.DataContext.add_QueryExecuted(Microsoft.FSharp.Control.FSharpHandler{System.String})">
+<summary>
+ Occurs immediately before an underlying WMI query is executed 
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.DataContext">
+<summary>
+ Represents a connection to the WMI service. 
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.QueryHelpers">
+<summary>
+ The operations used at runtime by the provided types
+</summary>
+</member>
+<member name="M:FSharpx.TypeProviders.Management.Runtime.RuntimeHelpers.ToDateTime(System.String)">
+<summary>
+ Converts a given datetime in DMTF format to DateTimeOffset object.
+</summary>
+</member>
+<member name="T:FSharpx.TypeProviders.Management.Runtime.RuntimeHelpers">
+
+</member>
+<member name="P:System.Management.WmiQuery.wmiEvent">
+<summary>
+ The query syntax builder for WMI event queries
+</summary>
+</member>
+<member name="P:System.Management.WmiQuery.wmiQuery">
+<summary>
+ The query syntax builder for WMI collection queries
+</summary>
+</member>
+<member name="T:System.Management.WmiQuery">
+
+</member>
+</members>
+</doc>

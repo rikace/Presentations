@@ -1,0 +1,51 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AvalonTaskMgr" Width="200" Height="265" Background="Black"
+	 
+    ResizeMode="NoResize"
+    >
+    <Window.Resources>
+        <DrawingBrush x:Key="gridBackgroundBrush" Viewport="0,0,10,10" ViewportUnits="Absolute" TileMode="Tile">
+            <DrawingBrush.Drawing>
+                <DrawingGroup>
+                    <DrawingGroup.Children>
+                        <GeometryDrawing Geometry="M0,0 L1,0 1,0.1, 0,0.1Z" Brush="Green" />
+                        <GeometryDrawing Geometry="M0,0 L0,1 0.1,1, 0.1,0Z" Brush="Green" />
+                    </DrawingGroup.Children>
+                </DrawingGroup>
+            </DrawingBrush.Drawing>
+        </DrawingBrush>
+        <Style x:Key="myCanvasStyle" TargetType="{x:Type Canvas}">
+            <Setter Property="Background" Value="{StaticResource gridBackgroundBrush}" />
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+    <Canvas Width="200" Height="200">
+        <TextBlock  x:Name="CpuText" FontSize="72" Foreground="LimeGreen" Opacity="1" TextAlignment="Center" Width="100" Height="100" />
+        <Viewport3D 
+                 
+                Name="CpuPumpAnimation3dViewPort" 
+                Height="200" Width="100" Margin="0,0,0,-5.00000000000003" Canvas.Left="100">
+            <Viewport3D.Camera>
+                <OrthographicCamera 
+          Width="2.5"
+          UpDirection="0,1,0"
+          Position="0.0,-0.2,-5.0"
+          LookDirection="0,0.05,1"
+            />
+            </Viewport3D.Camera>
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <Model3DGroup >
+                        <DirectionalLight Color="White" Direction="-7, -4, -10" />
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+            <ModelVisual3D>
+            </ModelVisual3D>
+        </Viewport3D>
+    </Canvas>
+        <Button x:Name="btnDispose">Dispose</Button>
+    </StackPanel>
+</Window>

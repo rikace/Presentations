@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Dynamitey</id>
+    <version>1.0.2.0</version>
+    <title>Dynamitey</title>
+    <authors>Ekon Benefits</authors>
+    <owners>Ekon Benefits</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/ekonbenefits/dynamitey</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>(pronounced dyna-mighty) flexes DLR muscle to do meta-mazing things in .net</description>
+    <releaseNotes>PCL library</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>dynamic metaprogramming dlr reflection currying tuples expando latetypes</tags>
+  </metadata>
+</package>

@@ -1,0 +1,17 @@
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\FsGPU.Helpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\FsGPU.Helpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\CUDA.NET.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\FSharp.Core.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\CUDA.NET.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\bin\Debug\FSharp.Core.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb
+C:\Temp\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
+C:\Temp\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Lib\FsGPU.Helpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Lib\FsGPU.Helpers.pdb
+C:\Demo\Why-Functional\DemoConcurrency\FsGPU\Helpers\obj\Debug\Helpers.fsprojResolveAssemblyReference.cache
+C:\Demo\Why-Functional\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
+C:\Demo\Why-Functional\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb

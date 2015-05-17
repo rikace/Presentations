@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CUDA.Samples", "CUDA.Samples", "{942E1EEF-67E0-490A-8AE5-32A7F3884ADF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BitonicSort", "CUDA.Samples\BitonicSort\BitonicSort.fsproj", "{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Helpers", "Helpers\Helpers.fsproj", "{35E89597-7C45-47D8-A749-425E56F96250}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mandelbrot", "CUDA.Samples\Mandelbrot\Mandelbrot.fsproj", "{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs06.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CUDA.Samples\\BitonicSort\\BitonicSort.fsproj
+		SccProjectTopLevelParentUniqueName1 = FsGPU.sln
+		SccProjectName1 = CUDA.Samples/BitonicSort
+		SccLocalPath1 = CUDA.Samples\\BitonicSort
+		SccProjectUniqueName2 = Helpers\\Helpers.fsproj
+		SccProjectName2 = Helpers
+		SccLocalPath2 = Helpers
+		SccProjectUniqueName3 = CUDA.Samples\\Mandelbrot\\Mandelbrot.fsproj
+		SccProjectTopLevelParentUniqueName3 = FsGPU.sln
+		SccProjectName3 = CUDA.Samples/Mandelbrot
+		SccLocalPath3 = CUDA.Samples\\Mandelbrot
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E89597-7C45-47D8-A749-425E56F96250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E89597-7C45-47D8-A749-425E56F96250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E89597-7C45-47D8-A749-425E56F96250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E89597-7C45-47D8-A749-425E56F96250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3902E0AC-241A-4FD8-906B-4DEBD5EE0A3A} = {942E1EEF-67E0-490A-8AE5-32A7F3884ADF}
+		{E6B9AAF1-C92E-4A10-82F4-FD3CED6F828F} = {942E1EEF-67E0-490A-8AE5-32A7F3884ADF}
+	EndGlobalSection
+EndGlobal

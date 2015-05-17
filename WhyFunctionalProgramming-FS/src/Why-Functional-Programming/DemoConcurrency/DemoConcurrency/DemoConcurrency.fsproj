@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c4573fc3-8471-4ba5-860a-8441f7464572</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DemoConcurrency</RootNamespace>
+    <AssemblyName>DemoConcurrency</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Name>DemoConcurrency</Name>
+    <TargetFSharpCoreVersion>4.3.0.0</TargetFSharpCoreVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Debug\DemoConcurrency.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Release\DemoConcurrency.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CUDA.NET">
+      <HintPath>..\Lib\CUDA.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>..\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharp.PowerPack, Version=4.0.0.1, Culture=neutral, PublicKeyToken=f536804aa0eb945b" />
+    <Reference Include="FSharp.PowerPack.Parallel.Seq, Version=4.0.0.1, Culture=neutral, PublicKeyToken=f536804aa0eb945b" />
+    <Reference Include="FSharpx.Collections">
+      <HintPath>..\packages\FSharpx.Collections.1.9.2\lib\net35\FSharpx.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.Core">
+      <HintPath>..\packages\FSharpx.Core.1.8.41\lib\40\FSharpx.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.Observable">
+      <HintPath>..\packages\FSharpx.Observable.1.8.41\lib\40\FSharpx.Observable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharpx.TypeProviders.Xaml">
+      <HintPath>..\packages\FSharpx.TypeProviders.Xaml.1.8.41\lib\40\FSharpx.TypeProviders.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Accelerator">
+      <HintPath>..\Lib\Microsoft.Accelerator.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ParallelArrays.CUDATarget">
+      <HintPath>..\Lib\Microsoft.ParallelArrays.CUDATarget.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonModule.fsx" />
+    <None Include="1.Events\1.EventSamples.fsx" />
+    <None Include="1.Events\2.AddRemoveEvent.fsx" />
+    <None Include="1.Events\3.EventDraw.fsx" />
+    <None Include="1.Events\4.MouseMove.fsx" />
+    <None Include="1.Events\5.ObservableExamples.fsx" />
+    <None Include="1.Events\6.StockEvent.fsx" />
+    <None Include="1.Events\7.CLIEvent.fsx" />
+    <None Include="1.Events\8.EventInForms.fsx" />
+    <None Include="1.Events\9.ObservableJukeBox.fsx" />
+    <None Include="1.Events\10.ObservableCPU.fsx" />
+    <Compile Include="1.Events\EventNet.fs" />
+    <None Include="2.Threading\1.ThreadBasic.fsx" />
+    <None Include="2.Threading\2.TaskLibrary.fsx" />
+    <None Include="2.Threading\3.Parallel.fsx" />
+    <None Include="2.Threading\4.RaceCondition.fsx" />
+    <None Include="2.Threading\5.DeadLock.fsx" />
+    <None Include="3.Async\1.BackgroundWorker.fsx" />
+    <None Include="3.Async\2.IterativeBackgroundWorker.fsx" />
+    <None Include="3.Async\3.Async.fsx" />
+    <None Include="3.Async\4.AsyncWorker.fsx" />
+    <None Include="3.Async\5.PrimitiveAsync.fsx" />
+    <None Include="3.Async\6.AsyncExceptions.fsx" />
+    <None Include="3.Async\7.AsyncCancellations.fsx" />
+    <None Include="3.Async\8.BarrierAsync.fsx" />
+    <None Include="3.Async\9.AsyncGate.fsx" />
+    <None Include="3.Async\10.StockAnalyzerAsync.fsx" />
+    <None Include="3.Async\11.StockMarketAsyncChart.fsx" />
+    <None Include="3.Async\12.StockMarket.fsx" />
+    <None Include="3.Async\IsPrimeTest.fsx" />
+    <Compile Include="3.Async\AsyncTask.fs" />
+    <None Include="4.Agent\1.BasicAgent.fsx" />
+    <None Include="4.Agent\2.ThrottlingAgent.fsx" />
+    <None Include="4.Agent\3.BulkingAgent.fsx" />
+    <None Include="4.Agent\4.AgentObjectPool.fsx" />
+    <None Include="4.Agent\5.BlockingQueueAgent.fsx" />
+    <None Include="4.Agent\6.ParallelWorkerAgent.fsx" />
+    <None Include="4.Agent\7.MultiAgent.fsx" />
+    <None Include="4.Agent\8.AgentPool.fsx" />
+    <None Include="4.Agent\9.ActorLib.fsx" />
+    <None Include="4.Agent\AgentTests.fsx" />
+    <Compile Include="5.Patterns\AgentSystem.fs" />
+    <Compile Include="5.Patterns\MapReduceSystem.fs" />
+    <None Include="5.Patterns\1.PipeLineAgent.fsx" />
+    <None Include="5.Patterns\2.PipeLineImages.fsx" />
+    <None Include="5.Patterns\2.MapReduce.fsx" />
+    <None Include="5.Patterns\3.MapReduceAgents.fsx" />
+    <None Include="5.Patterns\4.DAG.fsx" />
+    <None Include="5.Patterns\5.Barrier.fsx" />
+    <None Include="5.Patterns\6.AsyncBoundedQueue.fsx" />
+    <None Include="5.Patterns\PatternTests.fsx" />
+    <None Include="6.GPU\1.Mandelbrot.fsx" />
+    <None Include="6.GPU\2.FastSorting.fsx" />
+    <None Include="6.GPU\3.DimensionalConvolver.fsx" />
+    <None Include="6.GPU\4.GameOfLife.fsx" />
+    <None Include="6.GPU\5.PICalculation.fsx" />
+    <None Include="6.GPU\CUDADataStructure.fsx" />
+    <Compile Include="6.GPU\CUDA\CudaDataStructure.fs" />
+    <Compile Include="6.GPU\CUDA\CUDARuntime.fs" />
+    <Compile Include="6.GPU\CUDA\CUDABLAS.fs" />
+    <Compile Include="6.GPU\CUDA\CUDARandom.fs" />
+    <Compile Include="6.GPU\CUDA\ItemType.fs" />
+    <Compile Include="6.GPU\CUDA\GPUTranslator.fs" />
+    <Compile Include="6.GPU\CUDA\CudaDataStructureExtensions.fs" />
+    <Compile Include="6.GPU\CUDA\CudaInterop.fs" />
+    <Compile Include="6.GPU\CUDA\GPUTranslation.fs" />
+    <Compile Include="6.GPU\CUDA\GPUExecution.fs" />
+    <Compile Include="6.GPU\CUDA\Program.fs" />
+    <Compile Include="7.Stm\Stm.fs" />
+    <None Include="7.Stm\1.Stm.fsx" />
+    <None Include="Utilities\FSharp.Charting.fsx" />
+    <None Include="Utilities\load-wpf40.fsx" />
+    <None Include="Utilities\show-wpf40.fsx" />
+    <Compile Include="Utilities\EventMdoule.fs" />
+    <Compile Include="Utilities\show.fs" />
+    <Compile Include="Utilities\AsyncHelpers.fs" />
+    <None Include="Utilities\ChartingSample.fsx" />
+    <Compile Include="Utilities\PSeq.fs" />
+    <None Include="Utilities\ImageHelpers.fsx" />
+    <None Include="Utilities\MyScipts.fsx" />
+    <Compile Include="Utilities\ImageInfo.fs" />
+    <Compile Include="Utilities\BitmapExtensions.fs" />
+    <Compile Include="Utilities\StateBuilder.fs" />
+    <None Include="Utilities\ChartBase.fsx" />
+    <None Include="Scripting.fsx" />
+    <Compile Include="StartMain.fs" />
+    <Resource Include="ApplicationResources.xaml" />
+    <Resource Include="MainWindow.xaml" />
+    <Content Include="Data\table.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\EBAY.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\AAPL.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ADBE.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GOOG.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\MSFT.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DocTest.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DocTest2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DocTest3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\words.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Data\Images\Bugghina1.jpg" />
+    <None Include="Data\Images\Bugghina3.jpg" />
+    <None Include="Data\Images\Bugghina4.jpg" />
+    <None Include="Data\Images\Bugghina5.jpg" />
+    <None Include="Data\Images\Bugghina6.jpg" />
+    <None Include="Data\Images\Bugghina7.jpg" />
+    <None Include="Data\Images\Bugghina2.jpg" />
+    <None Include="Data\Images\Bugghina10.jpg" />
+    <None Include="Data\Images\Bugghina11.jpg" />
+    <None Include="Data\Images\Bugghina8.jpg" />
+    <None Include="Data\Images\Bugghina9.jpg" />
+    <None Include="Data\Images\BreadPug.jpg" />
+    <None Include="Data\Images\Bugghina12.jpg" />
+    <None Include="Data\Images\Bugghina13.jpg" />
+    <None Include="Data\Images\Bugghina14.jpg" />
+    <None Include="Data\Images\Bugghina15.jpg" />
+    <None Include="Data\Images\Bugghina16.jpg" />
+    <None Include="App.config" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActorLib\ActorLib.fsproj">
+      <Name>ActorLib</Name>
+      <Project>{e946c772-284b-4745-99db-0814769b985b}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonHelpers\CommonHelpers.csproj">
+      <Name>CommonHelpers</Name>
+      <Project>{2e6c4539-edfb-4efa-a840-767bca379ea1}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\FsGPU\Helpers\Helpers.fsproj">
+      <Name>Helpers</Name>
+      <Project>{35e89597-7c45-47d8-a749-425e56f96250}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '11.0'">
+      <PropertyGroup>
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>rem C:\CUDA\bin\nvcc.exe  -ccbin "c:\Program Files\Microsoft Visual Studio 12.0\VC\bin"  -Xcompiler "/EHsc /W3 /nologo /Od /Zi   /MTd  " -IC:\CUDA\include -I../../common/inc -maxrregcount=32  -m32 --cubin "..\..\6.GPU\Mandelbrot_sm10.cu"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

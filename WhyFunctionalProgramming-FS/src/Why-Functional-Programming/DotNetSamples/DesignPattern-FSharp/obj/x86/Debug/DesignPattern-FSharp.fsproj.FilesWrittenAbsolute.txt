@@ -1,0 +1,10 @@
+/Users/Riccardo/Documents/Presentations/Design-Patterns/Code-Xamarin/DesignPattern-FSharp/DesignPattern-FSharp/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/Documents/Presentations/Design-Patterns/Code-Xamarin/DesignPattern-FSharp/DesignPattern-FSharp/bin/Debug/DesignPattern-FSharp.exe.mdb
+/Users/Riccardo/Documents/Presentations/Design-Patterns/Code-Xamarin/DesignPattern-FSharp/DesignPattern-FSharp/bin/Debug/DesignPattern-FSharp.exe
+/Users/Riccardo/Documents/Presentations/Design-Patterns/Code-Xamarin/DesignPattern-FSharp/DesignPattern-FSharp/obj/x86/Debug/DesignPattern-FSharp.exe
+/Users/Riccardo/Documents/Presentations/Design-Patterns/Code-Xamarin/DesignPattern-FSharp/DesignPattern-FSharp/obj/x86/Debug/DesignPattern-FSharp.exe.mdb
+/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/DesignPattern-FSharp/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
+/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/DesignPattern-FSharp/obj/x86/Debug/DesignPattern-FSharp.exe
+/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/DesignPattern-FSharp/obj/x86/Debug/DesignPattern-FSharp.exe.mdb
+/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/DesignPattern-FSharp/bin/Debug/DesignPattern-FSharp.exe.mdb
+/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/DesignPattern-FSharp/bin/Debug/DesignPattern-FSharp.exe

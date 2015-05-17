@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FSharp.Core.3</id>
+    <version>0.0.2</version>
+    <title>FSharp.Core for F# 3.0 (versions 2.3.0.0, 4.3.0.0)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/en-us/download/details.aspx?id=34675</licenseUrl>
+    <projectUrl>http://bitbucket.org/IntelliFactory/nuget-fsharp.core.3</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Includes FSharp.Core 4.3.0.0 and FSharp.Core 2.3.0.0 from Microsoft, to support building F# 3.0 projects.</description>
+    <copyright>Copyright 2002-2012 (c) Microsoft Corporation</copyright>
+    <tags>F#</tags>
+  </metadata>
+</package>

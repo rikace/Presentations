@@ -1,0 +1,11 @@
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\Surge.Common.XML
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\Surge.Common.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\Surge.Common.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FSharp.Actor.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FSharp.Core.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FsPickler.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FSharp.Actor.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FSharp.Actor.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\bin\Debug\FSharp.Core.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\obj\Debug\Surge.Common.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\samples\Surge.Common\obj\Debug\Surge.Common.pdb

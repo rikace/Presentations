@@ -1,0 +1,12 @@
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.Interop.XML
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.Interop.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.Interop.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Core.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FsPickler.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Actor.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\bin\Debug\FSharp.Core.xml
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\obj\Debug\FSharp.Actor.Interop.fsprojResolveAssemblyReference.cache
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\obj\Debug\FSharp.Actor.Interop.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Interop\obj\Debug\FSharp.Actor.Interop.pdb

@@ -1,0 +1,40 @@
+﻿.featured {
+    -moz-border-radius: 15px;
+    background-image: linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    background-image: -o-linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    background-image: -moz-linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    background-image: -webkit-linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    background-image: linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    background-image: -o-linear-gradient(bottom, #04154a 3%, #3a56dd 52%);
+    border-radius: 15px;
+    color: white;
+    margin: 20px 0;
+    padding: 5px 20px;
+}
+
+#featured-auctions {
+    -moz-border-radius: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+#featured-auctions .item { margin: 0 90px; }
+
+#featured-auctions .auction {
+    height: 200px;
+    padding: 0 10px;
+    text-align: center;
+    width: 150px;
+}
+
+#featured-auctions .auction img {
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+#featured-auctions .auction .title {
+    height: 22px;
+    max-height: 22px;
+    overflow: hidden;
+}

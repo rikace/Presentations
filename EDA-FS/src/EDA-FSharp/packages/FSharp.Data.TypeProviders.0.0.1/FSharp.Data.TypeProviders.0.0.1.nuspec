@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FSharp.Data.TypeProviders</id>
+    <version>0.0.1</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/en-us/download/details.aspx?id=34675</licenseUrl>
+    <projectUrl>http://bitbucket.org/IntelliFactory/nuget-fsharp.data.typeproviders</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Includes FSharp.Data.TypeProviders 4.3.0.0 from Microsoft.</description>
+    <copyright>Copyright 2002-2012 (c) Microsoft Corporation</copyright>
+    <tags>F#</tags>
+    <dependencies>
+      <dependency id="FSharp.Core.3" version="0.0.2" />
+    </dependencies>
+  </metadata>
+</package>

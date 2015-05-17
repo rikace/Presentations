@@ -1,0 +1,40 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPattern-FSharp/observer2.fsx">
+    <Files>
+      <File FileName="DesignPattern-FSharp/Program.fs" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/factory.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/observer2.fsx" Line="10" Column="10" />
+      <File FileName="DesignPattern-FSharp/observer4.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/AssemblyInfo.fs" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/decorator3.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/strategy1.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/chainorTemplate.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/observer.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/decorator2.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/decorator.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/command3.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/command2.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/command.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/chainor3.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/chainor2.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/chainor.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/adapter.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/strategy2.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/statepattern2.fsx" Line="1" Column="1" />
+      <File FileName="DesignPattern-FSharp/statepattern.fsx" Line="1" Column="1" />
+      <File FileName="Misc/Program.fs" Line="1" Column="1" />
+      <File FileName="Misc/ClosureSample.fs" Line="1" Column="1" />
+      <File FileName="CSMisc/Program.cs" Line="1" Column="1" />
+      <File FileName="CSMisc/NumberClassifierFunctional.cs" Line="1" Column="1" />
+      <File FileName="CSMisc/RetryCurry.cs" Line="1" Column="1" />
+      <File FileName="Misc/Composition.fs" Line="1" Column="1" />
+      <File FileName="CSMisc/RetryEx.cs" Line="1" Column="1" />
+      <File FileName="CSMisc/ImmutableTest.cs" Line="5" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

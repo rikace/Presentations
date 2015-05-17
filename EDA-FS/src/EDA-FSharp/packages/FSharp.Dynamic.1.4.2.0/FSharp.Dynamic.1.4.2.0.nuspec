@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FSharp.Dynamic</id>
+    <version>1.4.2.0</version>
+    <title>FSharp.Dynamic</title>
+    <authors>Ekon Benefits</authors>
+    <owners>Ekon Benefits</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/ekonbenefits/FSharp.Dynamic</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>portable class library, dynamic operator using the DLR</description>
+    <releaseNotes>PCL port.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>fsharp dynamic dlr pcl</tags>
+    <dependencies>
+      <dependency id="Dynamitey" version="1.0.2.0" />
+    </dependencies>
+  </metadata>
+</package>
