@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSFastWeb</name></assembly>
+<members>
+<member name="M:FSFastWeb.Library.hello``1(``0)">
+<summary>
+ Returns 42
+
+ ## Parameters
+  - `num` - whatever
+</summary>
+</member>
+<member name="T:FSFastWeb.Library">
+<summary>
+ Documentation for my library
+
+ ## Example
+
+     let h = Library.hello 1
+     printfn &quot;%d&quot; h
+
+</summary>
+</member>
+</members>
+</doc>
