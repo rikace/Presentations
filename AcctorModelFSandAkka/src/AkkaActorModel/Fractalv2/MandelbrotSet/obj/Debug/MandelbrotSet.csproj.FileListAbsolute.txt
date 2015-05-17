@@ -1,0 +1,9 @@
+C:\CodeToCheck\Fractal.Akka.Net\MandelbrotSet\bin\Debug\MandelbrotSet.dll
+C:\CodeToCheck\Fractal.Akka.Net\MandelbrotSet\bin\Debug\MandelbrotSet.pdb
+C:\CodeToCheck\Fractal.Akka.Net\MandelbrotSet\obj\Debug\MandelbrotSet.csprojResolveAssemblyReference.cache
+C:\CodeToCheck\Fractal.Akka.Net\MandelbrotSet\obj\Debug\MandelbrotSet.dll
+C:\CodeToCheck\Fractal.Akka.Net\MandelbrotSet\obj\Debug\MandelbrotSet.pdb
+C:\Git\AkkaActorModel\Fractalv2\MandelbrotSet\bin\Debug\MandelbrotSet.dll
+C:\Git\AkkaActorModel\Fractalv2\MandelbrotSet\bin\Debug\MandelbrotSet.pdb
+C:\Git\AkkaActorModel\Fractalv2\MandelbrotSet\obj\Debug\MandelbrotSet.dll
+C:\Git\AkkaActorModel\Fractalv2\MandelbrotSet\obj\Debug\MandelbrotSet.pdb
