@@ -1,0 +1,263 @@
+﻿body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#stockTable table {
+    border-collapse: collapse;
+}
+
+#stockTable table th, #stockTable table td {
+    padding: 2px 6px;
+}
+
+#stockTable table td {
+    text-align: right;
+}
+
+#stockTable .loading td {
+    text-align: left;
+}
+
+#stockTicker {
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    margin: 0 0 10px 0;
+}
+
+#stockTicker .inner {
+    width: 9999px;
+}
+
+#stockTicker ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#stockTicker li {
+    display: inline-block;
+    margin-right: 8px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 4px;  
+}
+
+#stockTicker .symbol {
+    font-weight: bold;
+}
+
+#stockTicker .change {
+    font-style: italic;
+}
+
+/*******************
+    * General *
+*******************/
+
+.inner-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type="button"],
+button {
+    border: none;
+    padding: 0px 20px;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+}
+
+input[type="text"] {
+    border: none;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 4px;
+    margin: 0 10px 0 0;
+}
+
+table {
+    border: none;
+    border-color: transparent;
+    width: 100%;
+}
+
+td {
+    padding: 4px 10px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    padding: 10px 0px;
+}
+
+section {
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+h4 {
+    margin: 30px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+/* Misc */
+label[for=tickerSymbol],
+label[for=tickerSymbolBuy],
+label[for=tickerSymbolSell] {
+    min-width: 135px;
+}
+
+/***********************
+* Tuscany Color Scheme *
+***********************/
+
+/* Body */
+body.tuscany {
+    color: #4D4D4D;
+}
+
+/* Text Fields */
+body.tuscany input[type="text"] {
+    color: #4D4D4D;
+    background-color: #E1E1E1;
+}
+
+/* Buttons */
+body.tuscany input[type="button"],
+body.tuscany button {
+    color: #FFFFFF;
+    background-color: #838271;
+}
+body.tuscany input[type="button"]:hover,
+body.tuscany button:hover,
+body.tuscany input[type="button"]:focus,
+body.tuscany button:focus {
+    background-color: #4D4D4D;
+}
+body.tuscany input[type="button"]:disabled {
+    background-color: #EAEAEA;
+    color: #4D4D4D;
+    cursor: default;
+}
+
+/* Stock Ticker */
+body.tuscany #stockTicker {
+    background-color: #e1e1e1;
+}
+
+/* Tables */
+
+body.tuscany table {
+    background-color: #998575;
+    color: #FFFFFF;
+}
+
+body.tuscany td {
+    color: #4D4D4D;
+    background-color: #CFB86A;
+}
+
+body.tuscany .up {
+    color: #FFFFFF;
+    background-color: #899A6D;
+}
+
+body.tuscany .down {
+    color: #FFFFFF;
+    background-color: #CC5F39;
+}
+
+body.tuscany h2 {
+    border-top: 1px solid #998575;
+}
+
+body.tuscany h4 {
+    border-top: 1px solid #998575;
+}
+
+body.tuscany a {
+    color: #899A6D;
+    text-decoration: none;
+}
+
+/***************************
+* Traditional Color Scheme *
+***************************/
+
+/* Body */
+body.traditional {
+    color: #000000;
+}
+
+/* Text Fields */
+body.traditional input[type="text"] {
+    color: #000000;
+    background-color: #E1E1E1;
+}
+
+/* Buttons */
+body.traditional input[type="button"],
+body.traditional button {
+    color: #000000;
+    background-color: #CCCCCC;
+}
+body.traditional input[type="button"]:hover,
+body.traditional button:hover,
+body.traditional input[type="button"]:focus,
+body.traditional button:focus {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+body.traditional input[type="button"]:disabled {
+    background-color: #EAEAEA;
+    color: #4D4D4D;
+    cursor: default;
+}
+
+/* Stock Ticker */
+body.traditional #stockTicker {
+    background-color: transparent;
+}
+
+body.traditional a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Tables */
+
+body.traditional table {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+body.traditional td {
+    color: #000000;
+    background-color: #E1E1E1;
+}
+
+body.traditional .up {
+    color: #FFFFFF;
+    background-color: Green;
+}
+
+body.traditional .down {
+    color: #FFFFFF;
+    background-color: Red;
+}

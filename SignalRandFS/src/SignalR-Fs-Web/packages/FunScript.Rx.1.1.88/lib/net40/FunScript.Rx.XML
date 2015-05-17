@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FunScript.Rx</name></assembly>
+<members>
+<member name="T:AssemblyInfo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FunScript.Rx.Events.Event`1">
+<summary>
+ Implemented using an RxJs subject
+</summary>
+</member>
+<member name="T:FunScript.Rx.Events">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FunScript.Rx.Interop.Replacements">
+
+</member>
+<member name="T:FunScript.Rx.Interop">
+
+</member>
+<member name="M:FunScript.Rx.Observable.zipArray``1(System.IObservable{``0}[])">
+<summary>
+ Merges the specified observable sequences into one observable sequence by emitting 
+ a list with the elements of the observable sequences at corresponding indexe
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.zipSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Merges two observable sequences into one observable sequence by combining their elements in a pairwise fashion.
+ Merges the specified observable sequences into one observable sequence by emitting a
+  list with the elements of the observable sequences at corresponding indexes.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.windowTimeCountImpl``1(System.Double,System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into a window that is completed when either it&apos;s full or 
+ a given amount of time has elapsed.
+ A useful real-world analogy of this overload is the behavior of a ferry leaving the dock when all seats are 
+ taken, or at the scheduled time of departure, whichever event occurs first
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.windowCount``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into consecutive non-overlapping windows 
+ which are produced based on element count information.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.windowCountSkip``1(System.Int32,System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into consecutive non-overlapping windows
+ windowBoundaries - Sequence of window boundary markers. The current window is closed 
+ and a new window is opened upon receiving a boundary marker
+ Projects each element of an observable sequence into zero or more windows which are produced based on element count information
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.windowTimeShiftImpl``1(System.Double,System.Double,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into consecutive non-overlapping windows.
+ windowBoundaries - Sequence of window boundary markers. The current window is closed and a new window is opened upon receiving a boundary marker.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.windowOpenClose``3(System.IObservable{``0},Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``2})">
+<summary>
+ Projects each element of an observable sequence into zero or more windows.
+ windowOpenings - Observable sequence whose elements denote the creation of new windows.
+ windowClosingSelector - A function invoked to define the closing of each produced window.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.windowTimeSpanImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into consecutive non-overlapping windows 
+ which are produced based on timing information.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.window``2(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,System.IObservable{``0}},System.IObservable{``1})">
+<summary>
+ Constructs an observable sequence that depends on a resource object, whose 
+ lifetime is tied to the resulting observable sequence&apos;s lifetime.
+ waits for the observable sequence to complete and returns the last
+ element of the sequence. If the sequence terminates with OnError
+ notification, the exception is thrown
+ Repeats the given function as long as the specified condition holds
+ where the condition is evaluated before each repeated source is 
+ subscribed to
+ Projects each element of an observable sequence into consecutive non-overlapping windows.
+ windowClosingSelector - A function invoked to define the boundaries of the produced windows. 
+ A new window is started when the previous one is closed
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.toObservableImpl``1(``0[])">
+<summary>
+ Applies a timeout policy to the observable sequence based on an initial timeout duration 
+ for the first element, and a timeout duration computed for each subsequent element.
+ If the next element isn&apos;t received within the computed duration starting from its predecessor, 
+ a TimeoutException is propagated to the observer.
+ Applies a timeout policy to the observable sequence based on an initial timeout duration for the first
+ element, and a timeout duration computed for each subsequent element.
+ If the next element isn&apos;t received within the computed duration starting from its predecessor, 
+ the other observable sequence is used to produce future messages from that point on.
+ Returns an observable sequence that produces a single value at the specified absolute due time.
+ Returns an observable sequence that periodically produces a value starting at the specified initial absolute due time.
+ Returns an observable sequence that produces a single value after the specified relative due time has elapsed.
+ Returns an observable sequence that periodically produces a value after the specified
+ initial relative due time has elapsed.
+ Timestamps each element in an observable sequence using the local system clock.
+ Converts an observable into a seq
+ Creates an array from an observable sequence
+ Creates an array from an observable sequence.
+ Creates an observable sequence according to a specified key selector function
+ Creates an observable sequence according to a specified key selector function
+ and an a comparer
+ Creates an observable sequence according to a specified key selector function
+ Creates an observable sequence according to a specified key selector function
+ Exposes and observable sequence as an object with an Action based .NET event
+ Exposes an observable sequence as an object with an Action&lt;&apos;Source&gt; based .NET event.
+ Creates a list from an observable sequence
+ Creates a lookup from an observable sequence according to a specified key selector function.
+ Creates a lookup from an observable sequence according to a specified key selector function, and a comparer.
+ Creates a lookup from an observable sequence according to a specified key selector function, and an element selector function.
+ Creates a lookup from an observable sequence according to a specified key selector function, and an element selector function.
+ Converts a seq into an observable
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.timeoutDuration``2(Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ matches when the observable sequence has an available element and 
+ applies the map
+ Records the time interval between consecutive elements in an observable sequence.
+ Applies a timeout policy to the observable sequence based on an absolute time.
+ If the sequence doesn&apos;t terminate before the specified absolute due time, a TimeoutException is propagated to the observer.
+ Applies a timeout policy to the observable sequence based on an absolute time.
+ If the sequence doesn&apos;t terminate before the specified absolute due time, the other 
+ observable sequence is used to produce future messages from that point on.
+ Applies a timeout policy for each element in the observable sequence.
+ If the next element isn&apos;t received within the specified timeout duration starting from its
+ predecessor, a TimeoutException is propagated to the observer.
+ Applies a timeout policy for each element in the observable sequence.
+ If the next element isn&apos;t received within the specified timeout duration starting from 
+ its predecessor, the other observable sequence is used to produce future messages from that point on.
+ Applies a timeout policy to the observable sequence based on a timeout duration computed for each element.
+ If the next element isn&apos;t received within the computed duration starting from its predecessor,
+ a TimeoutException is propagated to the observer.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.throw``1(System.Exception)">
+<summary>
+ Returns an observable sequence that terminates with an exception.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.throttleComputed``2(System.IObservable{``0},Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}})">
+<summary>
+ Ignores elements from an observable sequence which are followed by another value within a computed throttle duration
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.throttleImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Returns elements from an observable sequence as long as a specified condition is true.
+ The element&apos;s index is used in the logic of the predicate functi
+ Ignores elements from an observable sequence which are followed by another element within a specified relative time duration.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.takeWhile``1(Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Returns the elements from the source observable until the specified time
+ Returns elements from an observable sequence as long as a specified condition is true.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.takeUntilOther``2(System.IObservable{``0},System.IObservable{``1})">
+<summary>
+ Returns the elements from the source observable sequence until the other produces and element
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.takeLastBufferCount``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Returns a list with the specified number of contiguous elements from the end of an observable sequence.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.takeLastBufferImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Returns a list with the elements within the specified duration from the end of the observable source sequence.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.takeLastSpanImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Returns elements within the specified duration from the end of the observable source sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.takeLast``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Returns a specified number of contiguous elements from the end of an obserable sequence
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.take``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Transforms an observable sequence of tasks into an observable sequence 
+ producing values only from the most recent observable sequence.
+ Each time a new task is received, the previous task&apos;s result is ignored.
+ Synchronizes the observable sequence so that notifications cannot be delivered concurrently
+ this voerload is useful to &quot;fix&quot; and observable sequence that exhibits concurrent 
+ callbacks on individual observers, which is invalid behavior for the query processor
+ Synchronizes the observable sequence such that observer notifications 
+ cannot be delivered concurrently, using the specified gate object.This 
+ overload is useful when writing n-ary query operators, in order to prevent 
+ concurrent callbacks from different sources by synchronizing on a common gate object.
+ Takes n elements (from the beginning of an observable sequence? )
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.switch``1(System.IObservable{System.IObservable{``0}})">
+<summary>
+ Wraps the source sequence in order to run its subscription and unsubscription logic 
+ on the specified scheduler. This operation is not commonly used;  This only performs 
+ the side-effects of subscription and unsubscription on the specified scheduler.
+  In order to invoke observer callbacks on a scheduler, use &apos;observeOn&apos;
+ Transforms an observable sequence of observable sequences into an 
+ observable sequence producing values only from the most recent 
+ observable sequence.Each time a new inner observable sequnce is recieved,
+ unsubscribe from the previous inner sequence
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.subscribeObserver``1(System.IObserver{``0},System.IObservable{``0})">
+<summary>
+ Subscribes to the observable with the given observer
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.subscribeWithCallbacks``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{System.Exception,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Subscribes to the observable with all three callbacks
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.subscribeWithCompletion``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Subscribes to the Observable with a next and a completion callback.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.subscribeWithError``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{System.Exception,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Subscribes to the Observable with a next and an error-function.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.subscribe``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Subscribes to the Observable with a next fuction.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.startWith``2(``0,System.IObservable{``1})">
+<summary>
+ Bypasses elements in an observable sequence as long as a specified condition is true and then returns the remaining elements.
+ The element&apos;s index is used in the logic of the predicate functio
+ Prepends a sequence of values to an observable sequence.   
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.skipWhile``1(Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Bypasses elements in an observable sequence as long as a specified condition is true and then returns the remaining elements.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.skipUntilOther``2(System.IObservable{``0},System.IObservable{``1})">
+<summary>
+ Skips elements from the observable source sequence until the specified start time.
+ Returns the elements from the source observable sequence only after the other observable sequence produces an element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.skipLastSpanImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Skips elements for the specified duration from the end of the observable source sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.skipLast``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Skips elements for the specified duration from the start of the observable source sequence.
+ Bypasses a specified number of elements at the end of an observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.skip``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Bypasses a specified number of elements in an observable sequence and then returns the remaining elements.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.single``1(``0)">
+<summary>
+ If the condition evaluates true, select the &quot;thenSource&quot; sequence. Otherwise, return an empty sequence.
+ If the condition evaluates true, select the &quot;thenSource&quot; sequence. Otherwise, select the else source 
+  Returns an observable sequence that contains a single element.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.scanInit``2(``0,Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``1,``0}},System.IObservable{``1})">
+<summary>
+ Applies an accumulator function over an observable sequence and returns each intermediate result. 
+ The specified init value is used as the initial accumulator value.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.scan``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``0,``0}},System.IObservable{``0})">
+<summary>
+ Applies an accumulator function over an observable sequence and returns each intermediate result.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.sampleWith``2(System.IObservable{``0},System.IObservable{``1})">
+<summary>
+ Samples the source observable sequence using a samper observable sequence producing sampling ticks.
+ Upon each sampling tick, the latest element (if any) in the source sequence during the 
+ last sampling interval is sent to the resulting sequence.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.sampleImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Samples the observable at the given interval
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.retryCount``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Repeats the source observable sequence the specified number of times or until it successfully terminates.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.retry``1(System.IObservable{``0})">
+<summary>
+ Repeats the source observable sequence until it successfully terminates.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.replayMapBufferWindowImpl``2(Microsoft.FSharp.Core.FSharpFunc{System.IObservable{``0},System.IObservable{``1}},System.Int32,System.Double,System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that is the result of apply a map to a connectable observable sequence that
+ shares a single subscription to the underlying sequence replaying notifications subject to
+ a maximum time length.
+ Returns an observable sequence that is the result of apply a map to a connectable observable sequence that
+ shares a single subscription to the underlying sequence replaying notifications subject to
+ a maximum time length and element count for the replay buffer.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.replayMapBuffer``2(Microsoft.FSharp.Core.FSharpFunc{System.IObservable{``0},System.IObservable{``1}},System.Int32,System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that is the result of apply a map to a connectable observable sequence that
+ shares a single subscription to the underlying sequence replaying notifications subject to
+ a maximum element count for the replay buffer.                              
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.replayBufferWindowImpl``1(System.Int32,System.Double,System.IObservable{``0})">
+<summary>
+ Returns a connectable observable sequence that shares a single subscription to the underlying sequence 
+ replaying notifications subject to a maximum time length for the replay buffer.
+ Returns a connectable observable sequence that shares a single subscription to the underlying sequence
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.replayMap``2(Microsoft.FSharp.Core.FSharpFunc{System.IObservable{``0},System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that is the result of invoking the selector on a connectable observable 
+ sequence that shares a single subscription to the underlying sequence replaying all notifications.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.replayBuffer``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Returns a connectable observable sequence that shares a single subscription to the underlying sequence 
+ replaying notifications subject to a maximum element count for the replay buffer.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.replay``1(System.IObservable{``0})">
+<summary>
+ Repeats the given observable sequence as long as the specified condition holds, where the
+ condition is evaluated after each repeated source is completed.
+ Returns a connectable observable sequence that shares a single subscription to the 
+ underlying sequence replaying all notifications.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.repeatValue``1(``0)">
+<summary>
+ Repeats the observable sequence indefinitely.
+ Repeats the observable sequence a specified number of times.
+ Generates an observable sequence that repeats the given element infinitely.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.refCount``1(System.Reactive.Subjects.IConnectableObservable{``0})">
+<summary>
+ Returns an observable that remains connected to the source as long
+ as there is at least one subscription to the observable sequence 
+ ( publish an Observable to get a ConnectableObservable )
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.reduce``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``0,``0}},System.IObservable{``0})">
+<summary>
+ Creates a range as an observable
+ Reduces the observable
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.publishLastMap``2(Microsoft.FSharp.Core.FSharpFunc{System.IObservable{``0},System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that is the result of invoking 
+ the selector on a connectable observable sequence that shares a
+ a single subscription to the underlying sequence. This operator is a 
+ specialization of Multicast using a regular Subject
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.publishLast``1(System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that is the result of 
+ the map on a connectable observable sequence that shares a
+ a single subscription to the underlying sequence. This operator is a 
+ specialization of Multicast using a regular Subject
+ Returns an observable sequence that is the result of invoking 
+ the selector on a connectable observable sequence containing 
+ only the last notification This operator is a 
+ specialization of Multicast using a regular Subject
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.publishMap``2(Microsoft.FSharp.Core.FSharpFunc{System.IObservable{``0},System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ Returns a connectable observable sequence (IConnectableObsevable) that shares
+ a single subscription to the underlying sequence and starts with the value
+ initial. This operator is a specialization of Multicast using a regular Subject
+ Returns an observable sequence that is the result of invoking 
+ the selector on a connectable observable sequence that shares a
+ a single subscription to the underlying sequence. This operator is a 
+ specialization of Multicast using a regular Subject
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.publish``1(System.IObservable{``0})">
+<summary>
+ Returns a connectable observable sequence (IConnectableObsevable) that shares
+ a single subscription to the underlying sequence. This operator is a 
+ specialization of Multicast using a regular Subject
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.performFinally``1(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Invokes the finally action after source observable sequence terminates normally or by an exception.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.perform``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Iterates through the observable and performs the given side-effect
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.onErrorConcatSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Concatenates all observable sequences in the given enumerable sequence, even if the 
+ previous observable sequence terminated exceptionally.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.onErrorConcatArray``1(System.IObservable{``0}[])">
+<summary>
+ Concatenates all of the specified observable sequences, even if the previous observable sequence terminated exceptionally.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.onErrorConcat``1(System.IObservable{``0},System.IObservable{``0})">
+<summary>
+ Returns the sequence as an observable, using the specified scheduler to run the enumeration loop
+ Wraps the source sequence in order to run its observer callbacks on the specified scheduler.
+ Wraps the source sequence in order to run its observer callbacks 
+ on the specified synchronization context.
+ Filters the elements of an observable sequence based on the specified type
+ Concatenates the second observable sequence to the first observable sequence 
+ upon successful or exceptional termination of the first.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.ofSeqImpl``1(``0[])">
+<summary>
+ Returns a non-terminating observable sequence, which can be 
+ used to denote an infinite duration (e.g. when using reactive joins).
+ Returns an observable sequence whose enumeration blocks until the next
+ element in the source observable sequence becomes available. 
+ Enumerators  on the resulting sequence will block until the next
+ element becomes available.
+ Returns the sequence as an observable
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.infinite``1">
+<summary>
+ Returns a non-terminating observable sequence, which can 
+ be used to denote an infinite duration (e.g. when using reactive joins).
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.multicastMap``3(System.Func{System.Reactive.Subjects.ISubject{``0,``1}},System.Func{System.IObservable{``1},System.IObservable{``2}},System.IObservable{``0})">
+<summary>
+ Multicasts the source sequence notifications through an instantiated subject into
+ all uses of the sequence within a selector function. Each subscription to the 
+ resulting sequence causes a separate multicast invocation, exposing the sequence
+ resulting from the selector function&apos;s invocation. For specializations with fixed
+ subject types, see Publish, PublishLast, and Replay.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.multicast``2(System.Reactive.Subjects.ISubject{``0,``1},System.IObservable{``0})">
+<summary>
+ Merges an enumerable sequence of observable sequences into an observable sequence,
+  limiting the number of concurrent subscriptions to inner sequences.
+ Merge results from all source tasks into a single observable sequence
+ Returns the maximum element in an observable sequence.
+ Returns an enumerable sequence whose sequence whose enumeration returns the 
+ most recently observed element in the source observable sequence, using 
+ the specified 
+ Multicasts the source sequence notifications through the specified subject to 
+ the resulting connectable observable. Upon connection of the connectable 
+ observable, the subject is subscribed to the source exactly one, and messages
+ are forwarded to the observers registered with the connectable observable. 
+ For specializations with fixed subject types, see Publish, PublishLast, and Replay.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.mergeSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Merges elements from all inner observable sequences 
+ into a single  observable sequence limiting the number of concurrent 
+ subscriptions to inner sequences
+ Merges an enumerable sequence of observable sequences into a single observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.mergeInner``1(System.IObservable{System.IObservable{``0}})">
+<summary>
+ Merges elements from all inner observable sequences 
+ into a single  observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.mergeArray``1(System.IObservable{``0}[])">
+<summary>
+ Merges all the observable sequences into a single observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.merge``1(System.IObservable{``0},System.IObservable{``0})">
+<summary>
+ Maps two observables to the specified function.
+ Materializes the implicit notifications of an observable sequence as
+ explicit notification values
+ Merges the two observables
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.mapi``2(Microsoft.FSharp.Core.FSharpFunc{System.Int32,Microsoft.FSharp.Core.FSharpFunc{``0,``1}},System.IObservable{``0})">
+<summary>
+ Maps the given observable with the given function and the 
+ index of the element
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.map``2(Microsoft.FSharp.Core.FSharpFunc{``0,``1},System.IObservable{``0})">
+<summary>
+ Maps the given observable with the given function
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.longCountSatisfy``1(System.Func{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence containing an int that represents how many elements 
+ in the specified observable sequence satisfy a condition.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.longCount``1(System.IObservable{``0})">
+<summary>
+ Returns an enumerable sequence whose enumeration returns the latest observed element in the source observable sequence.
+ Enumerators on the resulting sequence will never produce the same element repeatedly, 
+ and will block until the next element becomes available.
+ Returns an observable sequence containing a int64 that represents 
+ the total number of elements in an observable sequence 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.lastIf``1(Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Returns the last element of an observable sequence that satisfies the condition in the predicate 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.last``1(System.IObservable{``0})">
+<summary>
+ Joins together the results from several patterns
+ Returns the last element of an observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.iterObserver``1(System.IObserver{``0},System.IObservable{``0})">
+<summary>
+ Invokes the observer&apos;s methods for each message in the source sequence.
+ This method can be used for debugging, logging, etc. of query behavior by intercepting 
+ the message stream to run arbitrary actions for messages on the pipeline.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.iterErrorEnd``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{System.Exception,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Invokes an action for each element in the observable sequence and invokes an action 
+ upon graceful or exceptional termination of the observable sequence.
+ This method can be used for debugging, logging, etc. of query behavior by intercepting 
+ the message stream to run arbitrary actions for messages on the pipeline.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.iterError``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{System.Exception,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Invokes an action for each element in the observable sequence and invokes an action upon 
+ exceptional termination of the observable sequence. This method can be used for debugging, 
+ logging, etc. of query behavior by intercepting the message stream to run arbitrary 
+ actions for messages on the pipeline.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.iterEnd``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Invokes an action for each element in the observable sequence and invokes an action 
+ upon graceful termination of the observable sequence. This method can be used for debugging,
+  logging, etc. of query behavior by intercepting the message stream to run arbitrary
+ actions for messages on the pipeline.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.iter``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Invokes an action for each element in the observable sequence, and propagates all observer 
+ messages through the result sequence. This method can be used for debugging, logging, etc. of query 
+ behavior by intercepting the message stream to run arbitrary actions for messages on the pipeline.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.isEmpty``1(System.IObservable{``0})">
+<summary>
+ Determines whether the given observable is empty 
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.intervalImpl(System.Double)">
+<summary>
+ Generates an observable sequence by running a state-driven and temporal loop producing the sequence&apos;s elements.
+ Generates an observable sequence by running a state-driven and temporal loop producing the sequence&apos;s elements.
+ Returns an enumerator that enumerates all values of the observable sequence.
+ Groups the elements of an observable sequence according to a specified key selector function.
+ Groups the elements of an observable sequence with the specified initial 
+ capacity according to a specified key selector function.
+ Groups the elements of an observable sequence according to a specified key selector function and comparer.
+ Groups the elements of an observable sequence and selects the resulting elements by using a specified function.
+ Groups the elements of an observable sequence with the specified initial capacity 
+ according to a specified key selector function and comparer.
+ Groups the elements of an observable sequence with the specified initial capacity
+ and selects the resulting elements by using a specified function.
+ Groups the elements of an observable sequence according to a specified key selector function 
+ and comparer and selects the resulting elements by using a specified function.
+ Groups the elements of an observable sequence with the specified initial capacity according to a 
+ specified key selector function and comparer and selects the resulting elements by using a specified function.
+  Groups the elements of an observable sequence according to a specified key selector function.
+  A duration selector function is used to control the lifetime of groups. When a group expires, 
+  it receives an OnCompleted notification. When a new element with the same
+  key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence with the specified initial capacity according to a specified key selector function.
+ A duration selector function is used to control the lifetime of groups. When a group 
+ expires, it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence according to a specified key selector function and comparer.
+ A duration selector function is used to control the lifetime of groups. When a group expires, 
+ it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence according to a specified key selector function 
+ and selects the resulting elements by using a specified function.
+ A duration selector function is used to control the lifetime of groups. When a group expires, 
+ it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence with the specified initial capacity according to a specified key selector function and comparer.
+ A duration selector function is used to control the lifetime of groups. When a group expires, it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence with the specified initial capacity according to a specified key 
+ selector function and selects the resulting elements by using a specified function.
+ A duration selector function is used to control the lifetime of groups. When a group 
+ expires, it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence according to a specified key selector function and 
+ comparer and selects the resulting elements by using a specified function.
+ A duration selector function is used to control the lifetime of groups. When a group expires,
+ it receives an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Groups the elements of an observable sequence with the specified initial capacity according to a specified
+ key selector function and comparer and selects the resulting elements by using a specified function.
+ A duration selector function is used to control the lifetime of groups. When a group expires, it receives 
+ an OnCompleted notification. When a new element with the same
+ key value as a reclaimed group occurs, the group will be reborn with a new lifetime request.
+ Correlates the elements of two sequences based on overlapping 
+ durations and groups the results
+ Creates an observable that calls the specified function (each time)
+ after an observer is attached to the observable. This is useful to 
+ make sure that events triggered by the function are handled. 
+ Takes the first element of the observable sequence
+ Returns and observable sequence that produces a value after each period
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.generate``2(``0,Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},Microsoft.FSharp.Core.FSharpFunc{``0,``0},Microsoft.FSharp.Core.FSharpFunc{``0,``1})">
+<summary>
+ Projects each element of an observable sequence to an observable sequence by incorporating the 
+ element&apos;s index and merges the resulting observable sequences into one observable sequence.
+ Projects each element of the source observable sequence to the other observable sequence 
+ and merges the resulting observable sequences into one observable sequence.
+ Projects each element of an observable sequence to an enumerable sequence and concatenates 
+ the resulting enumerable sequences into one observable sequence.
+ Projects each element of an observable sequence to an enumerable sequence by incorporating the 
+ element&apos;s index and concatenates the resulting enumerable sequences into one observable sequence.
+ Projects each element of an observable sequence to a task and merges all of the task results into one observable sequence.
+ Projects each element of an observable sequence to a task by incorporating the element&apos;s index 
+ and merges all of the task results into one observable sequence.
+ Applies an accumulator function over an observable sequence, returning the 
+ result of the fold as a single element in the result sequence
+ init is the initial accumulator value
+ Applies an accumulator function over an observable sequence, returning the 
+ result of the fold as a single element in the result sequence
+ init is the initial accumulator value, map is performed after the fold
+ Converts an Action-based .NET event to an observable sequence. Each event invocation is surfaced through an OnNext message in the resulting sequence.
+ For conversion of events conforming to the standard .NET event pattern, use any of the FromEventPattern overloads instead.
+ Converts an generic Action-based .NET event to an observable sequence. Each event invocation is surfaced through an OnNext message in the resulting sequence.
+ For conversion of events conforming to the standard .NET event pattern, use any of the FromEventPattern overloads instead.
+ Converts a .NET event to an observable sequence, using a conversion function to obtain the event delegate. 
+ Each event invocation is surfaced through an OnNext message in the resulting sequence.
+ For conversion of events conforming to the standard .NET event pattern, use any of the FromEventPattern functions instead.
+ Converts a .NET event to an observable sequence, using a supplied event delegate type. 
+ Each event invocation is surfaced through an OnNext message in the resulting sequence.
+ Generates an observable from an IEvent&lt;_&gt; as an EventPattern.
+ Generates an observable sequence by running a state-driven loop producing the sequence&apos;s elements.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.flatmap``2(Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence to an observable sequence 
+ and merges the resulting observable sequences into one observable sequenc
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.firstIf``1(System.Func{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Returns the first element of an observable sequence
+ if it satisfies the predicate
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.first``1(System.IObservable{``0})">
+<summary>
+ Returns the first element of an observable sequence
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.finallyDo``1(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},System.IObservable{``0})">
+<summary>
+ Filters the observable elements of a sequence based on a predicate by 
+ incorporating the element&apos;s index
+ Invokes a specified action after the source observable sequence
+ terminates gracefully of exceptionally
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.filter``1(Microsoft.FSharp.Core.FSharpFunc{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Determines whether an observable sequence contains a specified value
+ which satisfies the given predicate
+ Filters the observable elements of a sequence based on a predicate 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.error``1(System.Exception)">
+<summary>
+ Returns an empty Observable sequence
+ Determines whether two sequences are equal by comparing the elements pairwise.
+ Determines whether two sequences are equal by comparing the elements pairwise using a specified equality comparer.
+ Determines whether an observable and enumerable sequence are equal by comparing the elements pairwise.
+ Determines whether an observable and enumerable sequence are equal by comparing the elements pairwise using a specified equality comparer.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.empty``1">
+<summary>
+ Returns an empty observable
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.elementAtOrDefault``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Returns the element at a specified index in a sequence or a default value if the index is out of range
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.elementAt``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that contains only distinct contiguous elements according to the comparer.
+ Returns an observable sequence that contains only distinct contiguous elements according to the keySelector and the comparer.
+ Returns the element at a specified index in a sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.distinctUntilChangedKey``2(Microsoft.FSharp.Core.FSharpFunc{``0,``1},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that contains only distinct contiguous elements according to the keySelector.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.distinctUntilChanged``1(System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that contains only distinct elements according to the comparer.
+ Returns an observable sequence that contains only distinct elements according to the keySelector and the comparer.
+ Returns an observable sequence that only contains distinct contiguous elements 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.distinctKey``2(Microsoft.FSharp.Core.FSharpFunc{``0,``1},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence that contains only distinct elements according to the keySelector.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.distinct``1(System.IObservable{``0})">
+<summary>
+ Time shifts the observable sequence based on a subscription delay and a delay selector function for each element.
+ Time shifts the observable sequence by delaying the subscription with the specified relative time duration.
+ Time shifts the observable sequence by delaying the subscription to the specified absolute time.
+ Dematerializes the explicit notification values of an observable sequence as implicit notifications.
+ Returns an observable sequence that only contains distinct elements 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.delayMap``2(Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``0})">
+<summary>
+ Time shifts the observable sequence to start propagating notifications at the specified absolute time.
+ The relative time intervals between the values are preserved.
+ Time shifts the observable sequence based on a delay selector function for each element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.delayImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Time shifts the observable sequence by the specified relative time duration.
+ The relative time intervals between the values are preserved.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.defer``1(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,System.IObservable{``0}})">
+<summary>
+ Returns an observable sequence that invokes the specified factory function whenever a new observer subscribes.    
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.defaultIfEmptyIs``1(``0,System.IObservable{``0})">
+<summary>
+ Returns the elements of the specified sequence or the specified value in a singleton sequence if the sequence is empty.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.defaultIfEmpty``1(System.IObservable{``0})">
+<summary>
+ Returns the elements of the specified sequence or the type parameter&apos;s default value 
+ in a singleton sequence if the sequence is empty.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.createWithDisposable``1(Microsoft.FSharp.Core.FSharpFunc{System.IObserver{``0},System.IDisposable})">
+<summary>
+ Creates an observable sequence from a specified Subscribe method implementation.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.create``1(Microsoft.FSharp.Core.FSharpFunc{System.IObserver{``0},System.Action})">
+<summary>
+  Creates an observable sequence from a specified Subscribe method implementation.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.countSatisfy``1(System.Func{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Returns an observable sequence containing an int that represents how many elements 
+ in the specified observable sequence satisfy a condition.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.count``1(System.IObservable{``0})">
+<summary>
+ Determines whether an observable sequence contains a 
+ specified element by using a specified EqualityComparer
+ Counts the elements
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.contains``1(``0,System.IObservable{``0})">
+<summary>
+ Concatenates all task results as long as
+ the previous taskterminated successfully
+ Connects the observable wrapper to its source. All subscribed
+ observers will recieve values from the underlying observable
+ sequence as long as the connection is established.    
+ ( publish an Observable to get a ConnectableObservable )
+ Determines whether an observable sequence contains a specified 
+ element by using the default equality comparer.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.concatInner``1(System.IObservable{System.IObservable{``0}})">
+<summary>
+ Concatenates all of the inner observable sequences as long as
+ the previous observable sequence terminated successfully 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.concatArray``1(System.IObservable{``0}[])">
+<summary>
+ Concatenates all of the specified  observable sequences as long as
+ the previous observable sequence terminated successfully 
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.concatSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Concatenates all observable sequences within the sequence as long as
+ the previous observable sequence terminated successfully 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.concat``1(System.IObservable{``0},System.IObservable{``0})">
+<summary>
+ Concatenates the second observable sequence to the first observable sequence
+ upn the successful termination of the first 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.combineLatestMap``2(Microsoft.FSharp.Core.FSharpFunc{System.Collections.Generic.IList{``0},``1},System.Collections.Generic.IEnumerable{System.IObservable{``0}})">
+<summary>
+ Merges the specified observable sequences into one observable sequence by  applying the map
+ whenever any of the observable sequences produces and element.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.combineLatestArray``1(System.IObservable{``0}[])">
+<summary>
+ Merges the specified observable sequences into one observable sequence by  applying the map
+ whenever any of the observable sequences produces and element.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.combineLatest``1(System.Collections.Generic.IEnumerable{System.IObservable{``0}})">
+<summary>
+ Produces an enumerable sequence that returns elements collected/aggregated from the source sequence between consecutive iterations.
+ merge - Merges a sequence element with the current collector
+ newCollector - Factory to create a new collector object.
+ Produces an enumerable sequence that returns elements collected/aggregated from the source sequence between consecutive iterations.
+ merge - Merges a sequence element with the current collector
+ getNewCollector - Factory to replace the current collector by a new collector
+ getInitialCollector - Factory to create the initial collector object.
+ Merges the specified observable sequences into one observable sequence by 
+ emmiting a list with the latest source elements of whenever any of the 
+ observable sequences produces and element.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.collectImpl``2(Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},``0[])">
+<summary>
+ Produces an enumerable sequence of consequtive (possibly empty) chunks of the source observable
+ Concatenates the observable sequences obtained by applying the map for each element in the given enumerable 
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.catchArray``1(System.IObservable{``0}[])">
+<summary>
+ Continues an observable sequence that is terminated by an exception with the next observable sequence.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.catchSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Continues an observable sequence that is terminated by an exception with the next observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.catchWith``2(Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``1})">
+<summary>
+ Continues an observable sequence that is terminated by an exception of
+ the specified type with the observable sequence produced by the handler.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.catch``1(System.IObservable{``0},System.IObservable{``0})">
+<summary>
+ Uses selector to determine which source in sources to return,
+ choosing defaulSource if no match is found
+ Continues an observable sequence that is terminated
+ by an exception with the next observable sequence.
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.case``2(Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,``0},System.Collections.Generic.IDictionary{``0,System.IObservable{``1}})">
+<summary>
+ Uses selector to determine which source in sources to return,
+ choosing an empty sequence if no match is found
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.cast``1(System.IObservable{System.Object})">
+<summary>
+ Converts the elements of the sequence to the specified type
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.bufferSpanShiftImpl``1(System.Double,System.Double,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into 
+ zero or more buffers produced based on timing information
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.bufferFork``3(System.IObservable{``0},Microsoft.FSharp.Core.FSharpFunc{``0,System.IObservable{``1}},System.IObservable{``2})">
+<summary>
+ Projects each element of an observable sequence into zero of more buffers. 
+ bufferOpenings - observable sequence whose elements denote the opening of each produced buffer
+ bufferClosing - observable sequence whose elements denote the closing of each produced buffer
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.bufferSpanCountImpl``1(System.Double,System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into a buffer that goes
+ sent out when either it&apos;s full or a specific amount of time has elapsed
+ Analogy - A boat that departs when it&apos;s full or at its scheduled time to leave
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.bufferSpanImpl``1(System.Double,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into 
+ consequtive non-overlapping buffers produced based on timing information
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.bufferCountSkip``1(System.Int32,System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into zero or more buffers
+ which are produced based on element count information
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.bufferCount``1(System.Int32,System.IObservable{``0})">
+<summary>
+ Projects each element of an observable sequence into 
+ consequtive non-overlapping buffers produced based on count information
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.bufferBounded``2(System.IObservable{``0},System.IObservable{``1})">
+<summary>
+ Projects each element of an observable sequence into 
+ consequtive non-overlapping buffers based on a sequence of boundary markers
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.buffer``2(System.IObservable{``0},System.IObservable{``1})">
+<summary>
+ Hides the identy of an observable sequence 
+ Binds an observable to generate a subsequent observable.
+ Lifts the values of f and m and applies f to m, returning an IObservable of the result.
+ Matches when both observable sequences have an available value
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.any``1(System.IObservable{``0})">
+<summary>
+ Determines whether an observable sequence contains any elements
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.ambArray``1(System.IObservable{``0}[])">
+<summary>
+ Propagates the observable sequence that reacts first
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:FunScript.Rx.Observable.ambSeqImpl``1(System.IObservable{``0}[])">
+<summary>
+ Propagates the observable sequence that reacts first
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.amb``1(System.IObservable{``0},System.IObservable{``0})">
+<summary>
+ Returns the observable sequence that reacts first
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.all``1(System.Func{``0,System.Boolean},System.IObservable{``0})">
+<summary>
+ Determines whether all elements of and observable satisfy a predicate
+</summary>
+</member>
+<member name="M:FunScript.Rx.Observable.aggregate``1(Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{``0,``0}},System.IObservable{``0})">
+<summary>
+ Applies an accumulator function over an observable sequence, returning the 
+ result of the aggregation as a single element in the result sequence
+</summary>
+</member>
+<member name="T:FunScript.Rx.Observable">
+
+</member>
+</members>
+</doc>

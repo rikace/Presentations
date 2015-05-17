@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Octokit</id>
+    <version>0.6.2</version>
+    <authors>GitHub</authors>
+    <owners>GitHub</owners>
+    <licenseUrl>https://github.com/octokit/octokit.net/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/octokit/octokit.net</projectUrl>
+    <iconUrl>https://f.cloud.github.com/assets/19977/1441274/160fba8c-41a9-11e3-831d-61d88fa886f4.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An async-based GitHub API client library for .NET</description>
+    <summary>An async-based GitHub API client library for .NET</summary>
+    <releaseNotes>New: Added `Assignee` and `Label` to `EventInfo` and `IssueEvent` repsonses - #644 via @thedillonb
+New: Added `BrowserDownloadUrl` to `ReleaseAsset` response - #648 via @erangeljr
+New: Added `Stats` to `GitHubCommit` and `Patch` to `GitHubCommitFile` - #646 via @thedillonb
+New: Support for retrieving and manipulating repository contents using `GitClient.Repository.Content` - #649 via @haacked and @khellang
+Fixed: updated enum values returned from `EventInfo.Event` - #644 via @thedillonb
+Fixed: serialization issue with `Head` and `Base` in pull request - #606 via @mge
+Fixed: `SignatureResponse.Date` is now a `DateTimeOffset` - #646 via @thedillonb
+Breaking Changes:**
+- `EventInfo.InfoState` is now `EventInfo.Event`
+- `IssueEvent.InfoState` is now `IssueEvent.Event`
+- `SignatureResponse.Date` has changed from `Date` to `DateTimeOffset`</releaseNotes>
+    <copyright>Copyright GitHub 2013</copyright>
+    <tags>GitHub API Octokit</tags>
+    <dependencies>
+      <group>
+        <dependency id="Microsoft.Net.Http" />
+      </group>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCore4.5" />
+      <group targetFramework=".NETPortable0.0-win81+wpa81" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5, .NETCore4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

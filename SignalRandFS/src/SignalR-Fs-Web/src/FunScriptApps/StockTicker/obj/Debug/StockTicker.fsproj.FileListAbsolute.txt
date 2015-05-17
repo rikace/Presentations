@@ -1,0 +1,7 @@
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\bin\Debug\StockTicker.XML
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\bin\Debug\StockTicker.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\bin\Debug\StockTicker.pdb
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\bin\Debug\FSharp.Core.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\bin\Debug\FSharp.Core.xml
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\obj\Debug\StockTicker.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\src\FunScriptApps\StockTicker\obj\Debug\StockTicker.pdb

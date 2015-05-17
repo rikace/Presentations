@@ -1,0 +1,7 @@
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\bin\Debug\ReflectionProxy.XML
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\bin\Debug\ReflectionProxy.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\bin\Debug\ReflectionProxy.pdb
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\bin\Debug\FSharp.Core.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\bin\Debug\FSharp.Core.xml
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\obj\Debug\ReflectionProxy.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\ReflectionProxy\obj\Debug\ReflectionProxy.pdb
