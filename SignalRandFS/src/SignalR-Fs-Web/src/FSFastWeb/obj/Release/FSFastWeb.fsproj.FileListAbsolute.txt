@@ -1,6 +1,0 @@
-C:\Demo\ProjectScaffold-master\bin\FSFastWeb.xml
-C:\Demo\ProjectScaffold-master\bin\FSFastWeb.dll
-C:\Demo\ProjectScaffold-master\bin\FSFastWeb.pdb
-C:\Demo\ProjectScaffold-master\src\FSFastWeb\obj\Release\FSFastWeb.fsprojResolveAssemblyReference.cache
-C:\Demo\ProjectScaffold-master\src\FSFastWeb\obj\Release\FSFastWeb.dll
-C:\Demo\ProjectScaffold-master\src\FSFastWeb\obj\Release\FSFastWeb.pdb

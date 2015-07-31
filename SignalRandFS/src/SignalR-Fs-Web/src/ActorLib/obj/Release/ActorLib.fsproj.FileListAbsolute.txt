@@ -1,7 +1,0 @@
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\bin\Release\ActorLib.XML
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\bin\Release\ActorLib.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\bin\Release\ActorLib.pdb
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\bin\Release\FSharp.Core.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\bin\Release\FSharp.Core.xml
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\obj\Release\ActorLib.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\ActorLib\obj\Release\ActorLib.pdb
