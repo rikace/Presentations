@@ -1,1 +1,0 @@
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\StockTicketSignalRServer\obj\Release\ChatSignalRServer.fsprojResolveAssemblyReference.cache

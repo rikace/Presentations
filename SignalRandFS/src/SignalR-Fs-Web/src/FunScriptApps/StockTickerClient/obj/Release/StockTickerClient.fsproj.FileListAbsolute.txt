@@ -1,2 +1,0 @@
-C:\Demo\FsWebDemo\StockTickerSignalRV2\src\FunScriptApps\StockTickerClient\obj\Release\StockTickerClient.fsprojResolveAssemblyReference.cache
-C:\Demo\FS-SignalR\src\FunScriptApps\StockTickerClient\obj\Release\StockTickerClient.fsprojResolveAssemblyReference.cache
