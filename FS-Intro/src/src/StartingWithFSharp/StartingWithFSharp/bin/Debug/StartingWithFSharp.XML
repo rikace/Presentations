@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>StartingWithFSharp</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.WindowsAzure.StorageClient.AzureBlobHelpers">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Microsoft.WindowsAzure.StorageClient.Extensions.CloudBlob.AsyncDownloadByteArray(Microsoft.WindowsAzure.StorageClient.CloudBlob)">
+<summary>
+ Asynchronously download blob contents as an array
+</summary>
+</member>
+<member name="T:Microsoft.WindowsAzure.StorageClient.Extensions">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Microsoft.WindowsAzure.StorageClient.AccountDetails">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Show">
+
+</member>
+</members>
+</doc>
