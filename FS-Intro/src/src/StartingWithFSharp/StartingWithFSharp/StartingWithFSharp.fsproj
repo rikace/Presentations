@@ -59,6 +59,7 @@
     <None Include="Common\load-wpf40.fsx" />
     <None Include="Common\show-wpf40.fsx" />
     <None Include="Common\AsyncHelpers.fsx" />
+    <Compile Include="Common\functional3d.fs" />
     <Compile Include="Common\AzureExtensions.fs" />
     <None Include="1.Syntax.fsx" />
     <None Include="2.Functions.fsx" />
@@ -68,6 +69,7 @@
     <None Include="6.Mini-DSL.fsx" />
     <None Include="7.UnitOfMeasure.fsx" />
     <None Include="8.TypeProviders.fsx" />
+    <None Include="8.FunWithTypeProvides.fsx" />
     <None Include="9.Async.fsx" />
     <None Include="10.Events.fsx" />
     <None Include="11.Agent.fsx" />
@@ -75,23 +77,20 @@
     <None Include="13.Testing.fsx" />
     <None Include="14.DDD.fsx" />
     <None Include="15.CompExpression.fsx" />
-    <None Include="Data\AMZN.csv" />
-    <None Include="Data\GOOG.csv" />
     <None Include="DSL-DP.fsx" />
     <None Include="GetFolderSize.fsx" />
     <None Include="WebScaper.fsx" />
     <None Include="AzureBlobAsync.fsx" />
     <None Include="DownloadWebPage.fsx" />
-    <None Include="App.config" />
-    <Content Include="packages.config" />
     <None Include="Data\MSFT.csv" />
+    <None Include="Data\AMZN.csv" />
+    <None Include="Data\GOOG.csv" />
     <None Include="Data\Data.csv" />
     <None Include="Data\titanic.csv" />
     <None Include="Data\Data.json" />
     <None Include="Data\APLL.csv" />
-    <None Include="8.FunWithTypeProvides.fsx" />
-    <None Include="WebServiceExample.fsx" />
-    <None Include="WorldBankExample.fsx" />
+    <None Include="App.config" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Charting">
@@ -118,6 +117,12 @@
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>..\Lib\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl">
+      <HintPath>..\Lib\OpenTK.GLControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -8,6 +8,7 @@
 open System
 module Functions =
     
+    // Use 'let' to define a function that accepts an integer argument and returns an integer.    
     // The "let" keyword also defines a named function.
     let square x = x * x          // Note that no parens are used.
     square 3                      // Now run the function. Again, no parens.
@@ -17,6 +18,9 @@ module Functions =
     let add x y = x + y           // don't use add (x,y)! It means something
                                   // completely different.
     add 2 3                       // Now run the function.
+
+    let addFunc = fun a b -> a + b
+
 
     let z = add 1 2
     let add42 = add 42
@@ -28,7 +32,14 @@ module Functions =
     add42 2
     add42 3
 
-    let addFunc = fun a b -> a + b
+    // Parenthesis are optional for function arguments
+    let func' (x) = x * x + 3
+
+    let addOne = add 1 // partial appliaction
+    let addTwo = add 2
+    
+    addOne 5
+
 
     // Same function as above but with type annoations
     // Why is it add2' ("add two prime")?
@@ -45,6 +56,27 @@ module Functions =
     let power' (b : float) (e : float)  float = Math.Pow(b, e)
 
     let power'' = Math.Pow
+
+
+     // Because F# is statically typed, calling the add method 
+    // you just created with a floating-point value will result in a compiler error
+    let Add x y = x + y
+    let resultFloat = Add 1.2 2.6
+    let resultint = Add 1 2
+        
+    //	But the + operator also works on floats too !?!?!?
+    //  The reason is due to type inference. 
+    //  Because the + operator works for many different types, such as byte, int, and decimal
+    //	the compiler simply defaults to int if there is no additional information
+    let inline op x y = x + y  // The presence of inline affects type inference. 
+                                 // This is because inline functions can have 
+                                 // statically resolved type parameters
+
+    let r1 = op 1 2
+    let r2 = op 1.4 2.5
+    let r3 = op "Hello " "World"
+
+    
     
     let oneToFive = [1..5]
 
@@ -73,33 +105,6 @@ module Functions =
         List.iter (fun i -> printfn "%i" i) 
 
     printAList oneToFive
-
-    let inline addi x y = x + y
-
-    // Use 'let' to define a function that accepts an integer argument and returns an integer.
-    let func x = x * x + 3
-
-    // Parenthesis are optional for function arguments
-    let func' (x) = x * x + 3
-
-
-    // Because F# is statically typed, calling the add method 
-    // you just created with a floating-point value will result in a compiler error
-    let add x y = x + y
-    add 1 2
-        
-    //	But the + operator also works on floats too !?!?!?
-    //  The reason is due to type inference. 
-    //  Because the + operator works for many different types, such as byte, int, and decimal
-    //	the compiler simply defaults to int if there is no additional information
-    let inline add' x y = x + y  // The presence of inline affects type inference. 
-                                 // This is because inline functions can have 
-                                 // statically resolved type parameters
-
-    let addOne = add 1 // partial appliaction
-    let addTwo = add 2
-    
-    addOne 5
 
     
     /// Apply the function, naming the function return result using 'let'.
