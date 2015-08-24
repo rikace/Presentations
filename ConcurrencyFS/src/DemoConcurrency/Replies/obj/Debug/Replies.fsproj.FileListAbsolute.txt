@@ -41,3 +41,12 @@ C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\Replies\obj\Debug\Replies.fsprojRes
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\Replies\obj\Debug\Replies.exe
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\Replies\obj\Debug\Replies.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Replies\obj\Debug\Replies.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\Replies.exe.config
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\Replies.XML
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\Replies.exe
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\Replies.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\FSharp.Core.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\bin\Debug\FSharp.Core.xml
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\obj\Debug\Replies.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\obj\Debug\Replies.exe
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Replies\obj\Debug\Replies.pdb

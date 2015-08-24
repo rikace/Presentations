@@ -11,8 +11,9 @@
     <AssemblyName>StartingWithFSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>StartingWithFSharp</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,7 +70,6 @@
     <None Include="6.Mini-DSL.fsx" />
     <None Include="7.UnitOfMeasure.fsx" />
     <None Include="8.TypeProviders.fsx" />
-    <None Include="8.FunWithTypeProvides.fsx" />
     <None Include="9.Async.fsx" />
     <None Include="10.Events.fsx" />
     <None Include="11.Agent.fsx" />
@@ -88,7 +88,7 @@
     <None Include="Data\Data.csv" />
     <None Include="Data\titanic.csv" />
     <None Include="Data\Data.json" />
-    <None Include="Data\APLL.csv" />
+    <None Include="Data\AAPL.csv" />
     <None Include="App.config" />
     <Content Include="packages.config" />
   </ItemGroup>
@@ -130,6 +130,7 @@
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>

@@ -21,6 +21,8 @@ let Add5Metres x =
 
 Add5Metres x
 
+Add5Metres 5<Metre>
+
 Add5Metres 5
 
 
@@ -61,7 +63,8 @@ module UnitofMeasure =
     type celsius
 
     let nyc = 18.0<celsius>
-    //printTemperature nyc
+    
+    printTemperature nyc
 
 
     // Define a measure for meters
@@ -88,11 +91,10 @@ module UnitofMeasure =
     
     printfn "%A = %A" d d'
 
-// let error = d + d'       // Compile error: units of measure do not match
+    let error = d + d'       // Compile error: units of measure do not match
 
 
-    
-        // define some measures
+    // define some measures
     [<Measure>] 
     type cm
 
@@ -148,7 +150,7 @@ module UnitofMeasure =
     [<Measure>] type ft = foot
     [<Measure>] type sqft = foot ^ 2
     [<Measure>] type meter
-    [<Measure>] type m = meter
+    //[<Measure>] type m = meter
     [<Measure>] type mSqrd = m ^ 2
 
     // convert from unitless to units

@@ -20,3 +20,8 @@ C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.
 C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.dll
 C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Lib\CommonHelpers.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\Lib\CommonHelpers.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.pdb

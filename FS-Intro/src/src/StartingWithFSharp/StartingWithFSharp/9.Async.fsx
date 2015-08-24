@@ -27,17 +27,6 @@ module AsyncBasic =
         }
 
 
-    let AsyncAdd5 original =
-        async {
-            let! a = original
-            return a + 5
-        } |> Async.RunSynchronously
-
-
-    
-
-    let contentLength = AsyncAdd5 asyncResult
-
 
     let prog(i) = async {   printfn "Starting %d ..." i
                             do! Async.Sleep((i%5) * 1000)
@@ -52,32 +41,6 @@ module AsyncBasic =
         |> Async.StartAsTask
 
 
-    let sleep name seconds = async {
-        System.Threading.Thread.Sleep(seconds * 1000)
-        printfn "%s slept %d seconds" name seconds }
-
-    let task1 = sleep "Task 1" 4
-    let task2 = sleep "Task 2" 3
-    let task3 = sleep "Task 3" 2
-
-    [ task1; task2; task3 ] // declare a list on the fly and push into Async.Parallel
-      |> Async.Parallel
-      |> Async.RunSynchronously
-
-    let urls = [ "http://www.meetup.com/DC-fsharp"; 
-                 "http://www.fsharp.org"; 
-                 "http://www.google.com"]
-    
-    // make it Async !
-    urls 
-    |> List.map (fun url -> 
-            let client = new System.Net.WebClient()
-            let html = client.DownloadString(new System.Uri(url))
-            printfn "Site len %d" html.Length )    
-    
-    //|> Async.Parallel
-    
-
     // Fetch the contents of a web page asynchronously
     let fetchUrlAsync url =        
         async {                             
@@ -86,9 +49,10 @@ module AsyncBasic =
             use stream = resp.GetResponseStream() 
             use reader = new IO.StreamReader(stream) 
             let html = reader.ReadToEnd() 
-            printfn "finished downloading %s" url 
-            }
-        // a list of sites to fetch
+            printfn "finished downloading %s - Length %d" url (html.Length)
+            return html.Length  }
+
+    // a list of sites to fetch
     let sites = ["http://www.bing.com";
                  "http://www.google.com";
                  "http://www.microsoft.com";
@@ -148,18 +112,6 @@ asyncTask
 |> function
    | Choice1Of2 result     -> printfn "Async operation completed: %A" result
    | Choice2Of2 (ex : exn) -> printfn "Exception thrown: %s" ex.Message
-
-                      
-let asyncTask2 (x:int) = async {  if x % 2 = 0 then
-                                      return x 
-                                  else return failwith "My Error" }
-
-let run task =  Async.StartWithContinuations(   task, 
-                                            (fun result -> printfn "result %A" result),
-                                            (fun ex -> printfn "Error %s" ex.Message),
-                                            (fun cancel -> printfn "task cancelled"))
-run (asyncTask2 6)
-run (asyncTask2 5)
 
 
 (*  When you execute code asynchronously, it is important to have a 

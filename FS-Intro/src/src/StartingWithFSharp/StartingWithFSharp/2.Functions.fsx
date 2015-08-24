@@ -112,6 +112,7 @@ module Functions =
 
     // ----------------------------------------------------------------------------
 
+    // Everything is a function (+)
     // Print the truth table for the given function
     let printTruthTable f =
         printfn "       |true   | false |"

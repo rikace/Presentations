@@ -3,91 +3,6 @@
 open System
 open FSharp.Collections.ParallelSeq
 
-let first_ten = [1..10] 
-let evens = [|2..2..10|]
-let chars = ['a'..'z']
-
-
-
-
-["apples"; "oranges"; "pumpkins"; "pomegranates"; "kiwi"] @ ["bears"; "tigers"; "kiwi"; "lions"; "penguins"]
-
-let plus_3 x = x + 3
-let list_plus_3 = List.map plus_3 
-
-let filtered = List.filter (fun x -> x % 2 = 0)
-
-[1..10]
-  |> filtered 
-  |> list_plus_3
-  |> List.sum
-     
-let sum_evens_plus_three = 
-  filtered 
-    >> list_plus_3
-    >> List.sum
-
-[1..10] 
-  |> sum_evens_plus_three
-
-sum_evens_plus_three [1..10]
-
-
-
-// Arrays, Lists, and Sequences
-[| for i in 0 .. 3 -> (i,i*i) |]
-
-[ for i in 0 .. 3 -> (i,i*i) ]
-
-seq { for i in 0 .. 3 -> (i,i*i) }
-
-
-let square x = x * x
-// You can use parens to clarify precedence. In this example,
-// do "map" first, with two args, then do "sum" on the result.
-// Without the parens, "List.map" would be passed as an arg to List.sum
-let sumOfSquaresTo100 =
-   List.sum ( List.map square [1..100] )
-
-// You can pipe the output of one operation to the next using "|>"
-// Here is the same sumOfSquares function written using pipes
-let sumOfSquaresTo100piped =
-   [1..100] |> List.map square |> List.sum  // "square" was defined earlier
-
-// you can define lambdas (anonymous functions) using the "fun" keyword
-let sumOfSquaresTo100withFun =
-   [1..100] |> List.map (fun x->x*x) |> List.sum
-
-// In F# there is no "return" keyword. A function always
-// returns the value of the last expression used.
-
-
-
-
-
-// ======== Lists ============
-let twoToFive = [2;3;4;5]        // Square brackets create a list with
-                                 // semicolon delimiters.
-let oneToFive = 1 :: twoToFive   // :: creates list with new 1st element
-// The result is [1;2;3;4;5]
-let zeroToFive = [0;1] @ twoToFive   // @ concats two lists
-
-
-
-// create an immutable list
-let list1 = [1;2;3;4]   
-
-// prepend to make a new list
-let list2 = 0::list1    
-
-// get the last 4 of the second list 
-let list3 = list2.Tail
-
-// the two lists are the identical object in memory!
-System.Object.ReferenceEquals(list1,list3)
-
-
-
 module Arrays = 
     
     /// The empty array
@@ -95,7 +10,16 @@ module Arrays =
     
     let array2 = [| "hello"; "world"; "and"; "hello"; "world"; "again" |]
     let array3 = [| 1..1000 |]
-    
+
+    [| for i in 0 .. 3 -> (i,i*i) |]
+
+    let first_ten = [|1..10|] 
+    let evens = [|2..2..10|]
+    let chars = [|'a'..'z'|]
+
+    ["apples"; "oranges"; "pumpkins"; "pomegranates"; "kiwi"] @ ["bears"; "tigers"; "kiwi"; "lions"; "penguins"]
+
+
     let number4 = array3.[3]
 
     /// An array containing only the words "hello" and "world"
@@ -137,6 +61,22 @@ module Arrays =
 
     printfn "%A" (lastDays' 2014) 
 
+    //#time
+
+    [|1..100|]
+    |> Array.map(fun _ ->   let arr = Array2D.init 1000 1000 (fun x y -> 0)
+                            for i = 0 to 999 do
+                                for j = 0 to 999 do
+                                    arr.[i,j] <-  arr.[i,j] + 1
+                            arr) |> ignore   
+
+    [|1..100|]
+    |> Array.Parallel.map(fun _ ->  let arr = Array2D.init 1000 1000 (fun x y -> 0)
+                                    for i = 0 to 999 do
+                                        for j = 0 to 999 do
+                                            arr.[i,j] <-  arr.[i,j] + 1
+                                    arr) |> ignore   
+
 module Lists = 
     let list1 = [] /// an empty list
     
@@ -155,10 +95,30 @@ module Lists =
         
     let list = [1..100]
     
+    [ for i in 0 .. 3 -> (i,i*i) ]
+
     let squares = [for i in 1..100 do yield i*i]  
     
     let even = [for i in 1..100 do if i%2=0 then yield i]
 
+    let square x = x * x
+    // You can use parens to clarify precedence. In this example,
+    // do "map" first, with two args, then do "sum" on the result.
+    // Without the parens, "List.map" would be passed as an arg to List.sum
+    let sumOfSquaresTo100 =
+       List.sum ( List.map square [1..100] )
+
+    // You can pipe the output of one operation to the next using "|>"
+    // Here is the same sumOfSquares function written using pipes
+    let sumOfSquaresTo100piped =
+       [1..100] |> List.map square |> List.sum  // "square" was defined earlier
+
+    // you can define lambdas (anonymous functions) using the "fun" keyword
+    let sumOfSquaresTo100withFun =
+       [1..100] |> List.map (fun x->x*x) |> List.sum
+
+    // In F# there is no "return" keyword. A function always
+    // returns the value of the last expression used.
 
     /// A list containing all the days of the year
     let daysList = 
@@ -189,6 +149,8 @@ module Sequences =
     /// The empty sequence
     let seq1 = Seq.empty
     
+    seq { for i in 0 .. 3 -> (i,i*i) }
+
     let seq2 = seq {    yield "hello"
                         yield "world"
                         yield "and"
@@ -258,6 +220,28 @@ module Sequences =
                     yield n
         ]
 
+    // From a range:
+    let integersRange = {1..1000}
+
+    // From a sequence expression:
+    let integersExpression = 
+       seq { 
+          for i in 1..1000 do
+             yield i
+       }
+
+    // From a sequence expression (short form):
+    let integersExpression2 = 
+       seq { 
+          for i in 1..1000 -> i
+       }
+
+    // Using Seq.init:
+    let integers = Seq.init 1000 (fun i -> i + 1)
+
+    // Using Seq.initInfinite:
+    let integers' = Seq.initInfinite (fun i -> i + 1)    
+                
 module Dictionaries =
 
     open System.Collections.Generic

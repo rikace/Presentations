@@ -36,3 +36,11 @@ C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\PhotoViewrLib\obj\Debug\PhotoViewrL
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\PhotoViewrLib\obj\Debug\PhotoViewrLib.dll
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\PhotoViewrLib\obj\Debug\PhotoViewrLib.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency\PhotoViewrLib\obj\Debug\PhotoViewrLib.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\bin\Debug\PhotoViewrLib.XML
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\bin\Debug\PhotoViewrLib.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\bin\Debug\PhotoViewrLib.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\bin\Debug\FSharp.Core.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\bin\Debug\FSharp.Core.xml
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\obj\Debug\PhotoViewrLib.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\obj\Debug\PhotoViewrLib.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewrLib\obj\Debug\PhotoViewrLib.pdb

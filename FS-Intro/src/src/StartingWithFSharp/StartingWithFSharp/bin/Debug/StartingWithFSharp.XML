@@ -12,64 +12,10 @@
  Add mesh to the GL and set the specified normal vector first
 </summary>
 </member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="T:Functional3D.Drawing3D">
 <summary>
  3D object is represented as a function that draws it
 </summary>
-</member>
-<member name="">
-
 </member>
 <member name="T:Functional3D.Drawing3DContext">
 <summary>
@@ -80,12 +26,6 @@
 <summary>
  Composes two 3D objects by drawing both of them
 </summary>
-</member>
-<member name="">
-
-</member>
-<member name="T:Functional3D.FunEx">
-
 </member>
 <member name="M:Functional3D.Fun.show(Functional3D.Drawing3D)">
 <summary>
@@ -111,9 +51,6 @@
 <summary>
  Returns the currently displayed form
 </summary>
-</member>
-<member name="">
-
 </member>
 <member name="M:Functional3D.Fun.createForm">
 <summary>
@@ -171,121 +108,16 @@
  A constant that specifies the number of triangles in sphere or a cylinder
 </summary>
 </member>
-<member name="T:Functional3D.Fun">
-
-</member>
 <member name="M:Functional3D.Array3D.fromCube(System.Int32[][][])">
 <summary>
  Creates a 3D array from cube (represented as nested arrays)
  The resulting array has indices from -x/2 to x/2
 </summary>
 </member>
-<member name="T:Functional3D.Array3D">
-
-</member>
-<member name="T:Functional3D">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.WindowsAzure.StorageClient.AzureBlobHelpers">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
 <member name="M:Microsoft.WindowsAzure.StorageClient.Extensions.CloudBlob.AsyncDownloadByteArray(Microsoft.WindowsAzure.StorageClient.CloudBlob)">
 <summary>
  Asynchronously download blob contents as an array
 </summary>
-</member>
-<member name="T:Microsoft.WindowsAzure.StorageClient.Extensions">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Microsoft.WindowsAzure.StorageClient.AccountDetails">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="">
-
-</member>
-<member name="T:Show">
-
 </member>
 </members>
 </doc>
