@@ -8,6 +8,8 @@ let evens = [|2..2..10|]
 let chars = ['a'..'z']
 
 
+
+
 ["apples"; "oranges"; "pumpkins"; "pomegranates"; "kiwi"] @ ["bears"; "tigers"; "kiwi"; "lions"; "penguins"]
 
 let plus_3 x = x + 3
@@ -40,7 +42,7 @@ sum_evens_plus_three [1..10]
 seq { for i in 0 .. 3 -> (i,i*i) }
 
 
-
+let square x = x * x
 // You can use parens to clarify precedence. In this example,
 // do "map" first, with two args, then do "sum" on the result.
 // Without the parens, "List.map" would be passed as an arg to List.sum
