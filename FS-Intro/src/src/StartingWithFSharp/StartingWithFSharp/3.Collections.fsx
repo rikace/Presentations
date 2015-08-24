@@ -8,7 +8,7 @@ let evens = [|2..2..10|]
 let chars = ['a'..'z']
 
 
-["apples"; "oranges"; "pumpkins"; "pomegranates"; "kiwi"] .& ["bears"; "tigers"; "kiwi"; "lions"; "penguins"]
+["apples"; "oranges"; "pumpkins"; "pomegranates"; "kiwi"] @ ["bears"; "tigers"; "kiwi"; "lions"; "penguins"]
 
 let plus_3 x = x + 3
 let list_plus_3 = List.map plus_3 

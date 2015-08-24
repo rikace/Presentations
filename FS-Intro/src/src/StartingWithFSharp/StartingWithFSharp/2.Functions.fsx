@@ -23,22 +23,23 @@ module Functions =
 
 
     let z = add 1 2
+
     let add42 = add 42
-
-
-    // f(x) = x + 2    
-    let add2 number = number + 2
-    // use the new function
-    add42 2
-    add42 3
-
-    // Parenthesis are optional for function arguments
-    let func' (x) = x * x + 3
 
     let addOne = add 1 // partial appliaction
     let addTwo = add 2
     
     addOne 5
+
+
+    // f(x) = x + 2    
+    let add2 number = number + 2
+
+    // use the new function
+    add42 2
+    add42 3
+
+
 
 
     // Same function as above but with type annoations
@@ -61,6 +62,7 @@ module Functions =
      // Because F# is statically typed, calling the add method 
     // you just created with a floating-point value will result in a compiler error
     let Add x y = x + y
+
     let resultFloat = Add 1.2 2.6
     let resultint = Add 1 2
         
@@ -90,10 +92,11 @@ module Functions =
     evens oneToFive               // Now run the function
 
 
-    
+    // A quick intro HOF
     // mapAList partially applies the map function
     // map function accepts a function and a list
     let mapAList =
+        //  List.map ('a -> 'b) -> 'a list -> 'b list
         List.map (fun i -> i * i)
 
     mapAList oneToFive
@@ -102,29 +105,10 @@ module Functions =
     // iter function from the List module
     // iter accepts a function and a list
     let printAList =
+        // List.iter ('a -> unit) -> 'a list -> unit 
         List.iter (fun i -> printfn "%i" i) 
 
     printAList oneToFive
-
-    
-    /// Apply the function, naming the function return result using 'let'.
-    /// The variable type is inferred from the function return type.
-    let result = func' 4573
-  
-    printfn "The result of squaring the integer 4573 and adding 3 is %d" result 
-        
-    let printValue (value:int * int) (format:int * int-> unit) = format value
-
-    printValue (2,2) (fun (x: int*int) -> printfn "Info: (%d, %d)" (fst x) (snd x))        
-    printValue (3,3) (fun x -> printfn "Info: (%d, %d)" (fst x) (snd x))        
-    printValue (4,4) (fun (x, y) -> printfn "Verbose: [%d------%d]" x y) // decompose the tuple
-        
-    // sample remove name and age and check signature
-    // what's the type of name and age
-    let printName name age = printfn "My name is %s and I am %d" name age
-
-    printName "Riccardo" 21
-
 
     // ----------------------------------------------------------------------------
 
@@ -143,6 +127,7 @@ module Functions =
     printTruthTable (||)
 
     // Compute the factorial of an integer. Use 'let rec' to define a recursive function    
+    // recursive functions are composable and don't mutate state
     let rec factorial n =
         if n = 0 then 1
         else n * factorial (n - 1)
@@ -191,19 +176,28 @@ module ``Composition - Pipe Operaror`` =
     let result' = 512 |> multiBy2 |> toStr |> rev
     
     [1..1000]
-    |> List.filter (fun t -> (t % 2) = 0)
+    |> List.filter (fun t -> t % 2 = 0)
     |> List.map (fun t -> t * t)
     |> List.filter (fun t -> t < 1000)
 
 
     let myList = [1..20]
     let printAList = List.iter (fun i -> printfn "%d" i)
-    let mapAList = List.map (fun i -> i * i)
+    let mapAList = List.map (fun i -> i * 2)
+
+    let printAList' = List.iter (printfn "%d")
+    let mapAList' = List.map multiBy2
 
     // Forward pipelining
     // Forwards the result of a function to the last argument of another function.
     myList |> printAList
     myList |> mapAList |> printAList
+
+
+    
+    
+    // let (>>) g f a = f(g(a))
+    // (('a -> 'b) -> ('b -> 'c) -> 'a -> 'c) 
 
     // building blocks
     let add2 x = x + 2
@@ -214,11 +208,6 @@ module ``Composition - Pipe Operaror`` =
     [1..10] |> List.map add2 |> printfn "%A"
     [1..10] |> List.map mult3 |> printfn "%A"
     [1..10] |> List.map square |> printfn "%A" 
-
-    
-    
-    // let (>>) g f a = f(g(a))
-    // (('a -> 'b) -> ('b -> 'c) -> 'a -> 'c) 
     
     let add7 number = number + 7
     let add5 number = number + 5

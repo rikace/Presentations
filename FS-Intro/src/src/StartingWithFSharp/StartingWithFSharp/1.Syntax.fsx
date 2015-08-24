@@ -47,16 +47,6 @@ module Immutability =
     // immutable list
     let immutableList = [ 1; 2; 3; 4 ]
     
-    type PersonalName = 
-        { FirstName : string
-          LastName : string }
-    
-    // immutable person
-    let john = 
-        { FirstName = "John"
-          LastName = "Doe" }
-    
-    let otherJon = { john with LastName = "Boh" }
     // The "equal" sign is used for bindings and for comparison
     // Make something mutable
     let mutable z = 2
@@ -92,10 +82,14 @@ module Alias =
     
     let createPeraon (firstName : FirstName, lastName : LastName) = 
         ()
+
+
     // create person
     let (!=) // Symbols
              x y = (x <> y)
+
     let (=/=) x y = (x != y)
+
     let x = 5
     let y = 4
     
