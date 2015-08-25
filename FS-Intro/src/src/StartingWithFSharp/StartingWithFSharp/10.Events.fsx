@@ -62,7 +62,7 @@ type MyWindow() as this =
     let WIDTH = 20.0
     let canvas = new Canvas(Width=800.0, Height=400.0, Background = Brushes.White) 
     let chars = 
-        "Reactive Extensions are awsome!"
+        "Reactive Programming is awsome!"
         |> Seq.map (fun c -> 
             new TextBlock(Width=WIDTH, Height=30.0, FontSize=20.0, Text=string c, 
                           Foreground=Brushes.Black, Background=Brushes.White))

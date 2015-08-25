@@ -12,7 +12,7 @@ module AccountDetails =
     let folder = "stuff"
     let account = "riscanet"
     let key = "ktT3brtjsL1mX+1uwfUKITK/SZfA3wEv1GpYClMep35b0i8nT3dRAQwpbkR9yQT4pRJ22Drghpgik9hAvjLBGQ=="
-    let viewerProcess() = System.Diagnostics.Process.Start(@"E:\Ok\FSharpIntro\src\PhotoViewer\bin\Release\PhotoViewer.exe")
+    let viewerProcess() = System.Diagnostics.Process.Start(@"C:\Users\rterrell\Documents\GitHub\Presentations\FS-Intro\src\src\PhotoViewer\bin\Release\PhotoViewer.exe")
 
 [<AutoOpen>]
 module Extensions = 

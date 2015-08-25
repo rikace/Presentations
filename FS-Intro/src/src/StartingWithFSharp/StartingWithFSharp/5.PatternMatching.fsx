@@ -73,8 +73,6 @@ module ``Pattern Matching`` =
     describeNumber 7
 
 
-    
-
 
     let highLowGame () =
         let rng = new Random()
@@ -194,10 +192,6 @@ module ``Pattern Matching and Discriminated Unions`` =
     describeHoleCards [Queen(Heart);ValueCard(7, Club)]
 
     
-
-
-
-     
     let compareCard card1 card2 = 
         if card1 < card2 
         then printfn "%A is greater than %A" card2 card1 
@@ -218,7 +212,6 @@ module ``Pattern Matching and Discriminated Unions`` =
     
     List.max hand |> printfn "high card is %A"
     List.min hand |> printfn "low card is %A"
-
 
 
 
@@ -288,52 +281,38 @@ module ``Active patterns`` =
     //| Odd -> printfn "Odd"
 
     // Convert a file path into its extension
-    let (|FileExtension|) filePath = System.IO.Path.GetExtension(filePath)
-
-    let determineFileType (filePath : string) =
-        match filePath with
-
-        // Without active patterns
-        | filePath when Path.GetExtension(filePath) = ".txt"
-            -> printfn "It is a text file."
-
-        // Converting the data using an active pattern
-        | FileExtension ".jpg"
-        | FileExtension ".png"
-        | FileExtension ".gif"
-            -> printfn "It is an image file."
-
-        // Binding a new value
-        | FileExtension ext
-            -> printfn "Unknown file extension [%s]" ext
-
-
-    // Partial Active Pattern
     // Active pattern for converting strings to ints
     let (|ToInt|) x = System.Int32.Parse(x)
 
-    let (|KB|MB|GB|) filePath =
-        let file = System.IO.File.Open(filePath, System.IO.FileMode.Open)
-        if file.Length < 1024L * 1024L then
-            KB
+    let (|KBInSize|MBInSize|GBInSize|) filePath =
+        let file = File.Open(filePath, FileMode.Open)
+        if   file.Length < 1024L * 1024L then
+            KBInSize
         elif file.Length < 1024L * 1024L * 1024L then
-            MB
-        else GB
+            MBInSize
+        else
+            GBInSize
 
-    let (|IsImage|_|) filePath =
-        let ext = System.IO.Path.GetExtension(filePath)
-        match ext with
-        | ".jpg" 
-        | ".bmp"
-        | ".gif" -> Some()
+    let (|EndsWithExtension|_|) ext file = if Path.GetExtension(file) = ext then Some()
+                                           else None
+
+    let (|IsImageFile|_|) filePath =
+        match filePath with
+        | EndsWithExtension ".jpg"
+        | EndsWithExtension ".jpeg"
+        | EndsWithExtension ".bmp"
+        | EndsWithExtension ".gif"
+            -> Some()
         | _ -> None
 
-    let BigImage filePath =
+    let ImageTooBigForEmail filePath =
         match filePath with
-        | IsImage & (MB | GB) -> true
+        | IsImageFile & (MBInSize | GBInSize) -> true
         | _ -> false
 
-    BigImage @""
+    ImageTooBigForEmail (__SOURCE_DIRECTORY__ + @"\Data\Image644.jpg")
+
+    ImageTooBigForEmail (__SOURCE_DIRECTORY__ + @"\Data\Image4467.jpg")
 
     // Check if the input string parses as the number 4
     let isFour str =

@@ -13,6 +13,8 @@ module ``DSL Graphic`` =
 
     // ------------------------------------------------------------------
 
+    Fun.color Color.Yellow Fun.cylinder
+
     ( Fun.color Color.Yellow Fun.cylinder ) $
     ( Fun.cone
       |> Fun.color Color.Red 

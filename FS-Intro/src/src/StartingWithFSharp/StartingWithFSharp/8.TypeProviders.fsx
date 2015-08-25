@@ -158,7 +158,6 @@ let cities =
     [
     ("Burlington", "VT");
     ("Kensington", "MD");
-    ("Port Jefferson", "NY"); 
     ("Panama City Beach", "FL");
     ("Knoxville", "TN");
     ("Chicago", "IL");
@@ -171,7 +170,7 @@ let cities =
 
 module CheckAddress = 
     type ZipLookup = 
-        WsdlService<ServiceUri = "http://www.webservicex.net/uszip.asmx?WSDL">
+        WsdlService<ServiceUri = "http://www.webservicex.net/uszip.asmx?WSDL", Async=true>
 
     let GetZip citySt =
         let city, state = citySt
@@ -182,19 +181,45 @@ module CheckAddress =
                         |> Seq.filter findCorrectState
         (results |> Seq.nth 0).SelectSingleNode("ZIP/text()").Value
 
-module GetTemps = 
+    GetZip ("Denver", "CO")
 
-    type WeatherService = WsdlService<ServiceUri = "http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL">
-    let weather = WeatherService.GetWeatherSoap().GetCityWeatherByZIP
+    cities
+  //  |> Seq.take 3
+    |> Seq.map GetZip
+    |> Seq.iter (printfn "%s")
+
+module GetTemps = 
+    
+    let url = "http://api.openweathermap.org/data/2.5/weather?units=metrics&q="
+    Http.RequestString(url + "London,UK")
+
+    type Weather = JsonProvider< "http://api.openweathermap.org/data/2.5/weather?units=metric&q=Redmond">
+    
+    let lw = Weather.Load(url + "London,UK")
+    lw.Sys.Country
+    lw.Main.Humidity
+    lw.Main.Temp
+
+    let getTemp city =
+        let w = Weather.Load(url + city)
+        let temp = w.Main.Temp        
+        printfn "City %s - Temp %2.2f" city temp // %s ??
+        int(temp)
+
+    getTemp "Denver,CO"
+    getTemp "Burlington,VT"
 
     let temp_in cityList = 
-        let convertCitiesToZips city = 
-            let zip = CheckAddress.GetZip city
-            ((weather zip).City, zip, (weather zip).Temperature)
+        let convertCitiesToZips (cc:string * string) = 
+            let city, country = cc
+            let zip = CheckAddress.GetZip(cc)
+            (sprintf "%s,%s" city country), zip
         List.map convertCitiesToZips cityList
 
-    let data = temp_in <| cities
-    Chart.Bubble(data, Title="Temperature by Zip", UseSizeForLabel=false).WithYAxis(Enabled=true, Max=100000., Min=0.).WithXAxis(Enabled=true).WithDataPointLabels()
+    let data = cities |> temp_in |> List.map(fun (cityCountry, zip) ->  let temp = getTemp cityCountry
+                                                                        (cityCountry, zip, string(temp)))
+
+    Chart.Bubble(data, Title="Temperature by Zip", UseSizeForLabel=false).WithYAxis(Enabled=true, Max=100000., Min=0.).WithXAxis(Enabled=true).WithDataPointLabels()   
 
 module WorldBankProvider = 
 
@@ -238,7 +263,7 @@ module WorldBankProvider =
     |> Chart.Combine
 
 
-     // Calculate average data for all OECD members
+     // Calculate average data for all OECD members (Organisation for Economic Co‑operation and Development)
     let oecd = [ for c in wb .Regions.``OECD members``.Countries do
                    yield! c.Indicators.``School enrollment, tertiary (% gross)`` ]
                |> Seq.groupBy fst
@@ -258,7 +283,6 @@ module WorldBankProvider =
 
 
 
-
     let countries = 
        [ wb.Countries.``El Salvador``
          wb.Countries.China 
@@ -271,23 +295,65 @@ module WorldBankProvider =
          wb.Countries.``Yemen, Rep.``
          wb.Countries.Bangladesh ]
 
-
-
     /// Chart the populations, un-normalized
-    Chart.Combine([ for c in countries -> Chart.Line (c.Indicators.``Population ages 0-14 (% of total)``, Name=c.Name) ])
-         .WithTitle("Population, 1960-2012")
+    [ for c in countries -> 
+        async { return Chart.Line (c.Indicators.``Population ages 0-14 (% of total)``, Name=c.Name) }]
+    |> Async.Parallel
+    |> Async.RunSynchronously
+    |> (fun res -> Chart.Combine(res).WithTitle("Population, 1960-2012"))
 
 
-
-
+//    Chart.Combine([ for c in countries -> Chart.Line (c.Indicators.``Population ages 0-14 (% of total)``, Name=c.Name) ])
+//        .WithTitle("Population, 1960-2012")
+//         
     Chart.Pie
        [ for c in countries -> c.Name,  c.Indicators.``Total Population (in number of people)``.TryGetValueAt(2001).Value ]
 
+    // Total Population
+    #load @"..\..\..\..\packages\FsLab.0.3.5\FsLab.fsx" 
+    #r "Deedle.dll"
 
-    let defaultZero v =
-        match v with
-        | None -> 0.
-        | Some(n) -> n
+    open FsLab
+    open Deedle
+    open Foogle
+    open FSharp.Data
+
+    let world = wb.Countries.Italy.Indicators
+    let indCode = world.``Total Population (in number of people)``.IndicatorCode
+
+    let getPage  indCode year page =
+        Http.RequestString
+            ("http://api.worldbank.org/countries/all/indicators/" + indCode,
+                query=[ "format", "json"; "date", sprintf "%d:%d" year year;
+                        "per_page", "100"; "page", string page])
+
+    getPage indCode 2010 1
+
+    type WBJson = JsonProvider<"http://api.worldbank.org/countries/all/indicators/SP.POP.TOTL?format=json&date=2000:2000&per_page=100">
+
+    WBJson.Parse(getPage indCode 2010 1)        
+    
+    let w = WBJson.Parse(getPage indCode 2010 1)        
+    w.Record.Total
+    w.Array.[0].Country
+
+
+    let getIndicator year indCode = seq {
+        let info = WBJson.Parse(getPage indCode year 1)
+        for p in 1 .. info.Record.Pages do
+            let page = WBJson.Parse(getPage indCode year p)
+            for d in page.Array do
+                match d.Value with
+                | Some v when v < 1500000000L ->
+                    yield d.Country.Value => float v
+                | _ -> () }
+
+    let wb2000 = series(getIndicator 2000 indCode)
+    let wb2010 = series(getIndicator 2010 indCode)
+    Chart.GeoChart(Series.observations wb2000)
+
+    let wbChange = (wb2010 - wb2000) / wb2010 * 100.0
+    Chart.GeoChart(Series.observations wbChange)
 
 module NorthWind =
 
