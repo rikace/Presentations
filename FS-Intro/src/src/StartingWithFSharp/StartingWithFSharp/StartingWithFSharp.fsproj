@@ -77,6 +77,7 @@
     <None Include="13.Testing.fsx" />
     <None Include="14.DDD.fsx" />
     <None Include="15.CompExpression.fsx" />
+    <None Include="Basic.fsx" />
     <None Include="DSL-DP.fsx" />
     <None Include="GetFolderSize.fsx" />
     <None Include="WebScaper.fsx" />
@@ -97,6 +98,7 @@
     <None Include="App.config" />
     <Content Include="packages.config" />
     <Content Include="Google.DataTable.Net.Wrapper.XML" />
+    <None Include="SqlConnectionExample.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Deedle">

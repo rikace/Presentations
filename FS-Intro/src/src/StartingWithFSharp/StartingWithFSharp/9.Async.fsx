@@ -19,6 +19,20 @@ open System.Net
 // asycns are first-class, parallelism by combining asyncs
 module AsyncBasic =  
 
+    let sleep name seconds = async {
+        System.Threading.Thread.Sleep(seconds * 1000)
+        printfn "%s slept %d seconds" name seconds }
+
+    let task1 = sleep "Task 1" 4
+    let task2 = sleep "Task 2" 3
+    let task3 = sleep "Task 3" 2
+
+    [ task1; task2; task3 ] // declare a list on the fly and push into Async.Parallel
+      |> Async.Parallel
+      |> Async.RunSynchronously
+
+
+
     let asyncResult = 
         async {
             let wc = new WebClient()

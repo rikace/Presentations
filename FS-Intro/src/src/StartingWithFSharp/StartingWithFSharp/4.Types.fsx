@@ -140,9 +140,8 @@ module ``Discriminated Unions`` =
       | Manager of RecursiveEmployee list
     
     
-    let jdoe = {First="John";Last="Doe"}
+    let jdoe = {First="Ricky";Last="Doe"}
     let worker = Worker jdoe
-
 
         
     /// Define a discriminated union of 3 different kinds of employees
@@ -172,6 +171,38 @@ module ``Discriminated Unions`` =
 
     findDaveWithOpenPosition [engineer; manager; executive]
     findDaveWithOpenPosition [engineer; manager; executive; manager']
+
+
+
+    // a discriminated union defines "cases"
+    type Boolean = 
+        | True 
+        | False
+
+    // the "mystery default" is gone
+
+    // also note what happens if you add
+    // a "Maybe" case to Boolean
+    let truth (b: Boolean) =
+        match b with
+        | True -> "Yeah it's true"
+        | False -> "Nope, not right"
+
+
+    // but wait! There's more!
+    type Result =
+        | Value of float
+        | Error of string
+
+    // you can now send a clear signal
+    // to the consumer of your code
+    let division (x: float) (y: float) =
+        if y = 0.0
+        then Error("Nope, can't do")
+        else Value(x / y)
+
+
+
 
 
 
