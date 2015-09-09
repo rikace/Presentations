@@ -1,4 +1,4 @@
-﻿#I @"C:\Demo\FSharp-Intro\StartingWithFSharp\Lib"
+﻿#I @"C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\Lib"
 #r "Microsoft.WindowsAzure.Diagnostics.dll"
 #r "Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll"
 #r "Microsoft.WindowsAzure.StorageClient.dll"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>StartingWithFSharp</name></assembly>
+<members>
+<member name="M:Microsoft.WindowsAzure.StorageClient.Extensions.CloudBlob.AsyncDownloadByteArray(Microsoft.WindowsAzure.StorageClient.CloudBlob)">
+<summary>
+ Asynchronously download blob contents as an array
+</summary>
+</member>
+<member name="F:OOP.2DSurfaceWithOnePoint.Point@">
+<summary>
+ Point property
+</summary>
+</member>
+<member name="P:OOP.2DSurfaceWithOnePoint.Point(OOP.IPoint)">
+<summary>
+ Point property
+</summary>
+</member>
+<member name="P:OOP.2DSurfaceWithOnePoint.Upper">
+<summary>
+ lower boundary property
+</summary>
+</member>
+<member name="P:OOP.2DSurfaceWithOnePoint.Point">
+<summary>
+ Point property
+</summary>
+</member>
+<member name="P:OOP.2DSurfaceWithOnePoint.Lower">
+<summary>
+ upper boundary property
+</summary>
+</member>
+<member name="M:OOP.2DSurfaceWithOnePoint.ShowLocation">
+<summary>
+ show the point&apos;s location
+</summary>
+</member>
+<member name="M:OOP.2DSurfaceWithOnePoint.MoveY(System.Int32)">
+<summary>
+ Move point&apos;y value
+</summary>
+</member>
+<member name="M:OOP.2DSurfaceWithOnePoint.MoveX(System.Int32)">
+<summary>
+ Move point&apos;x value
+</summary>
+</member>
+</members>
+</doc>
