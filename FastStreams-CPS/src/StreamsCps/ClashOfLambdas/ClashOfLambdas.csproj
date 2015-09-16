@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C63B887E-51AA-4020-A944-EF139DEF761D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClashOfLambdas</RootNamespace>
+    <AssemblyName>ClashOfLambdas</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LambdaMicrobenchmarking\LambdaMicrobenchmarking\LambdaMicrobenchmarking.csproj">
+      <Project>{0f43ed72-be81-4763-b104-bfe43a387f0e}</Project>
+      <Name>LambdaMicrobenchmarking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LinqOptimizer\src\LinqOptimizer.Base\LinqOptimizer.Base.csproj">
+      <Project>{f21f83a3-bdbd-4965-87d6-94e65a069a7b}</Project>
+      <Name>LinqOptimizer.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LinqOptimizer\src\LinqOptimizer.Core\LinqOptimizer.Core.fsproj">
+      <Project>{6fea9d47-1291-40ce-9716-619bcc2f485a}</Project>
+      <Name>LinqOptimizer.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LinqOptimizer\src\LinqOptimizer.CSharp\LinqOptimizer.CSharp.csproj">
+      <Project>{e606c2c2-c219-4e51-b928-5b192e283a54}</Project>
+      <Name>LinqOptimizer.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Streams\src\Streams.Core\Streams.Core.fsproj">
+      <Project>{f3482666-f39c-4f49-8d0b-3583328d2c42}</Project>
+      <Name>Streams.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Streams\src\Streams.CSharp\Streams.CSharp.csproj">
+      <Project>{e6852495-8012-4694-bc0f-a5376cd84b1f}</Project>
+      <Name>Streams.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

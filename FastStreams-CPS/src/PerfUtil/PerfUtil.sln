@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PerfUtil", "PerfUtil\PerfUtil.fsproj", "{D148AEF9-3CE1-46BC-B359-1B9051C5ACCE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PerfUtil.CaseStudy", "PerfUtil.CaseStudy\PerfUtil.CaseStudy.fsproj", "{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PerfUtil.NUnit", "PerfUtil.NUnit\PerfUtil.NUnit.fsproj", "{62AE558E-EF5C-4D53-A0D7-1B960DCBD463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{FB56ABC6-009D-4E2F-B84F-6741BFF279A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FD0C996F-BF9D-4B28-BD2B-34C243DC687F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{B470A320-64A7-46CF-93A7-7BBB383DE9D2}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		build.sh = build.sh
+		nuget\PerfUtil.NUnit.nuspec = nuget\PerfUtil.NUnit.nuspec
+		nuget\PerfUtil.nuspec = nuget\PerfUtil.nuspec
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D148AEF9-3CE1-46BC-B359-1B9051C5ACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D148AEF9-3CE1-46BC-B359-1B9051C5ACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D148AEF9-3CE1-46BC-B359-1B9051C5ACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D148AEF9-3CE1-46BC-B359-1B9051C5ACCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AE558E-EF5C-4D53-A0D7-1B960DCBD463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AE558E-EF5C-4D53-A0D7-1B960DCBD463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AE558E-EF5C-4D53-A0D7-1B960DCBD463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AE558E-EF5C-4D53-A0D7-1B960DCBD463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{171F5C16-0EC8-44C0-AFD4-1BC83F87F7E0} = {FB56ABC6-009D-4E2F-B84F-6741BFF279A4}
+	EndGlobalSection
+EndGlobal

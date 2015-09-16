@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testSuite suiteName="FsPickler">
+  <testRun id="FsPickler v.0.6.3.34077" hostname="grothendieck" date="2013-12-04T12:56:44.3212851+02:00">
+    <testResult testId="Tests.int list" testDate="2013-12-04T12:56:44.4682851+02:00">
+      <elapsedTime>2468030</elapsedTime>
+      <cpuTime>2496016</cpuTime>
+      <gcDelta>
+        <gen0>11</gen0>
+        <gen1>2</gen1>
+        <gen2>1</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.string list" testDate="2013-12-04T12:56:44.8312851+02:00">
+      <elapsedTime>2338233</elapsedTime>
+      <cpuTime>2340015</cpuTime>
+      <gcDelta>
+        <gen0>17</gen0>
+        <gen1>0</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.float [,,]" testDate="2013-12-04T12:56:45.1712851+02:00">
+      <elapsedTime>991908</elapsedTime>
+      <cpuTime>1092007</cpuTime>
+      <gcDelta>
+        <gen0>3</gen0>
+        <gen1>3</gen1>
+        <gen2>3</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.obj []" testDate="2013-12-04T12:56:45.3772851+02:00">
+      <elapsedTime>808650</elapsedTime>
+      <cpuTime>780005</cpuTime>
+      <gcDelta>
+        <gen0>1</gen0>
+        <gen1>0</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.(string * int) option []" testDate="2013-12-04T12:56:45.5642851+02:00">
+      <elapsedTime>5416615</elapsedTime>
+      <cpuTime>5460035</cpuTime>
+      <gcDelta>
+        <gen0>21</gen0>
+        <gen1>7</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.Binary Tree" testDate="2013-12-04T12:56:46.2122851+02:00">
+      <elapsedTime>854173</elapsedTime>
+      <cpuTime>936006</cpuTime>
+      <gcDelta>
+        <gen0>1</gen0>
+        <gen1>0</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.Large Quotation" testDate="2013-12-04T12:56:46.4022851+02:00">
+      <elapsedTime>4543865</elapsedTime>
+      <cpuTime>4524029</cpuTime>
+      <gcDelta>
+        <gen0>29</gen0>
+        <gen1>1</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+    <testResult testId="Tests.FSharp Set" testDate="2013-12-04T12:56:46.9632851+02:00">
+      <elapsedTime>1806134</elapsedTime>
+      <cpuTime>1716011</cpuTime>
+      <gcDelta>
+        <gen0>15</gen0>
+        <gen1>0</gen1>
+        <gen2>0</gen2>
+      </gcDelta>
+    </testResult>
+  </testRun>
+</testSuite>
