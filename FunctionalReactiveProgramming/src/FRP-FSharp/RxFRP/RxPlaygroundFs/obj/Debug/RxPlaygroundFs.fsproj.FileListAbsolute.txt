@@ -1,0 +1,7 @@
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\bin\Debug\RxPlaygroundFs.XML
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\bin\Debug\RxPlaygroundFs.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\bin\Debug\RxPlaygroundFs.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\bin\Debug\FSharp.Core.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\bin\Debug\FSharp.Core.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\obj\Debug\RxPlaygroundFs.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\RxPlaygroundFs\obj\Debug\RxPlaygroundFs.pdb
