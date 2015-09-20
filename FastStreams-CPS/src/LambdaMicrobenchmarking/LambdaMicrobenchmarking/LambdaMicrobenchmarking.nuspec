@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>LambdaMicrobenchmarking</id>
+        <version>0.1.1</version>
+        <title>LambdaMicrobenchmarking</title>
+        <authors>Aggelos Biboudis (https://github.com/biboudis)</authors>
+        <owners>winnie</owners>
+        <licenseUrl>https://raw.githubusercontent.com/biboudis/LambdaMicrobenchmarking/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/biboudis/LambdaMicrobenchmarking</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library to microbenchmark lambdas in C# and F# that runs on both Windows (clr) and Linux (mono).</description>
+        <summary>A library to microbenchmark lambdas in C# and F# that runs on both Windows (clr) and Linux (mono).</summary>
+        <releaseNotes>Initial package</releaseNotes>
+        <copyright>Copyright 2015</copyright>
+        <language>en-US</language>
+        <dependencies>
+            <dependency id="MathNet.Numerics" version="3.2.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\LambdaMicrobenchmarking.dll" target="lib\net40-client\LambdaMicrobenchmarking.dll" />
+    </files>
+</package>

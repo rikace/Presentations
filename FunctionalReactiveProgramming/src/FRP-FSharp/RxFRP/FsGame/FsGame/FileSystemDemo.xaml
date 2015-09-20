@@ -1,0 +1,24 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:local="clr-namespace:ViewModels;assembly=FsGame"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        x:Name="WindowRoot" 
+        mc:Ignorable="d"
+          Title="File System"
+        Height="480" Width="640"
+    AllowsTransparency="True" WindowStyle="None" MinWidth="800" MinHeight="500" BorderBrush="#FF6C6C6C" 
+    UseLayoutRounding="True" ResizeMode="CanResizeWithGrip" IsTabStop="False" IsManipulationEnabled="True">
+    <Window.DataContext>
+        <local:FileSystemViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="{Binding LastChange}" FontSize="24" TextAlignment="Center" VerticalAlignment="Center" />
+        <ListBox Grid.Row="1" x:Name="fileSystemEventList" ItemsSource="{Binding Events}" />
+    </Grid>
+</Window>

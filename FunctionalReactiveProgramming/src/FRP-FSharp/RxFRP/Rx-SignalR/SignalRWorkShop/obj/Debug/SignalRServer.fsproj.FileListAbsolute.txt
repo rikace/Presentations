@@ -1,0 +1,184 @@
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.XML
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Core.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Owin.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Web.Cors.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Core.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Newtonsoft.Json.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRWorkShop.exe
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRWorkShop.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Core.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Linq.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Core.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Linq.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.xml
+\\psf\Home\Documents\Visual Studio 2013\Projects\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRServer.fsprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe.config
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.XML
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\SignalRWorkShop.pdb
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Core.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Owin.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Core.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Linq.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Web.Cors.dll
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.pdb
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\AsyncHelper.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.pdb
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Dynamitey.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.pdb
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Dynamic.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\FSharp.Core.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\Newtonsoft.Json.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Core.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.Linq.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.xml
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRServer.fsprojResolveAssemblyReference.cache
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRWorkShop.exe
+\\psf\Home\Documents\GitHub\SignalRWorkShop\SignalRWorkShop\obj\Debug\SignalRWorkShop.pdb
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe.config
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\SignalRWorkShop.XML
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\SignalRWorkShop.pdb
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\AsyncHelper.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Dynamitey.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\FSharp.Core.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\FSharp.Dynamic.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Newtonsoft.Json.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Owin.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Core.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Linq.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Web.Cors.dll
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\AsyncHelper.pdb
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\AsyncHelper.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Dynamitey.pdb
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Dynamitey.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\FSharp.Dynamic.pdb
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\FSharp.Dynamic.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\FSharp.Core.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\Newtonsoft.Json.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Core.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.Linq.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.xml
+F:\SignalRWorkShopComplete\SignalRWorkShop\obj\Debug\SignalRServer.fsprojResolveAssemblyReference.cache
+F:\SignalRWorkShopComplete\SignalRWorkShop\obj\Debug\SignalRWorkShop.exe
+F:\SignalRWorkShopComplete\SignalRWorkShop\obj\Debug\SignalRWorkShop.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe.config
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\SignalRWorkShop.XML
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\SignalRWorkShop.exe
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\SignalRWorkShop.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\AsyncHelper.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Dynamitey.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\FSharp.Core.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\FSharp.Dynamic.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Newtonsoft.Json.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Owin.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Core.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Linq.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Web.Cors.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\AsyncHelper.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\AsyncHelper.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Dynamitey.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Dynamitey.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\FSharp.Dynamic.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\FSharp.Dynamic.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Cors.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Hosting.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Microsoft.Owin.Security.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\FSharp.Core.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\Newtonsoft.Json.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Core.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Interfaces.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.Linq.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\bin\Debug\System.Reactive.PlatformServices.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\obj\Debug\SignalRServer.fsprojResolveAssemblyReference.cache
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\obj\Debug\SignalRWorkShop.exe
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Rx-SignalR\SignalRWorkShop\obj\Debug\SignalRWorkShop.pdb

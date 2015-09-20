@@ -1,0 +1,6 @@
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\bin\Debug\Replier.exe
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\bin\Debug\Replier.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\bin\Debug\FSharp.Core.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\bin\Debug\FSharp.Core.xml
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\obj\Debug\Replier.exe
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Replier\obj\Debug\Replier.pdb

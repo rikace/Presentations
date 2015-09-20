@@ -1,0 +1,5 @@
+configuration: Release
+test:
+  assemblies:
+    - LinqOptimizer.Tests.CSharp.exe
+    - LinqOptimizer.Tests.FSharp.exe

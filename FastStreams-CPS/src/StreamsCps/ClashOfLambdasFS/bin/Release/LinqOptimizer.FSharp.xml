@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>LinqOptimizer.FSharp</name></assembly>
+<members>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.where``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a parallel query that returns a new collection containing only the elements of the collection for which the given predicate returns true.</summary>
+<param name="predicate">A function to test whether each item in the input sequence should be included in the output.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query containing the result sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.toArray``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a parallel query that returns an array containing the elements of the source query.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query that contains the array.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.sum(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{System.Double}})">
+<summary>Constructs a parallel query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.sum(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{System.Int64}})">
+<summary>Constructs a parallel query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.sum(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{System.Int32}})">
+<summary>Constructs a parallel query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.sortBy``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a parallel query that applies a key-generating function to each element of a sequence and yields a sequence ordered by keys.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<param name="keySelector">A function to transform items of the input sequence into comparable keys.</param>
+<returns>A parallel query that contains sorted sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.sort``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a parallel query that yields a sequence ordered by keys.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query that contains sorted sequence.</returns> 
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.run``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{``0},System.Boolean)">
+<summary>Compiles and runs the parallel query.<para/>
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+</summary>
+<param name="query">The query to run.</param>
+<param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+<returns>The result of the query execution.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.run``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{``0})">
+<summary>Compiles and runs the parallel query.</summary>
+<param name="query">The query to run.</param>
+<returns>The result of the query execution.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.ofSeq``1(System.Collections.Generic.IEnumerable{``0})">
+<summary>Lifts a sequence to a parallel query that can be optimized.</summary>
+<param name="source">The source sequence.</param>
+<returns>The parallel query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.map``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a parallel query that creates a new collection whose elements are the results of applying the given function to each of the elements of the collection.</summary>
+<param name="projection">A function to transform items from the input sequence.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query whose elements will be the result of applying the projection function to the elements of the input query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.length``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a parallel query that returns the length of the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.groupBy``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a parallel query that applies a key-generating function to each element of a sequence and yields a sequence of unique keys and a sequence of all elements that have each key.</summary>
+<param name="keySelector">A function that transforms an element of the sequence into a comparable key.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.filter``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a parallel query that returns a new collection containing only the elements of the collection for which the given predicate returns true.</summary>
+<param name="predicate">A function to test whether each item in the input sequence should be included in the output.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A parallel query containing the result sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,Nessos.LinqOptimizer.Base.IParallelQueryExpr{``5}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <typeparam name="T5">The type of the fifth query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,Nessos.LinqOptimizer.Base.IParallelQueryExpr{``4}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,Nessos.LinqOptimizer.Base.IParallelQueryExpr{``3}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``3(System.Linq.Expressions.Expression{System.Func{``0,``1,Nessos.LinqOptimizer.Base.IParallelQueryExpr{``2}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``2(System.Linq.Expressions.Expression{System.Func{``0,Nessos.LinqOptimizer.Base.IParallelQueryExpr{``1}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T">The type of the query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{``0},System.Boolean)">
+<summary>Compiles the parallel query and returns a delegate to the compiled code.<para/>
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+</summary>
+<param name="query">The query to compile.</param>
+<param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.compile``1(Nessos.LinqOptimizer.Base.IParallelQueryExpr{``0})">
+<summary>Compiles the parallel query and returns a delegate to the compiled code.</summary>
+<param name="query">The query to compile.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.PQuery.collect``2(System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}})">
+<summary>Constructs a parallel query that applies the given function to each element of the sequence and concatenates all the results.</summary>
+<param name="selector">A function to transform elements of the input sequence into the sequences that are concatenated.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="T:Nessos.LinqOptimizer.FSharp.PQuery">
+<summary>
+ Basic operations on parallel queries.
+</summary>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.zipWith``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Linq.Expressions.Expression{System.Func{``0,``1,``2}})">
+ <summary>
+ Constructs a query that applies a specified function to the corresponding elements of two sequences, producing a sequence of the results.
+ </summary>
+ <param name="first">The first sequence to merge.</param>
+ <param name="second">The first sequence to merge.</param>
+ <param name="func">A function that specifies how to merge the elements from the two sequences.</param>
+ <returns>A query that contains merged elements of two input sequences.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.where``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a query that returns a new collection containing only the elements of the collection for which the given predicate returns true.</summary>
+<param name="predicate">A function to test whether each item in the input sequence should be included in the output.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query containing the result sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.toArray``1(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a query that returns an array containing the elements of the source query.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the array.</returns>        
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.takeWhile``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a query that when iterated, yields elements of the underlying sequence while the given predicate returns true, and then returns no further elements.</summary>
+<param name="predicate">A function that evaluates to false when no more items should be returned.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.take``1(System.Int32)">
+<summary>Constructs a query that returns the elements of the sequence up to a specified count.</summary>
+<param name="count">The number of items to take.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.sum(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{System.Int32}})">
+<summary>Constructs a query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.sum(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{System.Int64}})">
+<summary>Constructs a query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.sum(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{System.Double}})">
+<summary>Constructs a query that returns the sum of the elements in the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.sortBy``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a query that applies a key-generating function to each element of a sequence and yields a sequence ordered by keys.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<param name="keySelector">A function to transform items of the input sequence into comparable keys.</param>
+<returns>A query that contains sorted sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.sort``1(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a query that yields a sequence ordered by keys.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains sorted sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.skipWhile``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a query that skips elements of the underlying sequence while the given predicate returns true, and then yields the remaining elements of the sequence.</summary>
+<param name="predicate">A function that evaluates an element of the sequence to a Boolean value.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.skip``1(System.Int32)">
+<summary>Constructs a query that returns a sequence that skips N elements of the underlying sequence and then yields the remaining elements of the sequence.</summary>
+<param name="count">The number of items to skip.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.run(Nessos.LinqOptimizer.Base.IQueryExpr,System.Boolean)">
+<summary>Compiles and runs the query.<para/>
+<b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+</summary>
+<param name="query">The query to run.</param>
+<param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.run(Nessos.LinqOptimizer.Base.IQueryExpr)">
+<summary>Compiles and runs the query.</summary>
+<param name="query">The query to run.</param>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.run``1(Nessos.LinqOptimizer.Base.IQueryExpr{``0},System.Boolean)">
+<summary>Compiles and runs the query.<para/>
+<b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+</summary>
+<param name="query">The query to run.</param>
+<param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+<returns>The result of the query execution.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.run``1(Nessos.LinqOptimizer.Base.IQueryExpr{``0})">
+<summary>Compiles and runs the query.</summary>
+<param name="query">The query to run.</param>
+<returns>The result of the query execution.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.repeat``1(``0,System.Int32)">
+ <summary>
+ Constructs a query that generates a sequence that contains one repeated value.
+ </summary>
+ <param name="element">The value to be repeated.</param>
+ <param name="count">The number of sequential integers to generate.</param>
+ <returns>A query that contains a repeated value.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.range(System.Int32,System.Int32)">
+ <summary>
+ Constructs a query that generates a sequence of integral numbers within a specified range.
+ </summary>
+ <param name="start">The value of the first integer in the sequence.</param>
+ <param name="count">The number of sequential integers to generate.</param>
+ <returns>A query that contains a range of sequential integral numbers.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.ofSeq``1(System.Collections.Generic.IEnumerable{``0})">
+<summary>Lifts a sequence to a query that can be optimized.</summary>
+<param name="source">The source sequence.</param>
+<returns>The query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.mapi``2(System.Linq.Expressions.Expression{System.Func{``0,System.Int32,``1}})">
+<summary>Constructs a query that creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The integer index passed to the function indicates the index (from 0) of element being transformed.</summary>
+<param name="mapping">A function to transform items from the input sequence that also supplies the current index.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query whose elements will be the result of applying the projection function to the elements of the input query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.map``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a query that creates a new collection whose elements are the results of applying the given function to each of the elements of the collection.</summary>
+<param name="projection">A function to transform items from the input sequence.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query whose elements will be the result of applying the projection function to the elements of the input query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.length``1(Nessos.LinqOptimizer.Base.IQueryExpr{System.Collections.Generic.IEnumerable{``0}})">
+<summary>Constructs a query that returns the length of the sequence.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.iter``1(System.Linq.Expressions.Expression{System.Action{``0}})">
+<summary>Constructs a query that applies the given function to each element of the collection.</summary>
+<param name="query">The query whose elements are used as input.</param>
+<param name="action">A function to apply to each element of the sequence.</param>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.groupBy``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+<summary>Constructs a query that applies a key-generating function to each element of a sequence and yields a sequence of unique keys and a sequence of all elements that have each key.</summary>
+<param name="keySelector">A function that transforms an element of the sequence into a comparable key.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.fold``2(System.Linq.Expressions.Expression{System.Func{``0,``1,``0}})">
+<summary>Constructs a query that applies a function to each element of the collection, threading an accumulator argument through the computation.</summary>
+<param name="func">A function that updates the state with each element from the sequence.</param>
+<param name="query">The query whose elements are used as input.</param>
+<param name="state">The initial state.</param>
+<returns>A query that contains the final result of the computation.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.filter``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+<summary>Constructs a query that returns a new collection containing only the elements of the collection for which the given predicate returns true.</summary>
+<param name="predicate">A function to test whether each item in the input sequence should be included in the output.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query containing the result sequence.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,Nessos.LinqOptimizer.Base.IQueryExpr}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <typeparam name="T5">The type of the fifth query parameter.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,Nessos.LinqOptimizer.Base.IQueryExpr}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``3(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,Nessos.LinqOptimizer.Base.IQueryExpr}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``2(System.Linq.Expressions.Expression{System.Func{``0,``1,Nessos.LinqOptimizer.Base.IQueryExpr}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``1(System.Linq.Expressions.Expression{System.Func{``0,Nessos.LinqOptimizer.Base.IQueryExpr}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T">The type of the query parameter.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``6(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,``4,Nessos.LinqOptimizer.Base.IQueryExpr{``5}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <typeparam name="T5">The type of the fifth query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``5(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,``3,Nessos.LinqOptimizer.Base.IQueryExpr{``4}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="T4">The type of the fourth query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``4(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,Nessos.LinqOptimizer.Base.IQueryExpr{``3}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="T3">The type of the third query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``3(System.Linq.Expressions.Expression{System.Func{``0,``1,Nessos.LinqOptimizer.Base.IQueryExpr{``2}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T1">The type of the first query parameter.</typeparam>
+ <typeparam name="T2">The type of the second query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``2(System.Linq.Expressions.Expression{System.Func{``0,Nessos.LinqOptimizer.Base.IQueryExpr{``1}}},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+ Precompiles a parameterized query to optimized code that can by invoked using a delegate.
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+ <typeparam name="T">The type of the query parameter.</typeparam>
+ <typeparam name="R">The type of the query.</typeparam>
+ <param name="template">The parameterized query.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+ <returns>A delegate to the optimized query.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile(Nessos.LinqOptimizer.Base.IQueryExpr,System.Boolean)">
+<summary>Compiles the query and returns a delegate to the compiled code.<para/>
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+</summary>
+<param name="query">The query to compile.</param>
+<param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile(Nessos.LinqOptimizer.Base.IQueryExpr)">
+<summary>Compiles the query and returns a delegate to the compiled code.</summary>
+<param name="query">The query to compile.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``1(Nessos.LinqOptimizer.Base.IQueryExpr{``0},System.Boolean)">
+<summary>Compiles the query and returns a delegate to the compiled code.<para/>
+ <b>Warning</b> : Enabling non-public member access might lead to performance degradation.
+ </summary>
+<param name="query">The query to compile.</param>
+ <param name="enableNonPublicMemberAccess">Enable or not non public member access from the compiled code.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.compile``1(Nessos.LinqOptimizer.Base.IQueryExpr{``0})">
+<summary>Compiles the query and returns a delegate to the compiled code.</summary>
+<param name="query">The query to compile.</param>
+<returns>A delegate to the compiled code.</returns>
+</member>
+<member name="M:Nessos.LinqOptimizer.FSharp.Query.collect``2(System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IEnumerable{``1}}})">
+<summary>Constructs a query that applies the given function to each element of the sequence and concatenates all the results.</summary>
+<param name="selector">A function to transform elements of the input sequence into the sequences that are concatenated.</param>
+<param name="query">The query whose elements are used as input.</param>
+<returns>A query that contains the result of the computation.</returns>
+</member>
+<member name="T:Nessos.LinqOptimizer.FSharp.Query">
+<summary>
+ Basic operations on queries.
+</summary>
+</member>
+</members>
+</doc>
