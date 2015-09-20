@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\PhotoViewer\obj\Debug\
+\\Mac\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewer\obj\Debug\
 PhotoViewer
 none
 false
 DEBUG;TRACE
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\PhotoViewer\App.xaml
+\\Mac\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\PhotoViewer\App.xaml
 11151548125
 
-91900661466
+91161890883
 13-1377970496
 MainWindow.xaml;
 

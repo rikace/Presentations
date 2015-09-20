@@ -22,3 +22,6 @@ C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\ActorLib\obj\Debug\ActorLib.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ActorLib\obj\Debug\ActorLib.fsprojResolveAssemblyReference.cache
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ActorLib\obj\Debug\ActorLib.dll
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ActorLib\obj\Debug\ActorLib.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ActorLib\obj\Debug\ActorLib.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ActorLib\obj\Debug\ActorLib.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ActorLib\obj\Debug\ActorLib.pdb

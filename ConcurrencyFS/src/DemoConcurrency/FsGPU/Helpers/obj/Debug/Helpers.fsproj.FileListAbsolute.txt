@@ -19,3 +19,6 @@ C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\FsGPU\Helpers\obj\Debug\Helpers.fsp
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency\FsGPU\Helpers\obj\Debug\Helpers.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\FsGPU\Helpers\obj\Debug\Helpers.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\FsGPU\Helpers\obj\Debug\FsGPU.Helpers.pdb

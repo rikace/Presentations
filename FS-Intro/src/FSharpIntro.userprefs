@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="src/StartingWithFSharp/StartingWithFSharp/StartingWithFSharp.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/StartingWithFSharp/StartingWithFSharp/3.Collections.fsx">
+    <Files>
+      <File FileName="src/StartingWithFSharp/StartingWithFSharp/3.Collections.fsx" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

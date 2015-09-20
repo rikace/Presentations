@@ -36,3 +36,11 @@ C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ColorMixerLib\obj\Debug\ColorMixerL
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ColorMixerLib\obj\Debug\ColorMixerLib.dll
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ColorMixerLib\obj\Debug\ColorMixerLib.pdb
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency\ColorMixerLib\obj\Debug\ColorMixerLib.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\bin\Debug\ColorMixerLib.XML
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\bin\Debug\ColorMixerLib.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\bin\Debug\ColorMixerLib.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\bin\Debug\FSharp.Core.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\bin\Debug\FSharp.Core.xml
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\obj\Debug\ColorMixerLib.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\obj\Debug\ColorMixerLib.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ColorMixerLib\obj\Debug\ColorMixerLib.pdb

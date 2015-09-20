@@ -53,3 +53,14 @@ C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ImagePipeline\bin\Debug\FSharp.Core
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ImagePipeline\obj\Debug\ImagePipeline.fsprojResolveAssemblyReference.cache
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ImagePipeline\obj\Debug\ImagePipeline.exe
 C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V4\ImagePipeline\obj\Debug\ImagePipeline.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.exe.config
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.XML
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.exe
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\FSharp.Core.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.Gui.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\ImagePipeline.Gui.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\bin\Debug\FSharp.Core.xml
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\obj\Debug\ImagePipeline.fsprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\obj\Debug\ImagePipeline.exe
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline\obj\Debug\ImagePipeline.pdb

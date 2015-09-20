@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>XPlot.GoogleCharts.Deedle</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="T:System.AssemblyVersionInformation">
+
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Treemap.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a treemap chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Timeline.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a timeline chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Table.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a table chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Table.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a table chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Table.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a table chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.SteppedArea.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a stepped area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.SteppedArea.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a stepped area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.SteppedArea.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a stepped area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Scatter.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a scatter chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Scatter.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a scatter chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Scatter.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a scatter chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Sankey.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a sankey diagram.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Pie.Static``1(Deedle.Frame{System.String,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a pie chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Pie.Static``1(Deedle.Series{System.String,``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a pie chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Map.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a map chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Map.Static(Deedle.Series{System.String,System.String},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a map chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Line.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a line chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Line.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a line chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Line.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a line chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Histogram.Static``1(Deedle.Frame{System.String,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a histogram chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Histogram.Static``1(Deedle.Series{System.String,``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a histogram chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Geo.Static``1(Deedle.Frame{System.String,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a geo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Geo.Static``1(System.Collections.Generic.IEnumerable{Deedle.Series{System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a geo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Geo.Static``1(Deedle.Series{System.String,``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a geo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Gauge.Static``1(Deedle.Frame{System.String,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a gauge chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Gauge.Static``1(Deedle.Series{System.String,``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a gauge chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Combo.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a combo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Combo.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a combo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Column.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a column chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Column.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a column chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Column.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a column chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Candlestick.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a candlestick chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Calendar.Static``1(Deedle.Frame{System.DateTime,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a calendar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Calendar.Static``1(Deedle.Series{System.DateTime,``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a calendar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Bubble.Static``1(Deedle.Frame{System.String,``0},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bubble chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Bar.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Bar.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Bar.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Area.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Area.Static``2(System.Collections.Generic.IEnumerable{Deedle.Series{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Area.Static``2(Deedle.Series{``0,``1},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Deedle.Chart.Annotation.Static``2(Deedle.Frame{``0,``1},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an annotation chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="T:XPlot.GoogleCharts.Deedle">
+
+</member>
+</members>
+</doc>

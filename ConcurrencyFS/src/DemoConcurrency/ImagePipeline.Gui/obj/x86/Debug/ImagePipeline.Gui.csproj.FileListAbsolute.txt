@@ -39,3 +39,11 @@ C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\ImagePipeline.Gui\obj\x86\Debug\ImageP
 C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.csproj.GenerateResource.Cache
 C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.dll
 C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\bin\Debug\ImagePipeline.Gui.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\bin\Debug\ImagePipeline.Gui.pdb
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.csprojResolveAssemblyReference.cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.MainForm.resources
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.Properties.Resources.resources
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.csproj.GenerateResource.Cache
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.dll
+\\psf\Home\GitHub\Presentations\ConcurrencyFS\src\DemoConcurrency\ImagePipeline.Gui\obj\x86\Debug\ImagePipeline.Gui.pdb

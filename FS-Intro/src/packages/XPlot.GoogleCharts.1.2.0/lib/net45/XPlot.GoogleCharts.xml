@@ -1,0 +1,4710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>XPlot.GoogleCharts</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="T:System.AssemblyVersionInformation">
+
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithYTitle(System.String,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s Y-axis title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithXTitle(System.String,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s X-axis title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithWidth(System.Int32,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s width.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithTitle(System.String,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithSize(System.Tuple{System.Int32,System.Int32},XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s height.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithOptions(XPlot.GoogleCharts.Configuration.Options,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s configuration options.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithLegend(System.Boolean,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Display/hide the legend.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithLabels(System.Collections.Generic.IEnumerable{System.String},XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the data series labels. Use this member if the
+ chart&apos;s data is a series collection.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithLabel(System.String,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the data series label. Use this member if the
+ chart&apos;s data is a single series.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithId(System.String,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s container div id.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.WithHeight(System.Int32,XPlot.GoogleCharts.GoogleChart)">
+<summary>
+ Sets the chart&apos;s height.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Treemap``2(System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String,``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a treemap chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Treemap``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a treemap chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Timeline``2(System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String,``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a timeline chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Timeline``2(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a timeline chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Table``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a table chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Table``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a table chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.SteppedArea``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a stepped area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.SteppedArea``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a stepped area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Scatter``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a scatter chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Scatter``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a scatter chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Sankey``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a sankey diagram.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Pie``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a pie chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Map(System.Collections.Generic.IEnumerable{System.Tuple{System.Double,System.Double,System.String}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a map chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Map(System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.String}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a map chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Line``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a line chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Line``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a line chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Histogram``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a histogram chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Geo``2(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a geo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Geo``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a geo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Gauge``1(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a gauge chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Combo``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a combo chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Column``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a column chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Column``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a column chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Candlestick``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a candlestick chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Candlestick``5(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1,``2,``3,``4}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a candlestick chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Calendar``1(System.Collections.Generic.IEnumerable{System.Tuple{System.DateTime,``0}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a calendar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Bubble``4(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0,``1,``2,``3}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bubble chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Bubble``3(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0,``1,``2}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bubble chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Bubble``2(System.Collections.Generic.IEnumerable{System.Tuple{System.String,``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bubble chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Bar``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Bar``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates a bar chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Area``3(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Area``2(System.Collections.Generic.IEnumerable{System.Tuple{``0,``1}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an area chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Annotation``2(System.Collections.Generic.IEnumerable{``0},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an annotation chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="M:XPlot.GoogleCharts.Chart.Annotation``1(System.Collections.Generic.IEnumerable{System.Tuple{System.DateTime,``0,System.String,System.String}},Microsoft.FSharp.Core.FSharpOption{System.Collections.Generic.IEnumerable{System.String}},Microsoft.FSharp.Core.FSharpOption{XPlot.GoogleCharts.Configuration.Options})">
+ <summary>Creates an annotation chart.</summary>
+ <param name="data">The chart's data.</param>
+ <param name="Labels">Labels for the data table columns.</param>
+ <param name="Options">The chart's options.</param>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="F:XPlot.GoogleCharts.GoogleChart.Width@">
+<summary>
+ The width of the chart container element.
+</summary>
+</member>
+<member name="F:XPlot.GoogleCharts.GoogleChart.Height@">
+<summary>
+ The height of the chart container element.
+</summary>
+</member>
+<member name="F:XPlot.GoogleCharts.GoogleChart.Id@">
+<summary>
+ The chart&apos;s container div id.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Width(System.Int32)">
+<summary>
+ The width of the chart container element.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Id(System.String)">
+<summary>
+ The chart&apos;s container div id.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Height(System.Int32)">
+<summary>
+ The height of the chart container element.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Width">
+<summary>
+ The width of the chart container element.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Js">
+<summary>
+ The chart&apos;s JavaScript code. Doesn&apos;t contain the
+ necessary line for loading the appropiate Google
+ visualization package. 
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.InlineHtml">
+<summary>
+ Inline HTML that can be embedded in a larger page (provided that the page
+ has a reference to Google APIs and loads required Google Charts)
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Id">
+<summary>
+ The chart&apos;s container div id.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Html">
+<summary>
+ The chart&apos;s complete HTML code.
+</summary>
+</member>
+<member name="P:XPlot.GoogleCharts.GoogleChart.Height">
+<summary>
+ The height of the chart container element.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithYTitle(System.String)">
+<summary>
+ Sets the chart&apos;s Y-axis title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithXTitle(System.String)">
+<summary>
+ Sets the chart&apos;s X-axis title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithWidth(System.Int32)">
+<summary>
+ Sets the chart&apos;s width.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithTitle(System.String)">
+<summary>
+ Sets the chart&apos;s title.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithSize(System.Int32,System.Int32)">
+<summary>
+ Sets the chart&apos;s width and height.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithOptions(XPlot.GoogleCharts.Configuration.Options)">
+<summary>
+ Sets the chart&apos;s configuration options.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithLegend(System.Boolean)">
+<summary>
+ Display/hide the legend.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithLabels(System.Collections.Generic.IEnumerable{System.String})">
+<summary>
+ Sets the data series labels. Use this member if the
+ chart&apos;s data is a series collection.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithLabel(System.String)">
+<summary>
+ Sets the data series label. Use this member if the
+ chart&apos;s data is a single series.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithId(System.String)">
+<summary>
+ Sets the chart&apos;s container div id.
+</summary>
+</member>
+<member name="M:XPlot.GoogleCharts.GoogleChart.WithHeight(System.Int32)">
+<summary>
+ Sets the chart&apos;s height.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:XPlot.GoogleCharts.Configuration">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:XPlot.GoogleCharts.Data">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:XPlot.GoogleCharts.Templates">
+
+</member>
+</members>
+</doc>
