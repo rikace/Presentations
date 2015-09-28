@@ -1,0 +1,5 @@
+C:\Demo\FSFastWeb\bin\FSFastWeb.xml
+C:\Demo\FSFastWeb\bin\FSFastWeb.dll
+C:\Demo\FSFastWeb\bin\FSFastWeb.pdb
+C:\Demo\FSFastWeb\src\FSFastWeb\obj\Debug\FSFastWeb.dll
+C:\Demo\FSFastWeb\src\FSFastWeb\obj\Debug\FSFastWeb.pdb

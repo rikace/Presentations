@@ -1,0 +1,10 @@
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\SignalRProviderRuntime.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\SignalRProviderRuntime.pdb
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.Interop.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.pdb
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.xml
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.Interop.pdb
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\bin\Debug\FunScript.Interop.xml
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\obj\Debug\SignalRProviderRuntime.dll
+C:\Demo\FSFastWebV4\src\FunScriptApps\SignalRProviderRuntime\obj\Debug\SignalRProviderRuntime.pdb

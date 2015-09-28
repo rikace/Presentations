@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" data-framework="ractive">
+<head>
+    <title>ASP.NET SignalR Stock Ticker</title>
+    <link href="Content/StockTicker.css" rel="stylesheet" />
+    <link href="Content/Tuscany.css" rel="stylesheet" />
+</head>
+<body class="traditional">
+    <style>
+        #chart {
+            width: 600px;
+            height: 400px;
+            margin: 0px auto 50px auto;
+            background: #fafafa;
+        }
+    </style>
+
+    <header id="header">
+        <div class="inner-container">
+            <h1>ASP.NET SignalR Stock Ticker in F#</h1>
+            <h2>Live Stock Table</h2>
+        </div>
+    </header>
+
+    <section id="stockStickerApp" class="inner-container"></section>
+
+    <!-- Templates -->
+    <script id="main" type="text/ractive">
+
+
+        <input type="button" id="open" value="Open Market" on-click="open" />
+        <input type="button" id="close" value="Close Market" on-click="close" disabled="disabled" />
+
+        {{#stocks.length}}
+        <section id="main">
+            <div id="stockTicker">
+                <div class="inner">
+                    <ul>
+                        {{#stocks:i}}
+                        {{>scrollStock}}
+                        {{/stocks}}
+                    </ul>
+                </div>
+            </div>
+
+            <table id="stockTable" border="1">
+                <thead>
+                    <tr><th>Symbol</th><th>Price</th><th>Open</th><th>High</th><th>Low</th><th>Change</th><th>%</th><th></th></tr>
+                </thead>
+                <tbody>
+                    {{#stocks:i}}
+                    {{>stock}}
+                    {{/stocks}}
+                </tbody>
+            </table>
+        </section>
+        {{/stocks.length}}
+
+
+        {{#buyOrders.length}}
+        <h2>Orders Buy</h2>
+        <section id="ordersSection">
+            <div class="inner">
+                <table id="ordersTable" border="1">
+                    <thead>
+                        <tr><th>Symbol</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
+                    </thead>
+                    <tbody>
+                        {{#buyOrders:i}}
+                        {{>order}}
+                        {{/buyOrders}}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        {{/buyOrders.length}}
+
+        {{#sellOrders.length}}
+        <h2>Orders Sell</h2>
+        <section id="ordersSection">
+            <div class="inner">
+                <table id="sellsTable" border="1">
+                    <thead>
+                        <tr><th>Symbol</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
+                    </thead>
+                    <tbody>
+                        {{#sellOrders:i}}
+                        {{>order}}
+                        {{/sellOrders}}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        {{/sellOrders.length}}
+
+
+        <h2>Asset</h2>
+        <label for="portfolioCash">Cash</label>
+        <input type="text" readonly="readonly" id="portfolioCash" />
+        {{#asset.length}}
+
+        <section id="portfolioSection">
+            <div class="inner">
+
+                <table id="portfoloioTable" border="1">
+                    <thead>
+                        <tr><th>Symbol</th><th>Type</th><th>Order Price</th><th>Price</th><th>Quantity</th><th>Total</th></tr>
+                    </thead>
+                    <tbody>
+                        {{#asset:i}}
+                        {{>portfolioItem}}
+                        {{/asset}}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        {{/asset.length}}
+
+
+
+        <section>
+            <label for="tickerSymbolBuy">Buy Stock Symbol</label>
+            <input id="tickerSymbolBuy" type="text" width="100">
+            <label for="tickerPriceBuy">Price</label>
+            <input id="tickerPriceBuy" type="text" width="50">
+            <label for="tickerQuantityBuy">Quantity</label>
+            <input id="tickerQuantityBuy" type="text" width="50">
+            <input id="tickerBuyBtn" type="button" value="Buy" on-click="buyStock" />
+        </section>
+
+        <section>
+            <label for="tickerSymbolSell">Sell Stock Symbol</label>
+            <input id="tickerSymbolSell" type="text" width="100">
+            <label for="tickerPriceSell">Price</label>
+            <input id="tickerPriceSell" type="text" width="50">
+            <label for="tickerQuantitySell">Quantity</label>
+            <input id="tickerQuantitySell" type="text" width="50">
+            <input id="tickerSellBtn" type="button" value="Sell" on-click="sellStock" />
+        </section>
+
+        <section>
+            <label for="tickerSymbol">Add Ticker Symbol</label>
+            <input id="tickerSymbol" type="text" width="100" autofocus>
+            <label for="tickerPrice">Price</label>
+            <input id="tickerPrice" type="text" width="50" autofocus>
+            <input id="tickerAddBtn" type="button" value="Submit" on-click="addTicker" />
+        </section>
+    </script>
+
+    <footer id="info" class="inner-container">
+        <p>Created by <a href="https://github.com/rikace">Riccardo Terrell</a> based on <a href="http://www.asp.net/signalr/overview/getting-started/tutorial-server-broadcast-with-signalr">Tutorial: Server Broadcast with SignalR 2</a></p>
+    </footer>
+    
+    <script id="scrollStock" type="text/ractive">
+        <li data-symbol="{{Symbol}}" class="dir {{DirectionClass}}"><span class="symbol">{{Symbol}}</span> <span class="price">{{Price}}</span> <span class="change"><span class="dir {{DirectionClass}}">{{Direction}}</span> {{Change}} ({{PercentChange}})</span></li>'
+    </script>
+
+    <script id="stock" type="text/ractive">
+        <tr data-symbol="{{Symbol}}">
+            <td class="dir {{DirectionClass}}"><span class="symbol">{{Symbol.toUpperCase()}}</span></td>
+            <td><span class="price">{{Price}}</span></td>
+            <td>{{DayOpen}}</td>
+            <td>{{DayHigh}}</td>
+            <td>{{DayLow}}</td>
+            <td class="dir {{DirectionClass}}"><span class="change"><span class="dir {{DirectionClass}}">{{LastChange}}</span></span></td>
+            <td class="dir {{DirectionClass}}"><span class="change"><span class="dir {{DirectionClass}}">{{PercentChange}}</span></span></td>
+            <td class="dir {{DirectionClass}}"><span class="change"><span class="dir {{DirectionClass}}">{{Direction}}</span></span></td>
+            <!--<td>
+                <button on-click="remove:[{{i}}]" class="destroy"></button>
+            </td>-->
+        </tr>
+    </script>
+
+    <script id="order" type="text/ractive">
+        <tr data-symbol="{{Symbol}}">
+            <td><span class="symbol">{{Symbol.toUpperCase()}}</span></td>
+            <td><span class="price">{{Price}}</span></td>
+            <td>{{Quantity}}</td>
+            <td><span>{{Quantity * Price}}</span></td>
+        </tr>
+    </script>
+
+    <script id="portfolioItem" type="text/ractive">
+        <tr data-symbol="{{Symbol}}">
+            <td><span class="symbol">{{Symbol}}</span></td>
+            <td><span class="symbol">{{OrderType}}</span></td>
+            <td><span class="price">{{OrderPrice}}</span></td>
+            <td><span class="price">{{  Price }}</span></td>
+            <td><span>{{Quantity}}</span></td>
+            <td><span>{{ Quantity * Price  }}</span></td>
+        </tr>
+    </script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jqueryUI.1.8.23.js"></script>
+    <script src="Scripts/jquery.color-2.1.2.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="Scripts/reactive.js"></script>
+    <script src="Scripts/stockTickerFS.js"></script>
+
+    <script type="text/javascript">
+        function scrollTicker() {
+            var $stockTicker = $('#stockTicker');
+            var $stockTickerUl = $stockTicker.find('ul');
+            var w = $stockTickerUl.width();
+            $stockTickerUl.css({ marginLeft: w });
+            $stockTickerUl.animate({ marginLeft: -w }, 15000, 'linear', scrollTicker);
+        }
+        function stopTicker() {
+            $stockTickerUl.stop();
+        }
+        $(function () {
+            $("#open").click(function () {
+                scrollTicker();
+            });
+        });
+      
+    </script>
+</body>
+</html>

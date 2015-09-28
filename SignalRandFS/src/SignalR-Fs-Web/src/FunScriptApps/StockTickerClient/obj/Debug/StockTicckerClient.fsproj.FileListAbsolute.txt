@@ -1,0 +1,7 @@
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\bin\Debug\StockTicckerClient.XML
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\bin\Debug\StockTicckerClient.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\bin\Debug\StockTicckerClient.pdb
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\bin\Debug\FSharp.Core.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\bin\Debug\FSharp.Core.xml
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\obj\Debug\StockTicckerClient.dll
+C:\Demo\FsWebDemo\StockTickerSignalR\StockTicckerClient\obj\Debug\StockTicckerClient.pdb
