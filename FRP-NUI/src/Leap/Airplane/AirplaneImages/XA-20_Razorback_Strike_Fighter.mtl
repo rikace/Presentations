@@ -1,0 +1,45 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl glass
+Ns 5.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.752941 0.752941 0.752941
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd Glass_Cockpit.png
+map_d Glass_Cockpit.png
+
+newmtl pilot
+Ns 5.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.752941 0.752941 0.752941
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Pilot_usa.png
+
+newmtl plane
+Ns 5.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.752941 0.752941 0.752941
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd XA-20_Razorback_Strike_Fighter_P01.png
+map_d XA-20_Razorback_Strike_Fighter_P01.png
+map_Disp XA-20_Razorback_Strike_Fighter_N.png
+
+newmtl seat
+Ns 5.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.752941 0.752941 0.752941
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Eject_Seat.png

@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cadfbbd0-764e-4c5f-b265-ddcac257505b}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharpLib</RootNamespace>
+    <AssemblyName>FSharpLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Name>FSharpLib</Name>
+    <ProjectTypeGuids>{f2a71f9b-5d33-465a-a702-920d77279786}</ProjectTypeGuids>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DocumentationFile>bin\Debug\FSharpLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DocumentationFile>bin\Release\FSharpLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '11.0'">
+      <PropertyGroup>
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="EventEx\Observable.fs" />
+    <Compile Include="EventEx\PowerEvent.fs" />
+    <Compile Include="EventEx\EventApp.fs" />
+    <Compile Include="EventEx\EventEx.fs" />
+    <Compile Include="EventEx\EventSample.fs" />
+    <Compile Include="EventEx\FSharpObservable.fs" />
+    <Compile Include="EventEx\ObservableSource.fs" />
+    <Compile Include="EventEx\events.fs" />
+    <Compile Include="show.fs" />
+    <None Include="show-wpf40.fsx" />
+    <None Include="ModuleUtils.fsx" />
+    <None Include="TwitterFeed.fsx" />
+    <None Include="TwitterStream.fsx" />
+    <None Include="TwittParser.fsx" />
+    <None Include="MyNotes.fsx" />
+    <None Include="load-wpf40.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Data.TypeProviders, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="FSharp.PowerPack">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Linq">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Parallel.Seq">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.Parallel.Seq.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\Easj360\bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip" />
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word">
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SharpZipLib">
+      <HintPath>..\Easj360\bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\net40\System.Reactive.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\net40\System.Reactive.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\net40\System.Reactive.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\..\packages\Rx-PlatformServices.2.2.5\lib\net40\System.Reactive.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+</Project>
+<!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	     Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+<!--﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cadfbbd0-764e-4c5f-b265-ddcac257505b}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FSharpLib</RootNamespace>
+    <AssemblyName>FSharpLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Name>FSharpLib</Name>
+    <ProjectTypeGuids>{f2a71f9b-5d33-465a-a702-920d77279786}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DocumentationFile>bin\Debug\FSharpLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DocumentationFile>bin\Release\FSharpLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets" Condition="Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')" />
+  <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition="(!Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')) And (Exists('$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets'))" />
+  <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="(!Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')) And (!Exists('$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets')) And (Exists('$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets'))" />
+  <ItemGroup>
+    <Compile Include="Agent\Agent.fs" />
+    <Compile Include="Agent\AgentAsyncReply.fs" />
+    <Compile Include="Agent\AgentBoxForm.fs" />
+    <Compile Include="Agent\AgentMapReduce.fs" />
+    <Compile Include="Agent\AgentParallelWorker.fs" />
+    <Compile Include="Agent\AgentSystem.fs" />
+    <Compile Include="Agent\Auction.fs" />
+    <Compile Include="Agent\AutoCancelAgent.fs" />
+    <Compile Include="Agent\BatchProcessingAgent.fs" />
+    <Compile Include="Agent\BlockingQueueAsyncAgent.fs" />
+    <Compile Include="Agent\ConcurrentSetAgent.fs" />
+    <Compile Include="Agent\JobAgentsWithCancellation.fs" />
+    <Compile Include="Agent\LinkProcessor.fs" />
+    <Compile Include="Agent\LogMapReduce.fs" />
+    <Compile Include="Agent\MailBoxCollector.fs" />
+    <Compile Include="Agent\MailBoxProcess.fs" />
+    <Compile Include="Agent\MailBoxReplay.fs" />
+    <Compile Include="Agent\MailboxScan.fs" />
+    <Compile Include="Agent\MailBoxScanState.fs" />
+    <Compile Include="Agent\MessagePassing.fs" />
+    <Compile Include="Agent\MultiMailBoxProcessor.fs" />
+    <Compile Include="Agent\SchedulerAgent.fs" />
+    <Compile Include="Agent\SpawnWorker.fs" />
+    <Compile Include="Agent\ThrottlingAgent.fs" />
+    <None Include="Agent\AgentPoolScript.fsx" />
+    <Compile Include="Agent\AgentDisposable.fs" />
+    <Compile Include="Agent\WordCounter.fs" />
+    <Compile Include="Async\AsyncActionWorker.fs" />
+    <Compile Include="Async\AsyncCancellation.fs" />
+    <Compile Include="Async\AsyncCopyDoubleBuffer.fs" />
+    <Compile Include="Async\AsyncEventAndMailBox.fs" />
+    <Compile Include="Async\AsyncExtensions.fs" />
+    <Compile Include="Async\AsyncGate.fs" />
+    <Compile Include="Async\AsyncHelper.fs" />
+    <Compile Include="Async\AsyncNetwork.fs" />
+    <Compile Include="Async\AsyncObjectPool.fs" />
+    <Compile Include="Async\AsyncObservable.fs" />
+    <Compile Include="Async\AsyncResult.fs" />
+    <Compile Include="Async\AsyncResultNoResult.fs" />
+    <Compile Include="Async\AsyncSeq.fs" />
+    <Compile Include="Async\AsyncSql.fs" />
+    <Compile Include="Async\AsyncWaithEventEx.fs" />
+    <Compile Include="Async\AsyncWebClient.fs" />
+    <Compile Include="Async\ComparableUrl.fs" />
+    <Compile Include="Async\AsyncWebCraweler.fs" />
+    <Compile Include="Async\AsyncWebImageCrawler.fs" />
+    <Compile Include="Async\AsyncWorker.fs" />
+    <Compile Include="Async\AsyncWrapper.fs" />
+    <Compile Include="Async\AsynSqlModule.fs" />
+    <Compile Include="Async\FSharpAsync.fs" />
+    <Compile Include="Async\Parallel2.fs" />
+    <Compile Include="Async\ParallelWorkerAgent.fs" />
+    <Compile Include="Async\StockAnalyzerAsync.fs" />
+    <Compile Include="Async\TestAgentAsyncQueue.fs" />
+    <Compile Include="Async\QueueAsyncAgent.fs" />
+    <Compile Include="Database\CallEntityFramework.fs" />
+    <Compile Include="Database\SqlUtility.fs" />
+    <Compile Include="Database\DataSqlFunc.fs" />
+    <Compile Include="Database\DynamicSqlCommand.fs" />
+    <Compile Include="EventEx\Observable.fs" />
+    <Compile Include="EventEx\PowerEvent.fs" />
+    <Compile Include="EventEx\EventApp.fs" />
+    <Compile Include="EventEx\EventEx.fs" />
+    <Compile Include="EventEx\EventSample.fs" />
+    <Compile Include="EventEx\FSharpObservable.fs" />
+    <Compile Include="EventEx\ObservableSource.fs" />
+    <Compile Include="IO\AsyncCopy.fs" />
+    <Compile Include="IO\AsyncFileCrawl.fs" />
+    <Compile Include="IO\AsyncFileSeqGenerator.fs" />
+    <Compile Include="IO\Hashing.fs" />
+    <Compile Include="IO\FileDuplicateFinder.fs" />
+    <Compile Include="IO\CollectFiles.fs" />
+    <Compile Include="IO\CopyFileModule.fs" />
+    <Compile Include="IO\FastFileCopy.fs" />
+    <Compile Include="IO\FileMMap.fs" />
+    <Compile Include="IO\FolderReplicator.fs" />
+    <Compile Include="IO\GetFileAsync.fs" />
+    <Compile Include="IO\GetFiles.fs" />
+    <Compile Include="IO\getFilesAsync.fs" />
+    <Compile Include="IO\Huffman.fs" />
+    <Compile Include="IO\IOEx.fs" />
+    <Compile Include="IO\IOApp.fs" />
+    <Compile Include="IO\SearchDataFile.fs" />
+    <Compile Include="IO\SearchInFile.fs" />
+    <Compile Include="IO\StreamOperation.fs" />
+    <Compile Include="IO\SuperFastFileCopy.fs" />
+    <Compile Include="IO\SuperFileReader.fs" />
+    <Compile Include="IO\ZipFiles.fs" />
+    <Compile Include="IO\ZipHelper.fs" />
+    <Compile Include="Network\AsyncHttpServer.fs" />
+    <Compile Include="Network\AsyncWebImageCrawlerModule.fs" />
+    <Compile Include="Network\CachingWebPage.fs" />
+    <Compile Include="Network\CallHttpService.fs" />
+    <Compile Include="Network\Chat\Client.fs" />
+    <Compile Include="Network\Chat\Server.fs" />
+    <Compile Include="Network\DonwloadImage.fs" />
+    <Compile Include="Network\FtpDownloading.fs" />
+    <Compile Include="Network\FtpGetFiles.fs" />
+    <Compile Include="Network\FtpGetFileSize.fs" />
+    <Compile Include="Network\FtpGetFilesName.fs" />
+    <Compile Include="Network\FtpUploader.fs" />
+    <Compile Include="Network\FtpUploading.fs" />
+    <Compile Include="Network\RssFeedsLibrary.fs" />
+    <Compile Include="Network\SocketServer\SocketExtensions.fs" />
+    <Compile Include="Network\SocketServer\BocketPool.fs" />
+    <Compile Include="Network\SocketServer\FlackCommon.fs" />
+    <Compile Include="Network\SocketServer\TcpClient.fs" />
+    <Compile Include="Network\SocketServer\TcpListener.fs" />
+    <Compile Include="Network\SocketServer\TestClient.fs" />
+    <Compile Include="Network\SocketServer\TestServer.fs" />
+    <Compile Include="Network\WcfService.fs" />
+    <Compile Include="Network\WebAsyncCraweler.fs" />
+    <Compile Include="Network\WebClientOutput.fs" />
+    <Compile Include="Network\WebCraweler.fs" />
+    <Compile Include="Network\webcrawl.fs" />
+    <Compile Include="Reference\Script.fs" />
+    <Compile Include="Reference\ScriptVary.fs" />
+    <Compile Include="Service\CompositeType.fs" />
+    <Compile Include="Service\FSharpAsyncResult.fs" />
+    <Compile Include="Service\AnalyzeResult.fs" />
+    <Compile Include="Service\HighTrafficService.fs" />
+    <Compile Include="Service\IAgent.fs" />
+    <Compile Include="Service\Service.svc.fs" />
+    <Compile Include="Service\Agent.svc.fs" />
+    <Compile Include="show.fs" />
+    <Compile Include="Threading\AsyncLinkedList.fs" />
+    <Compile Include="Threading\BackgorundWorkerExt.fs" />
+    <Compile Include="Threading\BlockingAsyncAgent.fs" />
+    <Compile Include="Threading\BoundedBuffer.fs" />
+    <Compile Include="Threading\CompressParallelImages.fs" />
+    <Compile Include="Threading\DispatcherWpf.fs" />
+    <Compile Include="Threading\IterativeBackgroundWorker.fs" />
+    <Compile Include="Threading\Lock_ConcurrentQueue.fs" />
+    <Compile Include="Threading\LowLock.fs" />
+    <Compile Include="Threading\ObjectPoolManager.fs" />
+    <Compile Include="Threading\Parallel.fs" />
+    <Compile Include="Threading\ParallelEx.fs" />
+    <Compile Include="Threading\Pipelet.fs" />
+    <Compile Include="Threading\SafeReadWriteLock.fs" />
+    <Compile Include="Threading\SyncContextGUI.fs" />
+    <Compile Include="Threading\SyncGate.fs" />
+    <Compile Include="Threading\WpfObservable.fs" />
+    <Compile Include="Threading\PSeq.fs" />
+    <None Include="TempScript.fsx" />
+    <Compile Include="Utility\Alghos.fs" />
+    <Compile Include="Utility\BinaryTree.fs" />
+    <Compile Include="Utility\Combination.fs" />
+    <Compile Include="Utility\CreateDisposable.fs" />
+    <Compile Include="Utility\Deque.fs" />
+    <Compile Include="Utility\DiffTool.fs" />
+    <Compile Include="Utility\Excel_CreateSheet.fs" />
+    <Compile Include="Utility\FastPermutations.fs" />
+    <Compile Include="Utility\GetStockQuotes.fs" />
+    <Compile Include="Utility\GrapPerformanceCtrl.fs" />
+    <Compile Include="Utility\ImageResizer.fs" />
+    <Compile Include="Utility\ListApp.fs" />
+    <Compile Include="Utility\Mandelbrot.fs" />
+    <Compile Include="Utility\MemMap.fs" />
+    <Compile Include="Utility\OptionalPattern.fs" />
+    <Compile Include="Utility\PasswordGenerator.fs" />
+    <Compile Include="Utility\Permutations.fs" />
+    <Compile Include="Utility\PopolateArray.fs" />
+    <Compile Include="Utility\Quotation.fs" />
+    <Compile Include="Utility\SelectMany.fs" />
+    <Compile Include="Utility\ShowGrid.fs" />
+    <Compile Include="Utility\Utility.fs" />
+    <Compile Include="Utility\WordDocs_Print.fs" />
+    <Compile Include="Utility\XmlApp.fs" />
+    <Compile Include="MultiImageResizer.fs" />
+    <None Include="Scripts\ActiveObjectMapReduce.fsx" />
+    <None Include="Scripts\ActiveObjectSamples.fsx" />
+    <None Include="Scripts\AgentSamples.fsx" />
+    <None Include="Scripts\AsyncAgent_1.fsx" />
+    <None Include="Scripts\AsyncAgent_2.fsx" />
+    <None Include="Scripts\AsyncAgent_3.fsx" />
+    <None Include="Scripts\AsyncAgent_4.fsx" />
+    <None Include="Scripts\AsyncSeqObservable.fsx" />
+    <None Include="Scripts\Attempt.fsx" />
+    <None Include="Scripts\AuctionAgent.fsx" />
+    <None Include="Scripts\AuctionOriginal.fsx" />
+    <None Include="Scripts\AutoCancel.fsx" />
+    <None Include="Scripts\BatchProcessing.fsx" />
+    <None Include="Scripts\BlockingQueue.fsx" />
+    <None Include="Scripts\BookExamples1.fsx" />
+    <None Include="Scripts\BookExemples2.fsx" />
+    <None Include="Scripts\Caching.fsx" />
+    <None Include="Scripts\ChatServer.fsx" />
+    <None Include="Scripts\Crawler.fsx" />
+    <None Include="Scripts\FSharpChart.fsx" />
+    <None Include="Scripts\MailboxProcessors.fsx" />
+    <None Include="Scripts\MapReduce.fsx" />
+    <None Include="Scripts\Rachel.fsx" />
+    <None Include="Scripts\RealTime.fsx" />
+    <None Include="Scripts\Script.fsx" />
+    <None Include="Scripts\ScriptTest.fsx" />
+    <None Include="Scripts\WebProxy.fsx" />
+    <None Include="Scripts\BackupOnline.fsx" />
+    <None Include="Scripts\EulerScript.fsx" />
+    <None Include="Scripts\FolderDuplicatorTest.fsx" />
+    <None Include="ModuleUtils.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Linq">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Parallel.Seq">
+      <HintPath>..\..\..\Program Files (x86)\FSharpPowerPack-2.0.0.0\bin\FSharp.PowerPack.Parallel.Seq.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>X:\Easj360Git\Easj360\bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word">
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SharpZipLib">
+      <HintPath>U:\Developer\CODE\IO\CSharpZipLib\bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+</Project>-->

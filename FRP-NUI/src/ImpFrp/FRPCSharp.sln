@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FRPCSharp", "FRPCSharp\FRPCSharp.csproj", "{86859F05-9C1F-4CB2-A403-5F50DB3B335C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FRPFSharp", "FRPFSharp\FRPFSharp.fsproj", "{A225A7D5-6D8C-4C9C-A77F-654AF2F85E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86859F05-9C1F-4CB2-A403-5F50DB3B335C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86859F05-9C1F-4CB2-A403-5F50DB3B335C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86859F05-9C1F-4CB2-A403-5F50DB3B335C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86859F05-9C1F-4CB2-A403-5F50DB3B335C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A225A7D5-6D8C-4C9C-A77F-654AF2F85E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A225A7D5-6D8C-4C9C-A77F-654AF2F85E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A225A7D5-6D8C-4C9C-A77F-654AF2F85E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A225A7D5-6D8C-4C9C-A77F-654AF2F85E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
