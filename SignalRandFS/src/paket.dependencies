@@ -1,6 +1,7 @@
 source https://nuget.org/api/v2
 
 nuget FSharp.Formatting
+nuget MSBuild.Extension.Pack
 nuget NUnit 
 nuget NUnit.Runners
 nuget Nuget.CommandLine
