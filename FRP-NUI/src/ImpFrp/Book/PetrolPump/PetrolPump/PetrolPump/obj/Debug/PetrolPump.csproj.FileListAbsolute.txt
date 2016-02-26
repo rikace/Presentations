@@ -1,0 +1,48 @@
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe.config
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.pdb
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.dll
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.pdb
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csprojResolveAssemblyReference.cache
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.baml
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.g.cs
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\App.g.cs
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump_MarkupCompile.cache
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.g.resources
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.Properties.Resources.resources
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csproj.GenerateResource.Cache
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.exe
+E:\FRPNUI\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe.config
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.dll
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.baml
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.g.cs
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\App.g.cs
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump_MarkupCompile.cache
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.g.resources
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.Properties.Resources.resources
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csproj.GenerateResource.Cache
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.exe
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.pdb
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe.config
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.pdb
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.dll
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\Sodium.pdb
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csprojResolveAssemblyReference.cache
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.baml
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\MainWindow.g.cs
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\App.g.cs
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump_MarkupCompile.cache
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.g.resources
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.Properties.Resources.resources
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.csproj.GenerateResource.Cache
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.exe
+C:\Demo\frp-nuiV2\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.pdb
+C:\Demo\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\bin\Debug\PetrolPump.exe.config
+C:\Demo\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.exe
+C:\Demo\frp-nui\ImpFrp\Book\PetrolPump\PetrolPump\PetrolPump\obj\Debug\PetrolPump.pdb

@@ -1,0 +1,9 @@
+C:\Demo\frp-nui_V2\CsWfAnimations\bin\Debug\CsWfAnimations.exe.config
+C:\Demo\frp-nui_V2\CsWfAnimations\bin\Debug\CsWfAnimations.exe
+C:\Demo\frp-nui_V2\CsWfAnimations\bin\Debug\CsWfAnimations.pdb
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.csprojResolveAssemblyReference.cache
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.FrpAnimation.resources
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.Properties.Resources.resources
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.csproj.GenerateResource.Cache
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.exe
+C:\Demo\frp-nui_V2\CsWfAnimations\obj\Debug\CsWfAnimations.pdb

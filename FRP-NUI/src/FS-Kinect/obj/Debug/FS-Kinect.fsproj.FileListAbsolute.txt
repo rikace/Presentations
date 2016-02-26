@@ -1,0 +1,10 @@
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FS_Kinect.exe.config
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FS_Kinect.XML
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FS_Kinect.exe
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FS_Kinect.pdb
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FSharp.Core.dll
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\Microsoft.Kinect.dll
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\Microsoft.Kinect.xml
+F:\OK\FS-Kinect\FS-Kinect\bin\Debug\FSharp.Core.xml
+F:\OK\FS-Kinect\FS-Kinect\obj\Debug\FS_Kinect.exe
+F:\OK\FS-Kinect\FS-Kinect\obj\Debug\FS_Kinect.pdb

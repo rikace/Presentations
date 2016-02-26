@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReactiveProperty.WP8</name>
+    </assembly>
+    <members>
+        <member name="T:Reactive.Bindings.Interactivity.EventToReactiveCommand">
+            <summary>
+            Converts EventArgs to object
+            </summary>
+        </member>
+        <member name="P:Reactive.Bindings.Interactivity.EventToReactiveCommand.IgnoreEventArgs">
+            <summary>
+            Ignore EventArgs. If value is false then uses Unit.Default.
+            </summary>
+        </member>
+        <member name="P:Reactive.Bindings.Interactivity.EventToReactiveCommand.Converters">
+            <summary>
+            set and get Value converter.
+            </summary>
+        </member>
+        <member name="T:Reactive.Bindings.Interactivity.EventToReactiveProperty">
+            <summary>
+            Converts EventArgs to object
+            </summary>
+        </member>
+        <member name="P:Reactive.Bindings.Interactivity.EventToReactiveProperty.IgnoreEventArgs">
+            <summary>
+            Ignore EventArgs. If value is false then uses Unit.Default.
+            </summary>
+        </member>
+        <member name="P:Reactive.Bindings.Interactivity.EventToReactiveProperty.Converters">
+            <summary>
+            set and get Value converter.
+            </summary>
+        </member>
+    </members>
+</doc>

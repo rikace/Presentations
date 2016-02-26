@@ -1,0 +1,116 @@
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\MainWindow.g.cs
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\App.g.cs
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.cache
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.lref
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\MainWindow.baml
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.g.resources
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.pdb
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe.config
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.pdb
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\LeapCSharp.NET4.0.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.xml
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.Properties.Resources.resources
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA-20 Razorback.csproj.GenerateResource.Cache
+E:\FRPNUI\CodeSample\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.exe
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe.config
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.exe
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.pdb
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\XA_20_Razorback.pdb
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.xml
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA-20 Razorback.csprojResolveAssemblyReference.cache
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\MainWindow.g.cs
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\App.g.cs
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.cache
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.lref
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\MainWindow.baml
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.g.resources
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA_20_Razorback.Properties.Resources.resources
+E:\FRPNUI\Cool\Leap\XA-20_Razorback_CSharp_src\XA-20 Razorback\obj\Debug\XA-20 Razorback.csproj.GenerateResource.Cache
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA-20 Razorback.csprojResolveAssemblyReference.cache
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\MainWindow.g.cs
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\App.g.cs
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.cache
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback_MarkupCompile.lref
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback.exe
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\XA_20_Razorback.exe
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\XA_20_Razorback.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\LeapLib.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\LeapLib.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\LeapLib.xml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\MainWindow.baml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback.g.resources
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA_20_Razorback.Properties.Resources.resources
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\Leap\XA-20 Razorback\obj\Debug\XA-20 Razorback.csproj.GenerateResource.Cache

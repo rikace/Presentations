@@ -1,0 +1,14 @@
+E:\FRPNUI\frp-nui\Reactive\FrpLib\bin\Debug\FrpLib.XML
+E:\FRPNUI\frp-nui\Reactive\FrpLib\bin\Debug\FrpLib.dll
+E:\FRPNUI\frp-nui\Reactive\FrpLib\bin\Debug\FrpLib.pdb
+E:\FRPNUI\frp-nui\Reactive\FrpLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\frp-nui\Reactive\FrpLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\frp-nui\Reactive\FrpLib\obj\Debug\FrpLib.dll
+E:\FRPNUI\frp-nui\Reactive\FrpLib\obj\Debug\FrpLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\bin\Debug\FrpLib.XML
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\bin\Debug\FrpLib.dll
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\bin\Debug\FrpLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\obj\Debug\FrpLib.dll
+E:\FRPNUI-Code\frp-nui - Copy\Reactive\FrpLib\obj\Debug\FrpLib.pdb

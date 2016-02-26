@@ -1,0 +1,104 @@
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPCSharp.exe
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPFSharp.exe
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FSharp.Core.dll
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FRPFSharp.xml
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\FSharp.Core.xml
+C:\f\FRPCSharp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\f\FRPCSharp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+C:\f\FRPCSharp\FRPCSharp\obj\Debug\FRPCSharp.exe
+C:\f\FRPCSharp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+E:\FRPNUI\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+E:\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+E:\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+E:\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+E:\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+E:\frp-nui_OK\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\frp-nui_OK\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+E:\frp-nui_OK\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+E:\frp-nui_OK\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+E:\FRPNUI-Code\frp-nui - Copy\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+E:\FRPNUI-Code\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+C:\Demo\frp-nuiV2\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.csprojResolveAssemblyReference.cache
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.exe
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\obj\Debug\FRPCSharp.pdb
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe.config
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.exe
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPCSharp.pdb
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.exe
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.pdb
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FRPFSharp.xml
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\FSharp.Core.xml
+C:\Demo\frp-nui\ImpFrp\FRPCSharp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

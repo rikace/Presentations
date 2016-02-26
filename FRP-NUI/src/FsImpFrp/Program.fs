@@ -6,10 +6,11 @@ module FRP =
     type Time = float
     // Behaviors (signals) are flows of values, punctuated by event occurrences.
     type 'a Behavior = Beh of (Time -> 'a)
+
     type 'a Event = Evt of (Time * 'a) list  
 
 
-type BankAccount() =
+type BankAccount(initBalance) =
 
     let deposit = Event<int>.newDefault()
 
@@ -17,33 +18,40 @@ type BankAccount() =
 
     let accountEvents : Event<int> = deposit |> merge withdraw
     
-    let bhAcc : Behavior<int> = accountEvents |> (accum 0 (+)) // Reevaluated for each update
-
+    let bhAcc : Behavior<int> = accountEvents |> (accum initBalance (fun a b -> a + b)) // Reevaluated for each update
 
     member x.Balance with get() = bhAcc.sample()
-    member x.Deposit(amount) = deposit |> send(amount)
-    member x.Withdorw(amount) = withdraw |> send(-amount) 
 
-    // No Obsrevables - No Listeners / No Callbacks
+    member x.Deposit(amount) = deposit |> send(amount)
+  
+    member x.Withdraw(amount) = withdraw |> send(-amount) 
+
+    // No Obsrevables - No Listeners - No Callbacks
     // No mutation of state 
-    
+    // Events that create Behaviors
+    // No need to register Events
+    // No Need to un-register Events
 
 [<EntryPoint>]
 let main argv = 
 
     Console.ForegroundColor <- ConsoleColor.Green
 
-    let bk = BankAccount()
-    printfn "Initial Balance $%d\n" bk.Balance // ”Balance $0
+    let bk = BankAccount(10)
+
+    printfn "Initial Balance $%d\n" bk.Balance // ”Balance $10
 
     bk.Deposit(100)
-    printfn "Balance $%d\n" bk.Balance // ”Balance $10    
-    bk.Withdorw(25)    
-    printfn "Balance $%d\n" bk.Balance // ”Balance $75”
+    printfn "Balance $%d\n" bk.Balance // ”Balance $110
+
+    bk.Withdraw(25)    
+    printfn "Balance $%d\n" bk.Balance // ”Balance $85”
+
     bk.Deposit(20)
-    printfn "Balance $%d\n" bk.Balance // ”Balance $95”
-    bk.Withdorw(70)
-    printfn "Balance $%d\n" bk.Balance // ”Balance $95”
+    printfn "Balance $%d\n" bk.Balance // ”Balance $105”
+
+    bk.Withdraw(70)
+    printfn "Balance $%d\n" bk.Balance // ”Balance $35”
 
     Console.ReadLine() |> ignore
     printfn "%A" argv

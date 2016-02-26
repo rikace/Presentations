@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReactiveProperty.iOS</name>
+    </assembly>
+    <members>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetBinding``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},Reactive.Bindings.ReactiveProperty{``1},System.Func{``0,System.IObservable{System.Reactive.Unit}})">
+            <summary>
+            Data binding method.
+            </summary>
+            <typeparam name="TView">View type</typeparam>
+            <typeparam name="TProperty">Property type</typeparam>
+            <param name="self">View</param>
+            <param name="propertySelector">Target property selector</param>
+            <param name="source">Source property</param>
+            <param name="updateSourceTrigger">Update source trigger</param>
+            <returns>Data binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetBinding``2(``0,System.Action{``0,``1},System.Func{``0,``1},Reactive.Bindings.ReactiveProperty{``1},System.Func{``0,System.IObservable{System.Reactive.Unit}})">
+            <summary>
+            Data binding method.
+            </summary>
+            <typeparam name="TView">View type</typeparam>
+            <typeparam name="TProperty">Property type</typeparam>
+            <param name="self">View</param>
+            <param name="setter">Target value setter</param>
+            <param name="getter">Target value getter</param>
+            <param name="source">Source property</param>
+            <param name="updateSourceTrigger">Update source trigger</param>
+            <returns>Data binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetBinding``2(``0,System.Action{``0,``1},Reactive.Bindings.ReactiveProperty{``1})">
+            <summary>
+            Data binding method.
+            </summary>
+            <typeparam name="TView">View type</typeparam>
+            <typeparam name="TProperty">Property type</typeparam>
+            <param name="self">View</param>
+            <param name="setter">Target value setter</param>
+            <param name="source">Source property</param>
+            <returns>Data binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetBinding``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},Reactive.Bindings.ReadOnlyReactiveProperty{``1})">
+            <summary>
+            Data binding method.
+            </summary>
+            <typeparam name="TView">View type</typeparam>
+            <typeparam name="TProperty">Property type</typeparam>
+            <param name="self">View</param>
+            <param name="propertySelector">Target property selector</param>
+            <param name="source">Source property</param>
+            <returns>Data binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetBinding``2(``0,System.Action{``0,``1},Reactive.Bindings.ReadOnlyReactiveProperty{``1})">
+            <summary>
+            Data binding method.
+            </summary>
+            <typeparam name="TView">View type</typeparam>
+            <typeparam name="TProperty">Property type</typeparam>
+            <param name="self">View</param>
+            <param name="setter">Target value setter</param>
+            <param name="source">Source property</param>
+            <returns>Data binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetCommand``1(System.IObservable{``0},Reactive.Bindings.ReactiveCommand{``0})">
+            <summary>
+            Command binding method.
+            </summary>
+            <typeparam name="T">Command type.</typeparam>
+            <param name="self">IObservable</param>
+            <param name="command">Command</param>
+            <returns>Command binding token</returns>
+        </member>
+        <member name="M:Reactive.Bindings.BindingSupportExtensions.SetCommand``1(System.IObservable{``0},Reactive.Bindings.ReactiveCommand)">
+            <summary>
+            Command binding method.
+            </summary>
+            <typeparam name="T">IObservable type</typeparam>
+            <param name="self">IObservable</param>
+            <param name="command">Command</param>
+            <returns>Command binding token</returns>
+        </member>
+    </members>
+</doc>

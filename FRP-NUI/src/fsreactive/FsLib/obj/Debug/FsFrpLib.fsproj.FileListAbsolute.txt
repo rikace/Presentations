@@ -1,0 +1,35 @@
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\bin\Debug\FsLib.XML
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\bin\Debug\FsFRPLib.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\bin\Debug\FsFRPLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\obj\Debug\FsFRPLib.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\FsLib\obj\Debug\FsFRPLib.pdb
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsLib.XML
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsFRPLib.dll
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsFRPLib.pdb
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\obj\Debug\FsFRPLib.dll
+E:\FRPNUI-Code\frp-nuiV2\fsreactive\FsLib\obj\Debug\FsFRPLib.pdb
+C:\Demo\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsLib.XML
+C:\Demo\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsFRPLib.dll
+C:\Demo\frp-nuiV2\fsreactive\FsLib\bin\Debug\FsFRPLib.pdb
+C:\Demo\frp-nuiV2\fsreactive\FsLib\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nuiV2\fsreactive\FsLib\bin\Debug\FSharp.Core.xml
+C:\Demo\frp-nuiV2\fsreactive\FsLib\obj\Debug\FsFRPLib.dll
+C:\Demo\frp-nuiV2\fsreactive\FsLib\obj\Debug\FsFRPLib.pdb
+C:\Demo\frp-nui\fsreactive\FsLib\bin\Debug\FsLib.XML
+C:\Demo\frp-nui\fsreactive\FsLib\bin\Debug\FsFRPLib.dll
+C:\Demo\frp-nui\fsreactive\FsLib\bin\Debug\FsFRPLib.pdb
+C:\Demo\frp-nui\fsreactive\FsLib\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nui\fsreactive\FsLib\bin\Debug\FSharp.Core.xml
+C:\Demo\frp-nui\fsreactive\FsLib\obj\Debug\FsFRPLib.dll
+C:\Demo\frp-nui\fsreactive\FsLib\obj\Debug\FsFRPLib.pdb
+C:\Demo\frp-nui_V2\fsreactive\FsLib\bin\Debug\FsLib.XML
+C:\Demo\frp-nui_V2\fsreactive\FsLib\obj\Debug\FsFRPLib.dll
+C:\Demo\frp-nui_V2\fsreactive\FsLib\obj\Debug\FsFRPLib.pdb
+C:\Demo\frp-nui_V2\fsreactive\FsLib\bin\Debug\FsFRPLib.dll
+C:\Demo\frp-nui_V2\fsreactive\FsLib\bin\Debug\FsFRPLib.pdb
+C:\Demo\frp-nui_V2\fsreactive\FsLib\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nui_V2\fsreactive\FsLib\bin\Debug\FSharp.Core.xml

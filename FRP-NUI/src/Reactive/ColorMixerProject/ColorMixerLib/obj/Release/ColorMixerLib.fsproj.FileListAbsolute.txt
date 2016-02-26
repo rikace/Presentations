@@ -1,0 +1,7 @@
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\bin\Release\ColorMixerLib.XML
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\bin\Release\ColorMixerLib.dll
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\bin\Release\ColorMixerLib.pdb
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\bin\Release\FSharp.Core.dll
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\bin\Release\FSharp.Core.xml
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\obj\Release\ColorMixerLib.dll
+C:\Demo\FRP-FSharp\RxFRP\ColorMixerProject\ColorMixerLib\obj\Release\ColorMixerLib.pdb

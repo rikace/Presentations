@@ -1,0 +1,133 @@
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\LeapLib.XML
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\LeapLib.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\LeapLib.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\LeapCSharp.NET4.0.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\obj\Debug\LeapLib.dll
+C:\Users\Riccardo\Documents\Visual Studio 2015\Projects\frp-nui\LeapLib\obj\Debug\LeapLib.pdb
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\LeapLib.XML
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\LeapLib.dll
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\LeapLib.pdb
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\LeapCSharp.NET4.0.dll
+E:\FRPNUI\frp-nui\LeapLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\frp-nui\LeapLib\obj\Debug\LeapLib.dll
+E:\FRPNUI\frp-nui\LeapLib\obj\Debug\LeapLib.pdb
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.XML
+E:\FRPNUI\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.pdb
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.pdb
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\LeapCSharp.NET4.0.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+E:\FRPNUI\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+E:\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.XML
+E:\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+E:\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.dll
+E:\frp-nui\Leap\LeapLib\obj\Debug\LeapLib.pdb
+E:\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\LeapLib.pdb
+E:\frp-nui\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\LeapCSharp.NET4.0.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+E:\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+E:\frp-nui\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+E:\frp-nui\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+E:\frp-nui\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\LeapLib.XML
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\LeapLib.exe
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\LeapLib.pdb
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\LeapCSharp.NET4.0.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+E:\frp-nui_OK\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+E:\frp-nui_OK\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+E:\frp-nui_OK\Leap\LeapLib\obj\Debug\LeapLib.exe
+E:\frp-nui_OK\Leap\LeapLib\obj\Debug\LeapLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\LeapLib.XML
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\LeapLib.exe
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\LeapLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\obj\Debug\LeapLib.exe
+E:\FRPNUI-Code\frp-nui - Copy\Leap\LeapLib\obj\Debug\LeapLib.pdb
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.XML
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.exe
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.pdb
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.exe
+E:\FRPNUI-Code\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.pdb
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.XML
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.exe
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\LeapLib.pdb
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\FSharp.Core.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Core.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Linq.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.pdb
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\Rx_Fsharp.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\FSharp.Core.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Core.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Interfaces.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.Linq.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Demo\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.fsprojResolveAssemblyReference.cache
+C:\Demo\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.exe
+C:\Demo\frp-nuiV2\Leap\LeapLib\obj\Debug\LeapLib.pdb

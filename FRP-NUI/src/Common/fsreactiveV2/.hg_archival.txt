@@ -1,0 +1,5 @@
+repo: fbce7f46307040b7379b02088c3cb0da1ebe36c0
+node: c025b360d36f3ffb51139fd3c371beda192cec0a
+branch: default
+latesttag: Avant cleanup
+latesttagdistance: 16

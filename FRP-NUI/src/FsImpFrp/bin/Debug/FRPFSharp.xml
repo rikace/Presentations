@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FRPFSharp</name></assembly>
+<members>
+<member name="P:FRPFSharp.Primitives.circularAnim">
+<summary>
+ Time varying value from -1 to 0 (sinusoid)
+</summary>
+</member>
+<member name="P:FRPFSharp.Primitives.time">
+<summary>
+ Return the current time
+</summary>
+</member>
+<member name="M:FRPFSharp.Primitives.constant``1(``0)">
+<summary>
+ Creates a constant function returning &apos;n&apos; at any time
+</summary>
+</member>
+</members>
+</doc>

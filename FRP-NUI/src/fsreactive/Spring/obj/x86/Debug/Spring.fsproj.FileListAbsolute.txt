@@ -1,0 +1,79 @@
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\App.config
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Spring.exe
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Spring.pdb
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Common.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\FSharp.Core.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\xna.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Common.pdb
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.pdb
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.xml
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\xna.pdb
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\FSharp.Core.xml
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.exe
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.pdb
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\mscorlib.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\bin\Debug\System.dll
+C:\Users\rterrell\Desktop\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.fsprojResolveAssemblyReference.cache
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\App.config
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Spring.exe
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Spring.pdb
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Common.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Microsoft.Xna.Framework.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Microsoft.Xna.Framework.Game.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\mscorlib.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\System.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\xna.dll
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\Common.pdb
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.pdb
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\FsLib.xml
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\xna.pdb
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.fsprojResolveAssemblyReference.cache
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.exe
+E:\FRPNUI\Cool\fsreactive_c025b360d36f\Spring\obj\x86\Debug\Spring.pdb
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\App.config
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Spring.exe
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Spring.pdb
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Common.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\FSharp.Core.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\FsLib.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Microsoft.Xna.Framework.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Microsoft.Xna.Framework.Game.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\mscorlib.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\System.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\xna.dll
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\Common.pdb
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\FsLib.pdb
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\FsLib.xml
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\xna.pdb
+E:\FRPNUI\Cool\fsreactive\Spring\bin\Debug\FSharp.Core.xml
+E:\FRPNUI\Cool\fsreactive\Spring\obj\x86\Debug\Spring.fsprojResolveAssemblyReference.cache
+E:\FRPNUI\Cool\fsreactive\Spring\obj\x86\Debug\Spring.exe
+E:\FRPNUI\Cool\fsreactive\Spring\obj\x86\Debug\Spring.pdb
+E:\frp-nui_OK\fsreactive\Spring\obj\x86\Debug\Spring.fsprojResolveAssemblyReference.cache
+E:\frp-nui_OK\fsreactive\Spring\obj\x86\Debug\Spring.exe
+E:\frp-nui_OK\fsreactive\Spring\obj\x86\Debug\Spring.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\App.config
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Spring.exe
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Spring.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Common.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\FSharp.Core.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\FsLib.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Microsoft.Xna.Framework.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Microsoft.Xna.Framework.Game.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\mscorlib.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\System.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\xna.dll
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\Common.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\FsLib.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\FsLib.xml
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\xna.pdb
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\bin\Debug\FSharp.Core.xml
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\obj\x86\Debug\Spring.fsprojResolveAssemblyReference.cache
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\obj\x86\Debug\Spring.exe
+E:\FRPNUI-Code\frp-nui - Copy\fsreactive\Spring\obj\x86\Debug\Spring.pdb
