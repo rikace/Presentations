@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.XML
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FSharp.Core.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FSharp.Core.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\obj\Debug\FuzzyMatch.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\FuzzyMatch\obj\Debug\FuzzyMatch.pdb
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.XML
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.dll
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FuzzyMatch.pdb
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FSharp.Core.dll
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\bin\Debug\FSharp.Core.xml
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\obj\Debug\FuzzyMatch.dll
+C:\Demo\ChooseConcurrenyModel\FuzzyMatch\obj\Debug\FuzzyMatch.pdb

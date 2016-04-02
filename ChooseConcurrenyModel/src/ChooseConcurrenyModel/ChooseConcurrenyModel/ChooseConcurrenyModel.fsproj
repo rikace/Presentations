@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>572796e7-8769-4695-8f47-5e03d1c65712</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ChooseConcurrenyModel</RootNamespace>
+    <AssemblyName>ChooseConcurrenyModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
+    <Name>ChooseConcurrenyModel</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <Tailcalls>false</Tailcalls>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Debug\ChooseConcurrenyModel.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>bin\Release\ChooseConcurrenyModel.XML</DocumentationFile>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />   
+    <Compile Include="AssemblyInfo.fs" />
+    <None Include="CommonModule.fsx" />
+    <None Include="Utilities\FSharp.Charting.fsx" />
+    <None Include="Utilities\load-wpf40.fsx" />
+    <None Include="Utilities\show-wpf40.fsx" />
+    <Compile Include="Utilities\EventMdoule.fs" />
+    <Compile Include="Utilities\show.fs" />
+    <Compile Include="Utilities\AsyncHelpers.fs" />
+    <None Include="Utilities\ChartingSample.fsx" />
+    <Compile Include="Utilities\PSeq.fs" />
+    <None Include="Utilities\ImageHelpers.fsx" />
+    <None Include="Utilities\MyScipts.fsx" />
+    <Compile Include="Utilities\ImageInfo.fs" />
+    <Compile Include="Utilities\BitmapExtensions.fs" />
+    <Compile Include="Utilities\StateBuilder.fs" />
+    <None Include="Utilities\ChartBase.fsx" />
+    <None Include="Async.fsx" />
+    <None Include="Agents.fsx" />
+    <None Include="AsyncBoundedQueue.fsx" />
+    <None Include="BlockingQueueAgent.fsx" />
+    <None Include="PipeLineAgent.fsx" />
+    <None Include="PipeLineImages.fsx" />
+    <None Include="BasicAgent.fsx" />
+    <None Include="AsyncExceptions.fsx" />
+    <None Include="AsyncCancellations.fsx" />
+    <None Include="StockAnalyzerAsync.fsx" />
+    <None Include="StockMarketAsyncChartCSV.fsx" />
+    <None Include="ThreadBasic.fsx" />
+    <None Include="TaskLibrary.fsx" />
+    <None Include="Parallel.fsx" />
+    <None Include="RaceCondition.fsx" />
+    <None Include="DeadLock.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '11.0'">
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.0\Framework\v4.0\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets')">
+        <FSharpTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.FSharp.Targets</FSharpTargetsPath>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Import Project="$(FSharpTargetsPath)" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

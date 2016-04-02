@@ -1,0 +1,32 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\CommonHelpers.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FSharp.Core.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\CommonHelpers.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FSharp.Core.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.pdb
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.exe.config
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.exe
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\ParallelizingFuzzyMatch.pdb
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\CommonHelpers.dll
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FSharp.Core.dll
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.dll
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.dll
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.pdb
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FuzzyMatch.xml
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\CommonHelpers.pdb
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.pdb
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\Utilities.xml
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\bin\Debug\FSharp.Core.xml
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.csprojResolveAssemblyReference.cache
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.exe
+C:\Demo\ChooseConcurrenyModel\ParallelizingFuzzyMatch\obj\Debug\ParallelizingFuzzyMatch.pdb

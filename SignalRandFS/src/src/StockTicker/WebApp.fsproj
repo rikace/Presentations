@@ -151,7 +151,6 @@
     <Compile Include="Infrastructure\MessageLoggingHanlder.fs" />
     <Compile Include="Infrastructure\Storage.fs" />
     <Compile Include="Infrastructure\Rop.fs" />
-    <Compile Include="Infrastructure\AsyncCallableHandler.fs" />
     <Compile Include="Bus\IBus.fs" />
     <Compile Include="Bus\InMemoryBus.fs" />
     <Compile Include="Bus\Validation.fs" />

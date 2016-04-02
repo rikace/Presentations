@@ -1,0 +1,52 @@
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\bin\Debug\CommonHelpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\bin\Debug\CommonHelpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Lib\CommonHelpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Lib\CommonHelpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.pdb
+C:\Temp\DemoConcurrency\Lib\CommonHelpers.dll
+C:\Temp\DemoConcurrency\Lib\CommonHelpers.pdb
+C:\Temp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+C:\Temp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.dll
+C:\Temp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\Lib\CommonHelpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\Lib\CommonHelpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.dll
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.pdb
+C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\Lib\CommonHelpers.dll
+C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\Lib\CommonHelpers.pdb
+C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.dll
+C:\t\ConcurrecnyFSharp\DemoConcurrency_V3\CommonHelpers\obj\Debug\CommonHelpers.pdb
+C:\Demo\ConcurrecnyFSharp\DemoConcurrency\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+E:\FRP-FSharp\RxFRP\Lib\CommonHelpers.dll
+E:\FRP-FSharp\RxFRP\Lib\CommonHelpers.pdb
+E:\FRP-FSharp\RxFRP\CommonHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+E:\FRP-FSharp\RxFRP\CommonHelpers\obj\Debug\CommonHelpers.dll
+E:\FRP-FSharp\RxFRP\CommonHelpers\obj\Debug\CommonHelpers.pdb
+E:\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.dll
+E:\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.pdb
+E:\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+E:\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.dll
+E:\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.pdb
+E:\InProgress\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.dll
+E:\InProgress\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.pdb
+E:\InProgress\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+E:\InProgress\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.dll
+E:\InProgress\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Helpers\Lib\CommonHelpers.pdb
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.dll
+F:\CodeFRP\Code\FRP-FSharp\RxFRP\Helpers\ImageHelpers\obj\Debug\CommonHelpers.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Helpers\Lib\CommonHelpers.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Helpers\Lib\CommonHelpers.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+C:\Demo\ChooseConcurrenyModel\Helpers\Lib\CommonHelpers.dll
+C:\Demo\ChooseConcurrenyModel\Helpers\Lib\CommonHelpers.pdb
+C:\Demo\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.csprojResolveAssemblyReference.cache
+C:\Demo\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.dll
+C:\Demo\ChooseConcurrenyModel\Helpers\ImageHelpers\obj\Debug\CommonHelpers.pdb

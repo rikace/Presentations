@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\obj\Debug\Loop.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\bin\Debug\Loop.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\bin\Debug\Loop.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\bin\Debug\Loop.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\obj\Debug\Loop.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Loop\obj\Debug\Loop.pdb

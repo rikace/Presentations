@@ -1,0 +1,6 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\bin\Debug\ParallelPipeLineBlockingCollection.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\bin\Debug\ParallelPipeLineBlockingCollection.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\bin\Debug\ParallelPipeLineBlockingCollection.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\obj\Debug\ParallelPipeLineBlockingCollection.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\obj\Debug\ParallelPipeLineBlockingCollection.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\ParallelPipeLineBlockingCollection\obj\Debug\ParallelPipeLineBlockingCollection.pdb

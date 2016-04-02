@@ -1,0 +1,16 @@
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.exe.config
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.pdb
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\bin\Debug\DataflowPipeline.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\bin\Debug\System.Threading.Tasks.Dataflow.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\bin\Debug\System.Threading.Tasks.Dataflow.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowPipeline\DataflowPipeline\obj\Debug\DataflowPipeline.pdb

@@ -1,0 +1,118 @@
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\obj\x86\Debug\App.g.resources
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\App.config
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\App.exe.config
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\App.XML
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\App.exe
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\App.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.xml
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\obj\x86\Debug\App.exe
+C:\Users\rterrell\Documents\Visual Studio 2013\Projects\AgentStocks\AgentStocks\obj\x86\Debug\App.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\App.config
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\App.exe.config
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\App.XML
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\App.exe
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\App.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Core.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Interfaces.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Linq.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.PlatformServices.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Windows.Interactivity.dll
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.pdb
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Core.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Interfaces.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Linq.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\bin\Debug\System.Reactive.PlatformServices.xml
+F:\CodeToCheck\AgentStocks\AgentStocks\obj\x86\Debug\App.g.resources
+F:\CodeToCheck\AgentStocks\AgentStocks\obj\x86\Debug\App.exe
+F:\CodeToCheck\AgentStocks\AgentStocks\obj\x86\Debug\App.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\App.config
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\App.exe.config
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\App.XML
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\App.exe
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\App.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Core.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Interfaces.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Linq.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Windows.Interactivity.dll
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\FSharp.Core.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\Newtonsoft.Json.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Wpf.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.pdb
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\OxyPlot.Xps.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Core.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Interfaces.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.Linq.xml
+C:\Demo\AgentStocks\AgentStocks\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Demo\AgentStocks\AgentStocks\obj\x86\Debug\App.g.resources
+C:\Demo\AgentStocks\AgentStocks\obj\x86\Debug\App.exe
+C:\Demo\AgentStocks\AgentStocks\obj\x86\Debug\App.pdb

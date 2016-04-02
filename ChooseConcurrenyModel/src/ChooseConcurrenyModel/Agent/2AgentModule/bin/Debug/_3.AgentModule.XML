@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>2.AgentModule</name></assembly>
+<members>
+<member name="T:ReusableAgents.BatchProcessor.BatchProcessor`1">
+<summary>
+ Agent that implements batch processing
+</summary>
+</member>
+<member name="M:ReusableAgents.ThrottlingAgnet.ThrottlingAgent`2.DoWork(`0)">
+<summary>
+ Queue the specified asynchronous workflow for processing
+</summary>
+</member>
+<member name="T:ReusableAgents.ThrottlingAgnet.ThrottlingAgent`2">
+<summary>
+ Represents an agent that runs operations in concurrently. When the number
+ of concurrent operations exceeds &apos;limit&apos;, they are queued and processed later
+</summary>
+</member>
+<member name="T:ReusableAgents.ThrottlingAgnet.ThrottlingAgentMessage`2">
+<summary>
+ Message type used by the agent - contains queueing 
+ of work items and notification of completion 
+</summary>
+</member>
+<member name="P:ReusableAgents.BlockingAgent.BlockingQueueAgent`1.Count">
+<summary>
+ Returns the number of items in the queue (immediately)
+ (excluding items that are being added by callers that have been
+ blocked because the queue was full)
+</summary>
+</member>
+<member name="M:ReusableAgents.BlockingAgent.BlockingQueueAgent`1.AsyncGet(Microsoft.FSharp.Core.FSharpOption{System.Int32})">
+<summary>
+ Asynchronously gets item from the queue. If there are no items
+ in the queue, the operation will block unitl items are added.
+</summary>
+</member>
+<member name="M:ReusableAgents.BlockingAgent.BlockingQueueAgent`1.AsyncAdd(`0,Microsoft.FSharp.Core.FSharpOption{System.Int32})">
+<summary>
+ Asynchronously adds item to the queue. The operation ends when
+ there is a place for the item. If the queue is full, the operation
+ will block until some items are removed.
+</summary>
+</member>
+<member name="T:ReusableAgents.BlockingAgent.BlockingQueueAgent`1">
+ <summary> Agent that implements an asynchronous blocking queue. </summary>
+ <remarks>
+   The queue has maximal length (maxLength) and if the queue is 
+   full, adding to it will (asynchronously) block the caller. When
+   the queue is empty, the caller will be (asynchronously) blocked
+   unitl an item is available.
+ </remarks>
+</member>
+<member name="T:ReusableAgents.BlockingAgent.BlockingAgentMessage`1">
+<summary>
+ Type of messages internally used by &apos;BlockingQueueAgent&lt;T&gt;&apos;
+</summary>
+</member>
+</members>
+</doc>

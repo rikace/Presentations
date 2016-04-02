@@ -1,0 +1,10 @@
+﻿<Window x:Class="UpdateUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Get Word Count" HorizontalAlignment="Left" Margin="207,236,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click_1"/>
+        <Label x:Name="lblWordCount" Content="" HorizontalAlignment="Left" Margin="121,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.094,0.923" Width="278"/>
+
+    </Grid>
+</Window>

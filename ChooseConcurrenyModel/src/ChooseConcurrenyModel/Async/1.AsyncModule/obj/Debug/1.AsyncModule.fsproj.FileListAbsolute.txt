@@ -1,0 +1,40 @@
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original\src\1.AsyncModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original\src\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Original\src\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Original - Copy\src\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Start\src\1.AsyncModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Start\src\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -Start\src\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -After\src\1.AsyncModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -After\src\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+C:\Temp\GothamFS -After\src\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb

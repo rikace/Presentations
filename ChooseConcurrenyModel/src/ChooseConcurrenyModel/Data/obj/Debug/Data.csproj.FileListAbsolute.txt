@@ -1,0 +1,132 @@
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\allswellthatendswell.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\amsnd.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\antandcleo.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\asyoulikeit.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\comedyoferrors.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\cymbeline.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\hamlet.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryiv1.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryiv2.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryv.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi1.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi2.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi3.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryviii.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\juliuscaesar.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\kingjohn.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\kinglear.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\loveslobourslost.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\maan.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\macbeth.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\measureformeasure.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\merchantofvenice.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\othello.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\richardii.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\richardiii.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\romeoandjuliet.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\tamingoftheshrew.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\tempest.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\themwofw.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\thetgofv.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\timon.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\titus.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\troilusandcressida.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\twelfthnight.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\winterstale.txt
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Data.dll
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\bin\Debug\Data.pdb
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\obj\Debug\Data.dll
+\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Data\obj\Debug\Data.pdb
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\allswellthatendswell.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\amsnd.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\antandcleo.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\asyoulikeit.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\comedyoferrors.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\cymbeline.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\hamlet.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryiv1.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryiv2.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryv.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi1.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi2.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryvi3.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\henryviii.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\juliuscaesar.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\kingjohn.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\kinglear.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\loveslobourslost.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\maan.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\macbeth.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\measureformeasure.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\merchantofvenice.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\othello.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\richardii.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\richardiii.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\romeoandjuliet.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\tamingoftheshrew.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\tempest.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\themwofw.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\thetgofv.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\timon.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\titus.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\troilusandcressida.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\twelfthnight.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Shakespeare\winterstale.txt
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\BreadPug.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina1.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina10.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina100.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina101.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina102.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina103.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina104.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina105.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina106.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina107.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina108.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina109.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina11.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina110.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina111.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina112.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina113.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina114.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina115.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina116.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina117.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina118.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina119.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina12.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina120.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina121.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina122.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina123.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina13.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina14.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina15.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina16.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina2.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina3.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina4.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina5.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina6.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina7.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina8.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina88.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina9.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina90.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina91.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina92.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina93.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina94.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina95.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina96.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina97.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina98.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Images\Bugghina99.jpg
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Data.dll
+C:\Demo\ChooseConcurrenyModel\Data\bin\Debug\Data.pdb
+C:\Demo\ChooseConcurrenyModel\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Demo\ChooseConcurrenyModel\Data\obj\Debug\Data.dll
+C:\Demo\ChooseConcurrenyModel\Data\obj\Debug\Data.pdb

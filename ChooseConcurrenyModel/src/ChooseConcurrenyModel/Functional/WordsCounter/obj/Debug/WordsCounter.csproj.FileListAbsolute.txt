@@ -1,0 +1,59 @@
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\bin\Debug\WordsCounter.exe.config
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\bin\Debug\WordsCounter.exe
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\bin\Debug\WordsCounter.pdb
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\obj\Debug\WordsCounter.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\obj\Debug\WordsCounter.exe
+\\psf\home\documents\visual studio 2013\Projects\WordsCounter\WordsCounter\obj\Debug\WordsCounter.pdb
+C:\Temp\WordsCounter\WordsCounter\bin\Debug\WordsCounter.exe.config
+C:\Temp\WordsCounter\WordsCounter\obj\Debug\WordsCounter.exe
+C:\Temp\WordsCounter\WordsCounter\obj\Debug\WordsCounter.pdb
+C:\Temp\WordsCounter\WordsCounter\bin\Debug\WordsCounter.exe
+C:\Temp\WordsCounter\WordsCounter\bin\Debug\WordsCounter.pdb
+C:\Temp\WordsCounter\WordsCounter\obj\Debug\WordsCounter.csprojResolveAssemblyReference.cache
+C:\Temp\WordsCounter - Complete\WordsCounter\bin\Debug\WordsCounter.exe.config
+C:\Temp\WordsCounter - Complete\WordsCounter\obj\Debug\WordsCounter.exe
+C:\Temp\WordsCounter - Complete\WordsCounter\obj\Debug\WordsCounter.pdb
+\\Mac\Home\Code\MyBook_Code\CodeSample\WordsCounter - Complete\WordsCounter\bin\Debug\WordsCounter.exe.config
+\\Mac\Home\Code\MyBook_Code\CodeSample\WordsCounter - Complete\WordsCounter\obj\Debug\WordsCounter.exe
+\\Mac\Home\Code\MyBook_Code\CodeSample\WordsCounter - Complete\WordsCounter\obj\Debug\WordsCounter.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\allswellthatendswell.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\amsnd.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\antandcleo.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\asyoulikeit.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\comedyoferrors.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\cymbeline.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\hamlet.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryiv1.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryiv2.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryv.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryvi1.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryvi2.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryvi3.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\henryviii.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\juliuscaesar.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\kingjohn.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\kinglear.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\loveslobourslost.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\maan.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\macbeth.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\measureformeasure.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\merchantofvenice.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\othello.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\richardii.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\richardiii.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\romeoandjuliet.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\tamingoftheshrew.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\tempest.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\themwofw.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\thetgofv.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\timon.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\titus.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\troilusandcressida.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\twelfthnight.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\Shakespeare\winterstale.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\WordsCounter.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\WordsCounter.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\bin\Debug\WordsCounter.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\obj\Debug\WordsCounter.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\obj\Debug\WordsCounter.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Functional\WordsCounter\obj\Debug\WordsCounter.pdb

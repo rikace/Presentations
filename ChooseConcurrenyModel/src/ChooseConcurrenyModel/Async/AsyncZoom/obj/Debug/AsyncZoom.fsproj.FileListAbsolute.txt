@@ -1,0 +1,75 @@
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Linq.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Metadata.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Parallel.Seq.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Linq.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Metadata.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.PowerPack.Parallel.Seq.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\WriteableBitmapEx.Wpf.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\bin\Debug\WriteableBitmapEx.Wpf.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\AsyncZoom\obj\Debug\AsyncZoom.fsprojResolveAssemblyReference.cache
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -Original\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -Original - Copy\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Temp\GothamFS -After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Demo\Gotham\GothamFS -After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.XML
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.exe
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\AsyncZoom.pdb
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.dll
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\bin\Debug\FSharp.Core.xml
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.exe
+C:\Code\Gotham\GothamFS - After\Modules\Module1\AsyncZoom\obj\Debug\AsyncZoom.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\AsyncZoom.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\AsyncZoom.XML
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\AsyncZoom.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\AsyncZoom.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\FSharp.Core.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\bin\Debug\FSharp.Core.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\obj\Debug\AsyncZoom.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\AsyncZoom\obj\Debug\AsyncZoom.pdb

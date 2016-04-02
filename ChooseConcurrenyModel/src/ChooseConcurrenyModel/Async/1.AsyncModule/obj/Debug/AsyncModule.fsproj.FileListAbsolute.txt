@@ -1,0 +1,8 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\_1.AsyncModule.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\_1.AsyncModule.XML
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\_1.AsyncModule.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\_1.AsyncModule.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\FSharp.Core.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\bin\Debug\FSharp.Core.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\obj\Debug\_1.AsyncModule.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Async\1.AsyncModule\obj\Debug\_1.AsyncModule.pdb

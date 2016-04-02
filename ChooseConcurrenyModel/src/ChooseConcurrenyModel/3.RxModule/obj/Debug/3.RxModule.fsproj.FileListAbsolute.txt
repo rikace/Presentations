@@ -1,0 +1,131 @@
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\3.RxModule.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\_2.RxModule.XML
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\3.RxModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\3.RxModule.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\obj\Debug\3.RxModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\obj\Debug\3.RxModule.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\3.RxModule.exe.config
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\_2.RxModule.XML
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\3.RxModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\3.RxModule.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\FSharp.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\FSharp.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\obj\Debug\3.RxModule.exe
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\obj\Debug\3.RxModule.pdb
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Core.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Core.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\3.RxModule.exe.config
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\_2.RxModule.XML
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\3.RxModule.exe
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\3.RxModule.pdb
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Core.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Linq.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Windows.Interactivity.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Core.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Linq.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original\src\3.RxModule\obj\Debug\3.RxModule.exe
+C:\Temp\GothamFS -Original\src\3.RxModule\obj\Debug\3.RxModule.pdb
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\3.RxModule.exe.config
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\_2.RxModule.XML
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\3.RxModule.exe
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\3.RxModule.pdb
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Core.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Linq.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Windows.Interactivity.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Core.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Linq.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\obj\Debug\3.RxModule.fsprojResolveAssemblyReference.cache
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\obj\Debug\3.RxModule.exe
+C:\Temp\GothamFS -Original - Copy\src\3.RxModule\obj\Debug\3.RxModule.pdb
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\3.RxModule.exe.config
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\_2.RxModule.XML
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\3.RxModule.exe
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\3.RxModule.pdb
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\FSharp.Core.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Core.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Linq.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Windows.Interactivity.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\FSharp.Core.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.DataAnnotations.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ReactiveProperty.NET45.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Core.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Interfaces.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Linq.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Temp\GothamFS -After\src\3.RxModule\obj\Debug\3.RxModule.fsprojResolveAssemblyReference.cache
+C:\Temp\GothamFS -After\src\3.RxModule\obj\Debug\3.RxModule.exe
+C:\Temp\GothamFS -After\src\3.RxModule\obj\Debug\3.RxModule.pdb

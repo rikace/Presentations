@@ -1,0 +1,16 @@
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.exe.config
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.pdb
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\DegreeOfParallelism.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\System.Threading.Tasks.Dataflow.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\bin\Debug\System.Threading.Tasks.Dataflow.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DegreeOfParallelism\DegreeOfParallelism\obj\Debug\DegreeOfParallelism.pdb

@@ -1,0 +1,21 @@
+E:\locals\PFX-Extras\NET4\Samples for Parallel Programming with the .NET Framework\C#,C++,F#,VB\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.exe.config
+C:\Code\M\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.exe.config
+C:\Code\M\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.exe
+C:\Code\M\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.pdb
+C:\Code\M\Raytracer\Raytracer_CSharp\bin\Debug\ParallelExtensionsExtras.dll
+C:\Code\M\Raytracer\Raytracer_CSharp\bin\Debug\ParallelExtensionsExtras.pdb
+C:\Code\M\Raytracer\Raytracer_CSharp\obj\Debug\Microsoft.ParallelComputingPlatform.ParallelExtensions.Samples.MainForm.resources
+C:\Code\M\Raytracer\Raytracer_CSharp\obj\Debug\Microsoft.ParallelComputingPlatform.ParallelExtensions.Samples.Properties.Resources.resources
+C:\Code\M\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer_CSharp.csproj.GenerateResource.Cache
+C:\Code\M\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer.exe
+C:\Code\M\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\bin\Debug\Raytracer.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\bin\Debug\ParallelExtensionsExtras.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer_CSharp.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Microsoft.ParallelComputingPlatform.ParallelExtensions.Samples.MainForm.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Microsoft.ParallelComputingPlatform.ParallelExtensions.Samples.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer_CSharp.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Raytracer\Raytracer_CSharp\obj\Debug\Raytracer.pdb

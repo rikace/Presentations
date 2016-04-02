@@ -1,0 +1,16 @@
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.exe.config
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.pdb
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.exe
+C:\Users\Bryan\Documents\Book Materials\Cookbook Author Bundle\Chapters\Chapter 9\Code\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\DataflowReadWriteAsync.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\System.Threading.Tasks.Dataflow.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\bin\Debug\System.Threading.Tasks.Dataflow.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\DataflowReadWriteAsync\DataflowReadWriteAsync\obj\Debug\DataflowReadWriteAsync.pdb

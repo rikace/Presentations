@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="src/StockTicker/WebApp.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/StockTickerSignalRServer/TradingSupervisorAgent.fs">
+    <Files>
+      <File FileName="src/StockTickerSignalRServer/TradingSupervisorAgent.fs" Line="25" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
