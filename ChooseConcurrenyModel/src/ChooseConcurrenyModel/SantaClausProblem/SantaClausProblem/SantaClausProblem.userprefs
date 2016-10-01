@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="SantaClausProblem.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Santa.fs">
+    <Files>
+      <File FileName="Program.fs" Line="10" Column="7" />
+      <File FileName="Santa.fs" Line="107" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Riccardo/Downloads/SantaClausProblem/Santa.fs" line="57" column="1" />
+      <Breakpoint file="/Users/Riccardo/Downloads/SantaClausProblem/Program.fs" line="9" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

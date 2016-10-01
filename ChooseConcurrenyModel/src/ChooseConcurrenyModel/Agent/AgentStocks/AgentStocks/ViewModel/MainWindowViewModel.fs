@@ -46,7 +46,7 @@ type MainWindowViewModel() =
         stockPriceAxis.Title <- "Price"
         plotModel.Axes.Add(stockPriceAxis)
 
-        for stock in ["MSFT"; "APPL"; "GOOG"] do
+        for stock in ["MSFT"; "APPL"; "GOOG"; "AMZ"] do
             let  s = StockToggleButtonViewModel(stock, stocksCoordinatorActorRef)
             stockButtonViewModels.Add(stock, s)
         

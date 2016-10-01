@@ -1,8 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\2.AgentModule.exe.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\_3.AgentModule.XML
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\2.AgentModule.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\2.AgentModule.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\FSharp.Core.dll
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\bin\Debug\FSharp.Core.xml
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\obj\Debug\2.AgentModule.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\Agent\2AgentModule\obj\Debug\2.AgentModule.pdb

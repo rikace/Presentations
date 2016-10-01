@@ -1,5 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncHttpServer\bin\Debug\AsyncHttpServer.exe.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncHttpServer\bin\Debug\AsyncHttpServer.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncHttpServer\bin\Debug\AsyncHttpServer.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncHttpServer\obj\Debug\AsyncHttpServer.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncHttpServer\obj\Debug\AsyncHttpServer.pdb

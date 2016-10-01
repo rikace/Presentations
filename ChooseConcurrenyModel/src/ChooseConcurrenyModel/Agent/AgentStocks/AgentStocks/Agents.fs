@@ -36,7 +36,7 @@
 
 
     let stocksObservable (agent: MailboxProcessor<StockAgentMessage>) =
-        Observable.Interval(TimeSpan.FromMilliseconds 500.)
+        Observable.Interval(TimeSpan.FromMilliseconds 150.)
         |> Observable.scan(fun s i -> updatePrice s) 20m
         |> Observable.add(fun u -> agent.Post(UpdateStockPrices(u, DateTime.Now)))
 

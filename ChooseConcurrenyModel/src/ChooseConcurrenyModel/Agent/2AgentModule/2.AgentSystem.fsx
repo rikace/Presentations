@@ -86,6 +86,8 @@ let agentParent =
     agent.Start()
     agent
 
+
+
 for id in [0..100000] do
     agentParent.Post(Register(id))
 

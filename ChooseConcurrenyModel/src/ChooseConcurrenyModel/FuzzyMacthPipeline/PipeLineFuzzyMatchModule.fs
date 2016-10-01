@@ -13,10 +13,10 @@ open System.Threading
 open System.Threading.Tasks.Dataflow
 
 let urls = Data.GetTextFileUrls()
-
 let cts = new CancellationTokenSource()
 
-let agent = MailboxProcessor<string * string[]>.Start((fun inbox ->
+
+let finalAgent = MailboxProcessor<string * string[]>.Start((fun inbox ->
             
             let rec loop state = async {
 
@@ -35,7 +35,9 @@ let agent = MailboxProcessor<string * string[]>.Start((fun inbox ->
             }
             loop 0), cts.Token)
 
-let consoleAgent = MailboxProcessor<int * string>.Start(fun inbox -> 
+let consoleAgent = 
+        let agent = 
+            new MailboxProcessor<int * string>(fun inbox -> 
                 let rec loop() = async {
                         let! (step, message) = inbox.Receive()
                         let backupColor = Console.ForegroundColor
@@ -49,15 +51,16 @@ let consoleAgent = MailboxProcessor<int * string>.Start(fun inbox ->
                         Console.ForegroundColor <- backupColor
                         return! loop() }
                 loop())
-                     
+        agent.Error.Add(fun err -> printfn "ERROR : %s" err.Message)
+        agent.Start()
+        agent           
            
-let fm = FuzzyMatchDataFlow(agent, consoleAgent,cts)
 
 
-// agent.Post()
-// agent.PostAndAsyncReply()
+let fmdf = FuzzyMatchDataFlow(finalAgent, consoleAgent,cts)
 
-async { do! fm.ProcessAsynchronously() 
+
+async { do! fmdf.ProcessAsynchronously() 
             |> Async.AwaitTask } 
             |> Async.Start
 
@@ -78,7 +81,7 @@ let loadDataAsyncInParalallAndProcess() =
         |> Seq.map(fun kv -> async {    let! text = downloadTextAsync kv.Value
                                         printfn "Sending Text %s" kv.Key
 
-                                        let! send = fm.InputBlock.SendAsync((kv.Value, text)) 
+                                        let! send = fmdf.InputBlock.SendAsync((kv.Value, text)) 
                                                     |> Async.AwaitTask 
                                   
                                         printfn "%b" send })
@@ -86,5 +89,5 @@ let loadDataAsyncInParalallAndProcess() =
         |> Async.Parallel
 
     Async.RunSynchronously(asyncComp, cancellationToken=cts.Token)
-    |> (fun _ -> fm.InputBlock.Complete())
+    |> (fun _ -> fmdf.InputBlock.Complete())
 

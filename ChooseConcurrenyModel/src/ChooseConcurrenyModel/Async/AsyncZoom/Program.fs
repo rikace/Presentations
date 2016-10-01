@@ -129,9 +129,9 @@ type ZoomControl(width:int,height:int) as self =
                
                 do render points (0,height,1) pixels
                
-//                let threads = Environment.ProcessorCount
-//                do [|0..threads - 1|] 
-//                    |> Array.Parallel.iter(fun y -> render points (y,(height/threads),threads) pixels)
+                let threads = Environment.ProcessorCount
+                do [|0..threads - 1|] 
+                    |> Array.Parallel.iter(fun y -> render points (y,(height/threads),threads) pixels)
 
 
 //                let threads = Environment.ProcessorCount

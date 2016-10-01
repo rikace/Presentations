@@ -1,0 +1,108 @@
+<Window
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="{Binding Title}" Height="670" Width="600"
+      xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase" 
+      xmlns:ViewModel="clr-namespace:FSharpWpfMvvmTemplate.ViewModel;assembly=App" 
+      xmlns:Behavior="clr-namespace:FSharpWpfMvvmTemplate.Behavior;assembly=App"
+      mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             Background="White">
+    <Window.DataContext>
+        <ViewModel:MainWindowViewModel></ViewModel:MainWindowViewModel>
+    </Window.DataContext>
+    <Window.Resources>
+        <ResourceDictionary Source="ApplicationResources.xaml" />
+    </Window.Resources>
+    <StackPanel Margin="10,10,10,10" VerticalAlignment="Stretch" >
+        <StackPanel.Resources>
+            <BitmapImage x:Key="ElfImageSource" UriSource="pack://siteoforigin:,,,/Images/elf.png" />
+            <BitmapImage x:Key="SantaImageSource" UriSource="pack://siteoforigin:,,,/Images/SantaClaus.png" />
+            <BitmapImage x:Key="SantaSleepImageSource" UriSource="pack://siteoforigin:,,,/Images/Sleeping-SantaClaus.png" />
+            <BitmapImage x:Key="DoorOpenImageSource" UriSource="pack://siteoforigin:,,,/Images/dooropen.jpg" />
+            <BitmapImage x:Key="DoorClosedImageSource" UriSource="pack://siteoforigin:,,,/Images/doorclosed.jpg" />
+            <BitmapImage x:Key="ReindeerImageSource" UriSource="pack://siteoforigin:,,,/Images/reindeer.png" />
+            <BitmapImage x:Key="SleighImageSource" UriSource="pack://siteoforigin:,,,/Images/sleigh.jpeg" />
+            <Style TargetType="Image">
+                <Setter Property="Margin" Value="4"/>
+                <Setter Property="Height" Value="90" />
+            </Style>
+        </StackPanel.Resources>
+        <Label Style="{StaticResource headerTextStyle}" Content="{Binding Title}"></Label>
+        <Grid Margin="2" Height="Auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="170"/>
+                <RowDefinition Height="130"/>
+            </Grid.RowDefinitions>
+
+
+            <Image Grid.RowSpan="2" Grid.Column="0" Visibility="{Binding SantaSleepingVisibility}" Source="{StaticResource SantaSleepImageSource}" Height="Auto" Margin="0,20,0,20" />
+            <Image Grid.RowSpan="2" Grid.Column="0" Visibility="{Binding SantaAwakeVisibility}"  Source="{StaticResource SantaImageSource}" Height="Auto" Margin="0,20,0,20" />
+
+            <Image Grid.Row="0" Height="170" Grid.Column="1" Visibility="{Binding DoorClosedVisibility}" Source="{StaticResource DoorClosedImageSource}"/>
+            <Image Grid.Row="0" Height="170" Grid.Column="1" Visibility="{Binding DoorOpenVisibility}" Source="{StaticResource DoorOpenImageSource}" />
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Height="130" Visibility="{Binding ThreeElfesVisibility}">
+                <Canvas>
+                    <Image Width="65" Height="65" Canvas.Left="15" Source="{StaticResource ElfImageSource}" />
+                    <Image Width="65" Height="65" Canvas.Left="75"  Source="{StaticResource ElfImageSource}" />
+                    <Image Width="65" Height="65" Canvas.Left="45" Canvas.Top="70"  Source="{StaticResource ElfImageSource}" />
+                </Canvas>
+            </StackPanel>
+
+            <ListView  Grid.Column="2" Grid.RowSpan="2"  Height="Auto" ItemsSource="{Binding Elfes}" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,10">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="2" Rows="5"  />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="MaxWidth" Value="60"/>
+                        <Setter Property="MaxHeight" Value="60"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image Width="50" Height="50"  Source="{StaticResource ElfImageSource}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <Grid Height="280">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Height="Auto"  Source="{StaticResource SleighImageSource}" Visibility="{Binding SleighVisibility}"/>
+            <ListView  Grid.Column="1" Width="Auto"  ItemsSource="{Binding Reindeers}" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,10,0,10">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="3" Rows="3"  />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="MaxWidth" Value="60"/>
+                        <Setter Property="MaxHeight" Value="60"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image Height="60" Width="60"  Source="{StaticResource ReindeerImageSource}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </StackPanel>
+</Window>

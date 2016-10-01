@@ -21,13 +21,13 @@ namespace ParallelizingFuzzyMatch
 
             var p = new ProcessFuzzyMacth();
 
-            p.SequentialFuzzyMatch();
-            p.ThreadFuzzyMatch();
-            p.TwoThreadsFuzzyMatch();
-            p.MultipleThreadsFuzzyMatch();
-            p.ParallelLoopFuzzyMatch();
-            p.MultipleTasksFuzzyMatch();
-          //  p.LinqFuzzyMatch();
+            //p.SequentialFuzzyMatch();
+            //p.ThreadFuzzyMatch();
+            //p.TwoThreadsFuzzyMatch();
+            //p.MultipleThreadsFuzzyMatch();
+            //p.ParallelLoopFuzzyMatch();
+            //p.MultipleTasksFuzzyMatch();
+            //p.LinqFuzzyMatch();
             p.ParallelLinqFuzzyMatch();
             
 

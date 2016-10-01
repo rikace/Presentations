@@ -31,6 +31,7 @@ namespace DataFlowPipeLine
 
         public async Task ProcessAsynchronously()
         {
+            const int MDP = 1;
 
             var splitLines = new TransformBlock<Tuple<string, string>, Tuple<string, string[]>>(
                 n =>
@@ -53,14 +54,14 @@ namespace DataFlowPipeLine
 #endif
                     Thread.Sleep(TimeSpan.FromMilliseconds(100));
                     return Tuple.Create(nameText, lines);
-                }, new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 4, CancellationToken = cts.Token });
+
+                }, new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = MDP, CancellationToken = cts.Token });
 
             var splitWords = new TransformBlock<Tuple<string, string[]>, Tuple<string, string[]>>(
                 n =>
                 {
                     string nameText = n.Item1;
                     string[] lines = n.Item2;
-
 #if CONSOLEAGENT
                     consoleAgent.Post(Tuple.Create(2, string.Format("Text {0} received - Splitting Words on thread id {1}", nameText, Thread.CurrentThread.ManagedThreadId)));
 #else
@@ -69,15 +70,13 @@ namespace DataFlowPipeLine
                     Console.WriteLine("Text {0} received - Splitting Words on thread id {1}", nameText, Thread.CurrentThread.ManagedThreadId);
                     Console.ForegroundColor = backupColor;
 #endif
-
                     string[] words = (from line in lines
                                       from word in line.Split(Delimiters)
                                       select word.ToUpper()).ToArray();
 
                     Thread.Sleep(TimeSpan.FromMilliseconds(100));
                     return Tuple.Create(nameText, words);
-                }
-                , new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 4, CancellationToken = cts.Token });
+                }, new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = MDP, CancellationToken = cts.Token });
 
             var fuzzyMatch = new TransformBlock<Tuple<string, string[]>, Tuple<string, string[]>>(
                 n =>
@@ -94,14 +93,14 @@ namespace DataFlowPipeLine
                     Console.ForegroundColor = backupColor;
 #endif
 
-                    var matches = (from wordToSearch in WordsToSearch
+                    var matches = (from wordToSearch in WordsToSearch.AsParallel()
                                    from match in FuzzyMatch.JaroWinklerModule.Parallel.bestMatch(words, wordToSearch)
                                    select match.Word).ToArray();
 
                     Thread.Sleep(TimeSpan.FromMilliseconds(100));
                     return Tuple.Create(nameText, matches);
                 }
-                , new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 4, CancellationToken = cts.Token });
+                , new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = MDP, CancellationToken = cts.Token });
 
             var sendBackResult = new ActionBlock<Tuple<string, string[]>>(
                 s =>
@@ -120,10 +119,11 @@ namespace DataFlowPipeLine
                     agent.Post(Tuple.Create(nameText, matches));
 
                 }
-                , new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = 4, CancellationToken = cts.Token });
+                , new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = MDP, CancellationToken = cts.Token });
 
             try
             {
+
                 InputBlock.LinkTo(splitLines, new DataflowLinkOptions { PropagateCompletion = true });
                 splitLines.LinkTo(splitWords, new DataflowLinkOptions { PropagateCompletion = true });
                 splitWords.LinkTo(fuzzyMatch, new DataflowLinkOptions { PropagateCompletion = true });
@@ -133,11 +133,6 @@ namespace DataFlowPipeLine
 
                 consoleAgent.Post(Tuple.Create(999,
                     string.Format("{0}\nPress ENTER to exit.\n{0}", new string('*', 30))));
-
-
-
-                //Console.ForegroundColor = ConsoleColor.White;
-                //Console.WriteLine("{0}\nPress ENTER to exit.\n{0}", new string('*', 30));
             }
             catch (OperationCanceledException)
             {

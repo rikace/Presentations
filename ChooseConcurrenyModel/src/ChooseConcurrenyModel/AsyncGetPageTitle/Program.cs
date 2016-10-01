@@ -12,8 +12,7 @@ namespace AsyncGetPageTitle
     {
         static void Main(string[] args)
         {
-            var t = GetTitleCsAsync(
-                "http://concurrencyfreaks.blogspot.com");
+            var t = GetTitleCsAsync("http://concurrencyfreaks.blogspot.com");
             Console.WriteLine("Returned");
             string title = t.Result;
             Console.WriteLine(title);

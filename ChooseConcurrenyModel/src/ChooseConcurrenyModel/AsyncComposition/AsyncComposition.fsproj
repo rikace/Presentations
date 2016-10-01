@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="AsyncWorker.fs" />
     <Compile Include="AsyncComposition.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />

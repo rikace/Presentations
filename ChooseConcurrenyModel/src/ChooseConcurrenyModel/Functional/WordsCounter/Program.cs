@@ -60,8 +60,7 @@ namespace WordsCounter
 
         public int WordCounterFunctional(string dirPath)
         {
-            var wordCounter = 
-                               (from file in Directory.EnumerateFiles(dirPath, "*.*").AsParallel()
+            var wordCounter =  (from file in Directory.EnumerateFiles(dirPath, "*.*").AsParallel()
                                 let lines = File.ReadAllLines(file)
                                select LinesWordCounter(lines));
             return wordCounter.SelectMany(p => p.Keys).Distinct().Count();

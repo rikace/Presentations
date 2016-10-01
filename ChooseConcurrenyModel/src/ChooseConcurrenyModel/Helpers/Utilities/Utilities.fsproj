@@ -43,10 +43,12 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PSeq.fs" />
     <Compile Include="BlockingMultiplexer.fs" />
     <Compile Include="Trend.fs" />
     <Compile Include="SampleUtilities.fs" />
     <Compile Include="GaussianRandom.fs" />
+    <Compile Include="SimpleAlghos.fs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '11.0'">

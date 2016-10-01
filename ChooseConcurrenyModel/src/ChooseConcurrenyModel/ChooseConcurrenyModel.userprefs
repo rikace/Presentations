@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="ChooseConcurrenyModel/ChooseConcurrenyModel.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AsyncComposition/Program.fs">
+    <Files>
+      <File FileName="AsyncComposition/Program.fs" Line="274" Column="16" />
+      <File FileName="CrawlingTask/Program.cs" Line="1" Column="1" />
+      <File FileName="AsyncGetPageTitle/Program.cs" Line="49" Column="10" />
+      <File FileName="Async/AsyncProgress/AsyncProgress/MainWindow.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

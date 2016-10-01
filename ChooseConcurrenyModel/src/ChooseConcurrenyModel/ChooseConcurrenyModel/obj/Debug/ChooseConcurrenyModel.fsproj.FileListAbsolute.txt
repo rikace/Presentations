@@ -1,8 +1,0 @@
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\ChooseConcurrenyModel.exe.config
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\ChooseConcurrenyModel.XML
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\ChooseConcurrenyModel.exe
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\ChooseConcurrenyModel.pdb
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\FSharp.Core.dll
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\bin\Debug\FSharp.Core.xml
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\obj\Debug\ChooseConcurrenyModel.exe
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\ChooseConcurrenyModel\obj\Debug\ChooseConcurrenyModel.pdb

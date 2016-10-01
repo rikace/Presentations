@@ -26,8 +26,11 @@
 
 				<Button Content="{Binding StockButtonViewModels[APPL].ButtonText, Mode=TwoWay}" 
                         Command="{Binding StockButtonViewModels[APPL].ToggleCommand}" Width="100"></Button>
+                
+                <Button Content="{Binding StockButtonViewModels[AMZ].ButtonText, Mode=TwoWay}" 
+                        Command="{Binding StockButtonViewModels[AMZ].ToggleCommand}" Width="100"></Button>
 
-			</StackPanel>
+        </StackPanel>
 
 		</Grid>
 </Window>

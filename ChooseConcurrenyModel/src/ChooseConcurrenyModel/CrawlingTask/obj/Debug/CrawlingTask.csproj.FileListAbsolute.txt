@@ -1,5 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\CrawlingTask\bin\Debug\CrawlingTask.exe.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\CrawlingTask\bin\Debug\CrawlingTask.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\CrawlingTask\bin\Debug\CrawlingTask.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\CrawlingTask\obj\Debug\CrawlingTask.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\CrawlingTask\obj\Debug\CrawlingTask.pdb

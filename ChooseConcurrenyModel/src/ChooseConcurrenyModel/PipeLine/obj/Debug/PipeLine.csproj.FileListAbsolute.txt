@@ -1,6 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\obj\Debug\PipeLine.csprojResolveAssemblyReference.cache
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\bin\Debug\PipeLine.exe.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\bin\Debug\PipeLine.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\bin\Debug\PipeLine.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\obj\Debug\PipeLine.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\PipeLine\obj\Debug\PipeLine.pdb

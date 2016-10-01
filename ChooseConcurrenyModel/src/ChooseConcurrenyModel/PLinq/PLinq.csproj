@@ -42,11 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MapReduce.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\ImageHelpers\CommonHelpers.csproj">
+      <Project>{2e6c4539-edfb-4efa-a840-767bca379ea1}</Project>
+      <Name>CommonHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helpers\PerfUtil\PerfUtil\PerfUtil.fsproj">
+      <Project>{d148aef9-3ce1-46bc-b359-1b9051c5acce}</Project>
+      <Name>PerfUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helpers\Utilities\Utilities.fsproj">
+      <Project>{28d39bd7-1335-4a9b-958d-b45b8880198d}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

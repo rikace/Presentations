@@ -1,6 +1,0 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\bin\Debug\AsyncGetPageTitle.exe.config
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\bin\Debug\AsyncGetPageTitle.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\bin\Debug\AsyncGetPageTitle.pdb
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\obj\Debug\AsyncGetPageTitle.csprojResolveAssemblyReference.cache
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\obj\Debug\AsyncGetPageTitle.exe
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ChooseConcurrenyModel\AsyncGetPageTitle\obj\Debug\AsyncGetPageTitle.pdb

@@ -11,8 +11,8 @@ open AgentModule
 // Agent perf message-sec
 // ===========================================
 
-let [<Literal>] count = 2000000
-
+let [<Literal>] count = 1000000  // 1M
+ 
 let agent() =
     Agent<int>.Start(fun inbox ->
             let sw = System.Diagnostics.Stopwatch()

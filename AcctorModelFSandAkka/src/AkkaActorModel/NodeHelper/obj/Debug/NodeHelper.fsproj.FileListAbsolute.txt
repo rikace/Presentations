@@ -1,7 +1,0 @@
-C:\Git\AkkaActorModel\NodeHelper\bin\Debug\NodeHelper.XML
-C:\Git\AkkaActorModel\NodeHelper\bin\Debug\NodeHelper.dll
-C:\Git\AkkaActorModel\NodeHelper\bin\Debug\NodeHelper.pdb
-C:\Git\AkkaActorModel\NodeHelper\bin\Debug\FSharp.Core.dll
-C:\Git\AkkaActorModel\NodeHelper\bin\Debug\FSharp.Core.xml
-C:\Git\AkkaActorModel\NodeHelper\obj\Debug\NodeHelper.dll
-C:\Git\AkkaActorModel\NodeHelper\obj\Debug\NodeHelper.pdb

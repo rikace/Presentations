@@ -59,3 +59,23 @@ let loadDataAsyncInParalallAndProcess() =
     |> Seq.concat
 
 
+//
+//
+//let loadDataAsyncWorkerInParalallAndProcess() =
+//    let jobs =     
+//        urls
+//        |> Seq.map(fun kv -> async {    let! text = loadAsync kv.Value
+//                                        return composeProcessFuzzyMatch text }) 
+//    
+//    let worker = AsyncWorker.AsyncWorker<_>(jobs)
+//    worker.ProgressChanged.Add(fun result -> ())
+
+
+// worker.JobCompleted.Add(fun (jobNumber, result) -> 
+
+//        printfn "job %d completed with result %A" jobNumber result.Length)
+//
+//    worker.AllCompleted.Add(fun results -> 
+//        printfn "all done, results = %A" results )
+//
+//    worker.Start()
