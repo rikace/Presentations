@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "AkkaExamples", "AkkaExamples\AkkaExamples.fsproj", "{4FBBAD8E-8A1D-495B-8749-48E2439EE178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4326971-6904-478E-B7E2-62CDAC61F3C8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		Dockerfile.Akka = Dockerfile.Akka
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaDocker", "AkkaDocker\AkkaDocker.csproj", "{21187D26-0E70-43A0-9B4F-CBA76343B7C4}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "AkkaClient", "AkkaClient\AkkaClient.fsproj", "{2000F0E5-A953-431B-9DF9-B29C9B3CE4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Debug|x86.ActiveCfg = Debug|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Debug|x86.Build.0 = Debug|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Release|x86.ActiveCfg = Release|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Release|x86.Build.0 = Release|x86
+		{21187D26-0E70-43A0-9B4F-CBA76343B7C4}.Debug|x86.ActiveCfg = Debug|x86
+		{21187D26-0E70-43A0-9B4F-CBA76343B7C4}.Debug|x86.Build.0 = Debug|x86
+		{21187D26-0E70-43A0-9B4F-CBA76343B7C4}.Release|x86.ActiveCfg = Release|x86
+		{21187D26-0E70-43A0-9B4F-CBA76343B7C4}.Release|x86.Build.0 = Release|x86
+		{2000F0E5-A953-431B-9DF9-B29C9B3CE4CA}.Debug|x86.ActiveCfg = Debug|x86
+		{2000F0E5-A953-431B-9DF9-B29C9B3CE4CA}.Debug|x86.Build.0 = Debug|x86
+		{2000F0E5-A953-431B-9DF9-B29C9B3CE4CA}.Release|x86.ActiveCfg = Release|x86
+		{2000F0E5-A953-431B-9DF9-B29C9B3CE4CA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

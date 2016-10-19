@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="AkkaExamples/AkkaExamples.fsproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AkkaExamples/Program.fs">
+    <Files>
+      <File FileName="AkkaExamples/Program.fs" Line="55" Column="33" />
+      <File FileName="AkkaExamples/Actors.fs" Line="10" Column="1" />
+      <File FileName="AkkaExamples/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/riccardoterrell/Documents/Presentations/Actor_Clustering_RaspPi/ActorRemoteRec/AkkaExamples/Program.fs" line="64" column="1" />
+      <Breakpoint file="/Users/riccardoterrell/Documents/Presentations/Actor_Clustering_RaspPi/ActorRemoteRec/ActorRemoteRec/Program.fs" line="49" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AkkaExamples PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="AkkaExamples/AkkaExamples.fsproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AkkaClient/Program.fs">
+    <Files>
+      <File FileName="Dockerfile" Line="22" Column="47" />
+      <File FileName="AkkaExamples/Actors.fs" Line="1" Column="1" />
+      <File FileName="AkkaDocker/Program.cs" Line="11" Column="37" />
+      <File FileName="Dockerfile.Akka" Line="11" Column="52" />
+      <File FileName="AkkaExamples/packages.config" Line="1" Column="1" />
+      <File FileName="AkkaExamples/Program.fs" Line="52" Column="18" />
+      <File FileName="AkkaClient/Program.fs" Line="51" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AkkaExamples PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
