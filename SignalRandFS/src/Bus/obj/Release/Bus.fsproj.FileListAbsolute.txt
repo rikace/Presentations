@@ -1,7 +1,0 @@
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\bin\Release\Bus.XML
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\bin\Release\Bus.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\bin\Release\Bus.pdb
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\bin\Release\FSharp.Core.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\bin\Release\FSharp.Core.xml
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\obj\Release\Bus.dll
-C:\Demo\FsWebDemo\StockTickerSignalRV2\Bus\obj\Release\Bus.pdb

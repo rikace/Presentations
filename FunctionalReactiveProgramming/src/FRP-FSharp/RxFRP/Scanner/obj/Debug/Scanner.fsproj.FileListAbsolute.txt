@@ -1,6 +1,0 @@
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\bin\Debug\Scanner.exe
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\bin\Debug\Scanner.pdb
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\bin\Debug\FSharp.Core.dll
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\bin\Debug\FSharp.Core.xml
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\obj\Debug\Scanner.exe
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Scanner\obj\Debug\Scanner.pdb

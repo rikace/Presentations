@@ -1,0 +1,60 @@
+﻿@using DemoEDA.Models
+@model IEnumerable<DemoEDA.Models.ProductViewModel>
+
+@functions
+{
+
+    private IEnumerable<IEnumerable<ProductViewModel>> GroupedProducts(IEnumerable<ProductViewModel> products, int groupSize)
+    {
+        int skip = 0;
+
+        while (skip < products.Count())
+        {
+            IEnumerable<ProductViewModel> group = products.Skip(skip).Take(groupSize);
+            skip += groupSize;
+            yield return group;
+        }
+    }
+
+}
+
+<div class="featured">
+    <h2 class="center">Products</h2>
+    <div id="featured-auctions" class="carousel slide">
+        <div class="carousel-inner">
+            @{ bool first = true; }
+
+            @foreach (var products in GroupedProducts(Model, 4))
+            {
+                <div class="item @(first ? "active" : "")">
+                    <ul class="unstyled">
+                        @foreach (ProductViewModel product in products)
+                        {
+                            <li class="auction pull-left" data-id="@product.Id">
+                                <a href="@Url.Action("Details", "StoreEDAFSharp", new {id = product.Id})">
+                                    <img class="img-polaroid" src="@product.ThumbnailUrl" />
+                                    <div class="title">@product.Name</div>
+                                    <div><span class="price label label-success">@product.PriceDisplay</span></div>
+                                    <div class="well well-small">
+                                        @using (Html.BeginForm("AddToCart", "StoreEDAFSharp", new {id = product.Id}, FormMethod.Post))
+                                        {
+                                            <p class="clearfix">
+
+                                                <input type="submit" value="Add to Cart" class="btn btn-primary" />
+                                            </p>
+                                        }
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                first = false;
+            }
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#featured-auctions" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#featured-auctions" data-slide="next">&rsaquo;</a>
+    </div>
+</div>

@@ -1,5 +1,0 @@
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/CSMisc/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/CSMisc/bin/Debug/CSMisc.exe.mdb
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/CSMisc/bin/Debug/CSMisc.exe
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/CSMisc/obj/x86/Debug/CSMisc.exe
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/CSMisc/obj/x86/Debug/CSMisc.exe.mdb

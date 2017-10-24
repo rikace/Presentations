@@ -1,0 +1,7 @@
+FSharp.Core
+Akka.Remote
+Akka.Fsharp
+RethinkDb.Driver
+FSharp.Data
+System.Reactive
+EventStore.Client.FSharp

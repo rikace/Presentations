@@ -1,0 +1,32 @@
+﻿<Window x:Class="ReactiveStock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        Title="ReactiveStock" Height="720" Width="600"
+        WindowStartupLocation="Manual" Left="0" Top="0"
+        DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="620"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            
+            <oxy:PlotView Title="Stock Prices" Model="{Binding PlotModel}"  Margin="10" Grid.Row="0" />
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal"> 
+                <Button Content="{Binding StockButtonViewModels[AAAA].ButtonText, Mode=TwoWay}" 
+                        Command="{Binding StockButtonViewModels[AAAA].ToggleCommand}" Width="100"></Button>
+
+                <Button Content="{Binding StockButtonViewModels[BBBB].ButtonText, Mode=TwoWay}" 
+                        Command="{Binding StockButtonViewModels[BBBB].ToggleCommand}" Width="100"></Button>
+
+                <Button Content="{Binding StockButtonViewModels[CCCC].ButtonText, Mode=TwoWay}" 
+                        Command="{Binding StockButtonViewModels[CCCC].ToggleCommand}" Width="100"></Button>
+                
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>

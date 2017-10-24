@@ -1,7 +1,0 @@
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\bin\Debug\ObservableExtensions.XML
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\bin\Debug\Observable.Linq.dll
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\bin\Debug\Observable.Linq.pdb
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\bin\Debug\FSharp.Core.dll
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\bin\Debug\FSharp.Core.xml
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\obj\Debug\Observable.Linq.dll
-F:\CodeFRP\Code\FRP-FSharp\RxFRP\Observable.Linq\obj\Debug\Observable.Linq.pdb

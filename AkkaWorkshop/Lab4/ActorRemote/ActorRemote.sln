@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "AkkaExamples", "AkkaExamples\AkkaExamples.fsproj", "{4FBBAD8E-8A1D-495B-8749-48E2439EE178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4326971-6904-478E-B7E2-62CDAC61F3C8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Debug|x86.ActiveCfg = Debug|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Debug|x86.Build.0 = Debug|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Release|x86.ActiveCfg = Release|x86
+		{4FBBAD8E-8A1D-495B-8749-48E2439EE178}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

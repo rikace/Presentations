@@ -1,0 +1,123 @@
+CurrentFranchiseID,FranchiseID,League,Division,Location,Nickname,AlternateNickname,FirstGame,LastGame,City,State
+ANA,LAA,AL,,Los Angeles,Angels,,4/11/1961,9/1/1965,Los Angeles,CA
+ANA,CAL,AL,,California,Angels,,9/2/1965,9/29/1968,Anaheim,CA
+ANA,CAL,AL,W,California,Angels,,4/8/1969,9/29/1996,Anaheim,CA
+ANA,ANA,AL,W,Anaheim,Angels,,4/2/1997,10/3/2004,Anaheim,CA
+ANA,ANA,AL,W,Los Angeles,Angels,,4/5/2005,,Anaheim,CA
+ARI,ARI,NL,W,Arizona,Diamondbacks,,3/31/1998,,Phoenix,AZ
+ATL,BS1,NA,,Boston,Red Stockings,,5/5/1871,10/30/1875,Boston,MA
+ATL,BSN,NL,,Boston,Red Caps,,4/22/1876,10/2/1882,Boston,MA
+ATL,BSN,NL,,Boston,Beaneaters,,5/1/1883,10/5/1906,Boston,MA
+ATL,BSN,NL,,Boston,Doves,,4/15/1907,10/12/1910,Boston,MA
+ATL,BSN,NL,,Boston,Rustlers,Heps,4/12/1911,10/9/1911,Boston,MA
+ATL,BSN,NL,,Boston,Braves,,4/11/1912,9/29/1935,Boston,MA
+ATL,BSN,NL,,Boston,Bees,,4/14/1936,9/29/1940,Boston,MA
+ATL,BSN,NL,,Boston,Braves,,4/15/1941,9/28/1952,Boston,MA
+ATL,MLN,NL,,Milwaukee,Braves,,4/13/1953,10/3/1965,Milwaukee,WI
+ATL,ATL,NL,,Atlanta,Braves,,4/12/1966,9/29/1968,Atlanta,GA
+ATL,ATL,NL,W,Atlanta,Braves,,4/7/1969,10/3/1993,Atlanta,GA
+ATL,ATL,NL,E,Atlanta,Braves,,4/4/1994,,Atlanta,GA
+BAL,MLA,AL,,Milwaukee,Brewers,,4/25/1901,9/28/1901,Milwaukee,WI
+BAL,SLA,AL,,St. Louis,Browns,,4/23/1902,9/27/1953,St. Louis,MO
+BAL,BAL,AL,,Baltimore,Orioles,,4/13/1954,9/27/1968,Baltimore,MD
+BAL,BAL,AL,E,Baltimore,Orioles,,4/8/1969,,Baltimore,MD
+BOS,BOS,AL,,Boston,Americans,Somersets,4/26/1901,10/5/1907,Boston,MA
+BOS,BOS,AL,,Boston,Red Sox,,4/14/1908,9/29/1968,Boston,MA
+BOS,BOS,AL,E,Boston,Red Sox,,4/8/1969,,Boston,MA
+CHA,CHA,AL,,Chicago,White Sox,,4/24/1901,9/29/1968,Chicago,IL
+CHA,CHA,AL,W,Chicago,White Sox,,4/8/1969,10/3/1993,Chicago,IL
+CHA,CHA,AL,C,Chicago,White Sox,,4/4/1994,,Chicago,IL
+CHN,CH1,NA,,Chicago,White Stockings,,5/8/1871,10/30/1871,Chicago,IL
+CHN,CH2,NA,,Chicago,White Stockings,,5/13/1874,10/27/1875,Chicago,IL
+CHN,CHN,NL,,Chicago,White Stockings,,4/25/1876,10/5/1889,Chicago,IL
+CHN,CHN,NL,,Chicago,Colts,,4/19/1890,10/3/1897,Chicago,IL
+CHN,CHN,NL,,Chicago,Orphans,,4/15/1898,10/5/1902,Chicago,IL
+CHN,CHN,NL,,Chicago,Cubs,,4/16/1903,9/29/1968,Chicago,IL
+CHN,CHN,NL,E,Chicago,Cubs,,4/8/1969,10/3/1993,Chicago,IL
+CHN,CHN,NL,C,Chicago,Cubs,,4/4/1994,,Chicago,IL
+CIN,CN2,AA,,Cincinnati,Red Stockings,,5/2/1882,10/15/1889,Cincinnati,OH
+CIN,CIN,NL,,Cincinnati,Reds,,4/19/1890,9/27/1953,Cincinnati,OH
+CIN,CIN,NL,,Cincinnati,Redlegs,,4/13/1954,6/27/1959,Cincinnati,OH
+CIN,CIN,NL,,Cincinnati,Reds,,4/12/1960,9/29/1968,Cincinnati,OH
+CIN,CIN,NL,W,Cincinnati,Reds,,4/7/1969,10/3/1993,Cincinnati,OH
+CIN,CIN,NL,C,Cincinnati,Reds,,4/3/1994,,Cincinnati,OH
+CLE,CLE,AL,,Cleveland,Blues,,4/24/1901,9/28/1901,Cleveland,OH
+CLE,CLE,AL,,Cleveland,Broncos,,4/23/1902,9/27/1902,Cleveland,OH
+CLE,CLE,AL,,Cleveland,Naps,,4/22/1903,10/4/1914,Cleveland,OH
+CLE,CLE,AL,,Cleveland,Indians,,4/14/1915,9/27/1968,Cleveland,OH
+CLE,CLE,AL,E,Cleveland,Indians,,4/8/1969,10/3/1993,Cleveland,OH
+CLE,CLE,AL,C,Cleveland,Indians,,4/4/1994,,Cleveland,OH
+COL,COL,NL,W,Colorado,Rockies,,4/5/1993,,Denver,CO
+DET,DET,AL,,Detroit,Tigers,,4/25/1901,9/29/1968,Detroit,MI
+DET,DET,AL,E,Detroit,Tigers,,4/8/1969,9/28/1997,Detroit,MI
+DET,DET,AL,C,Detroit,Tigers,,3/31/1998,,Detroit,MI
+FLO,FLO,NL,E,Florida,Marlins,,4/5/1993,,Miami,FL
+HOU,HOU,NL,,Houston,Colt .45's,,4/10/1962,10/4/1964,Houston,TX
+HOU,HOU,NL,,Houston,Astros,,4/12/1965,9/29/1968,Houston,TX
+HOU,HOU,NL,W,Houston,Astros,,4/8/1969,10/3/1993,Houston,TX
+HOU,HOU,NL,C,Houston,Astros,,4/4/1994,10/3/2012,Houston,TX
+HOU,HOU,AL,W,Houston,Astros,,3/31/2013,,Houston,TX
+KCA,KCA,AL,W,Kansas City,Royals,,4/8/1969,10/3/1993,Kansas City,MO
+KCA,KCA,AL,C,Kansas City,Royals,,4/4/1994,,Kansas City,MO
+LAN,BR3,AA,,Brooklyn,Atlantics,Trolley Dodgers,5/1/1884,10/15/1884,Brooklyn,NY
+LAN,BR3,AA,,Brooklyn,Grays,Trolley Dodgers,4/20/1885,10/10/1887,Brooklyn,NY
+LAN,BR4,AA,,Brooklyn,Bridegrooms,,4/8/1888,10/14/1889,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Bridegrooms,Grooms,4/19/1890,10/15/1898,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Superbas,,4/15/1899,10/12/1910,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Dodgers,Superbas,4/12/1911,10/5/1912,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Superbas,,4/9/1913,10/3/1913,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Robins,,4/14/1914,9/27/1931,Brooklyn,NY
+LAN,BRO,NL,,Brooklyn,Dodgers,,4/12/1932,9/29/1957,Brooklyn,NY
+LAN,LAN,NL,,Los Angeles,Dodgers,,4/15/1958,9/29/1968,Los Angeles,CA
+LAN,LAN,NL,W,Los Angeles,Dodgers,,4/7/1969,,Los Angeles,CA
+MIL,SE1,AL,W,Seattle,Pilots,,4/8/1969,10/2/1969,Seattle,WA
+MIL,MIL,AL,W,Milwaukee,Brewers,,4/7/1970,9/30/1971,Milwaukee,WI
+MIL,MIL,AL,E,Milwaukee,Brewers,,4/15/1972,10/3/1993,Milwaukee,WI
+MIL,MIL,AL,C,Milwaukee,Brewers,,4/5/1994,9/28/1997,Milwaukee,WI
+MIL,MIL,NL,C,Milwaukee,Brewers,,3/31/1998,,Milwaukee,WI
+MIN,WS1,AL,,Washington,Senators,Nationals,4/26/1901,10/2/1960,Washington,DC
+MIN,MIN,AL,,Minnesota,Twins,,4/11/1961,9/29/1968,Bloomington,MN
+MIN,MIN,AL,W,Minnesota,Twins,,4/8/1969,9/30/1981,Bloomington,MN
+MIN,MIN,AL,W,Minnesota,Twins,,4/6/1982,10/3/1993,Minneapolis,MN
+MIN,MIN,AL,C,Minnesota,Twins,,4/5/1994,,Minneapolis,MN
+NYA,BLA,AL,,Baltimore,Orioles,,4/26/1901,9/29/1902,Baltimore,MD
+NYA,NYA,AL,,New York,Highlanders,Hilltoppers;Greater New Yorks,4/22/1903,10/5/1912,New York,NY
+NYA,NYA,AL,,New York,Yankees,,4/10/1913,9/29/1968,New York,NY
+NYA,NYA,AL,E,New York,Yankees,,4/7/1969,,New York,NY
+NYN,NYN,NL,,New York,Mets,,4/11/1962,9/29/1968,New York,NY
+NYN,NYN,NL,E,New York,Mets,,4/8/1969,,New York,NY
+OAK,PHA,AL,,Philadelphia,Athletics,A's,4/26/1901,9/26/1954,Philadelphia,PA
+OAK,KC1,AL,,Kansas City,Athletics,A's,4/12/1955,4/11/1967,Kansas City,MO
+OAK,OAK,AL,,Oakland,Athletics,A's,4/10/1968,9/29/1968,Oakland,CA
+OAK,OAK,AL,W,Oakland,Athletics,A's,4/8/1969,,Oakland,CA
+PHI,PHI,NL,,Philadelphia,Quakers,,5/1/1883,10/5/1889,Philadelphia,PA
+PHI,PHI,NL,,Philadelphia,Phillies,,4/19/1890,9/27/1942,Philadelphia,PA
+PHI,PHI,NL,,Philadelphia,Blue Jays,,4/24/1943,10/1/1944,Philadelphia,PA
+PHI,PHI,NL,,Philadelphia,Phillies,,4/17/1945,9/29/1968,Philadelphia,PA
+PHI,PHI,NL,E,Philadelphia,Phillies,,4/8/1969,,Philadelphia,PA
+PIT,PT1,AA,,Allegheny Club,(none),,5/2/1882,10/15/1884,Pittsburg,PA
+PIT,PT1,AA,,Pittsburgh,Alleghenys,,4/18/1885,10/12/1886,Pittsburg,PA
+PIT,PIT,NL,,Pittsburgh,Alleghenys,Innocents (1890),4/30/1887,10/3/1890,Pittsburg,PA
+PIT,PIT,NL,,Pittsburgh,Pirates,,4/22/1891,9/29/1968,Pittsburgh,PA
+PIT,PIT,NL,E,Pittsburgh,Pirates,,4/8/1969,10/3/1993,Pittsburgh,PA
+PIT,PIT,NL,C,Pittsburgh,Pirates,,4/4/1994,,Pittsburgh,PA
+SDN,SDN,NL,W,San Diego,Padres,,4/8/1969,,San Diego,CA
+SEA,SEA,AL,W,Seattle,Mariners,,4/6/1977,,Seattle,WA
+SFN,NY1,NL,,New York,Gothams,,5/1/1883,10/14/1884,New York,NY
+SFN,NY1,NL,,New York,Giants,,5/2/1885,9/29/1957,New York,NY
+SFN,SFN,NL,,San Francisco,Giants,,4/15/1958,9/29/1968,San Francisco,CA
+SFN,SFN,NL,W,San Francisco,Giants,,4/7/1969,,San Francisco,CA
+SLN,SLN,AA,,St. Louis,Browns,Brown Stockings,5/2/1882,10/4/1891,St. Louis,MO
+SLN,SLN,NL,,St. Louis,Browns,,10/15/1892,10/9/1898,St. Louis,MO
+SLN,SLN,NL,,St. Louis,Perfectos,,4/15/1899,10/15/1899,St. Louis,MO
+SLN,SLN,NL,,St. Louis,Cardinals,,4/19/1900,9/29/1968,St. Louis,MO
+SLN,SLN,NL,E,St. Louis,Cardinals,,4/8/1969,10/3/1993,St. Louis,MO
+SLN,SLN,NL,C,St. Louis,Cardinals,,4/3/1994,,St. Louis,MO
+TBA,TBA,AL,E,Tampa Bay,Devil Rays,,3/31/1998,9/30/2007,St. Petersburg,FL
+TBA,TBA,AL,E,Tampa Bay,Rays,,3/31/2008,,St. Petersburg,FL
+TEX,WS2,AL,,Washington,Senators,,4/10/1961,9/29/1968,Washington,DC
+TEX,WS2,AL,E,Washington,Senators,,4/7/1969,9/30/1971,Washington,DC
+TEX,TEX,AL,W,Texas,Rangers,,4/15/1972,,Arlington,TX
+TOR,TOR,AL,E,Toronto,Blue Jays,,4/7/1977,,Toronto,ON
+WAS,MON,NL,E,Montreal,Expos,,4/8/1969,10/3/2004,Montreal,QC
+WAS,WAS,NL,E,Washington,Nationals,,4/4/2005,,Washington,DC

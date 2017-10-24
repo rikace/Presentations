@@ -1,5 +1,0 @@
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Surge.dll
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Surge.pdb
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.Surge.XML
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Surge\obj\Debug\FSharp.Actor.Surge.dll
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor.Surge\obj\Debug\FSharp.Actor.Surge.pdb

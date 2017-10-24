@@ -1,8 +1,0 @@
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\_3.AgentModule.exe.config
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\_3.AgentModule.XML
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\_3.AgentModule.exe
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\_3.AgentModule.pdb
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\FSharp.Core.dll
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\bin\Debug\FSharp.Core.xml
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\obj\Debug\_3.AgentModule.exe
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\3.AgentModule\obj\Debug\_3.AgentModule.pdb

@@ -1,5 +1,0 @@
-C:\Demo\Why-Functional\FCSlib\bin\Debug\FCSlib.dll
-C:\Demo\Why-Functional\FCSlib\bin\Debug\FCSlib.pdb
-C:\Demo\Why-Functional\FCSlib\obj\Debug\FCSlib.csprojResolveAssemblyReference.cache
-C:\Demo\Why-Functional\FCSlib\obj\Debug\FCSlib.dll
-C:\Demo\Why-Functional\FCSlib\obj\Debug\FCSlib.pdb

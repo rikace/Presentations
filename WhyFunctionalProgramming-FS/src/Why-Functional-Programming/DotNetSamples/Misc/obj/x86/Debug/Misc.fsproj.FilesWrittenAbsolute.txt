@@ -1,5 +1,0 @@
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/Misc/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/Misc/bin/Debug/Misc.exe.mdb
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/Misc/bin/Debug/Misc.exe
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/Misc/obj/x86/Debug/Misc.exe
-/Users/Riccardo/Documents/Presentations/Why-Functional/Code/DotNetSamples/DotNetSamples/Misc/obj/x86/Debug/Misc.exe.mdb

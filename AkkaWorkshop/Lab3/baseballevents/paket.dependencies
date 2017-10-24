@@ -1,0 +1,10 @@
+source https://www.nuget.org/api/v2
+nuget Akka.Fsharp
+nuget Akka.Remote
+nuget EventStore.Client.FSharp
+nuget FSharp.Data
+nuget FsPickler 2.4.0
+nuget FAKE
+nuget FSharp.Core
+nuget RethinkDb.Driver
+nuget System.Reactive

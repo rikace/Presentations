@@ -1,6 +1,0 @@
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\bin\Debug\Tasks.Demo.exe.config
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\bin\Debug\Tasks.Demo.exe
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\bin\Debug\Tasks.Demo.pdb
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\obj\Debug\Tasks.Demo.csprojResolveAssemblyReference.cache
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\obj\Debug\Tasks.Demo.exe
-\\mac\home\documents\visual studio 2015\Projects\ChooseConcurrenyModel\Tasks.Demo\obj\Debug\Tasks.Demo.pdb

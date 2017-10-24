@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>@(string.IsNullOrWhiteSpace(ViewBag.Title) ? "" : ViewBag.Title + " |") MVC Auctions</title>
+        @Styles.Render("~/Content/css")
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div id="sub-nav" class="well well-small">
+                <div class="clearfix">
+                    <div class="pull-left">
+                        @RenderSection("Title", false)
+                    </div>
+
+                </div>
+            </div>
+
+            @Html.Partial("_AlertPane")
+
+            @RenderBody()
+
+            <hr class="clearfix" />
+       
+
+        </div>
+
+        @Scripts.Render("~/bundles/global")
+        @Scripts.Render("~/scripts/signalr")
+        <script src="/signalr/hubs"> </script>
+        @RenderSection("scripts", false)
+
+        <script type="text/javascript">
+            $(function() {
+                var signalRHub = $.connection.signalRHub;
+
+                signalRHub.client.broadcastMessage = function(message) {
+                    toastr.success(message);
+                };
+
+                $.connection.hub.start();
+            });
+
+        </script>
+    </body>
+</html>

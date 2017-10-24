@@ -1,7 +1,0 @@
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\bin\Debug\InteropLib.XML
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\bin\Debug\InteropLib.dll
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\bin\Debug\InteropLib.pdb
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\bin\Debug\FSharp.Core.dll
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\bin\Debug\FSharp.Core.xml
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\obj\Debug\InteropLib.dll
-C:\Git\Presentations\FS-Intro\src\StartingWithFSharp\InteropLib\obj\Debug\InteropLib.pdb

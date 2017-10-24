@@ -1,0 +1,47 @@
+﻿@model  DemoEDA.Models.ProductViewModel
+@{
+    ViewBag.Title = Model.Name;
+}
+
+@section Title {
+    <a href="javascript: history.back()">
+        <i class="icon-arrow-left">&nbsp;</i>
+        Back to search results
+    </a>
+}
+
+<div class="row-fluid">
+    <div id="images" class="span4">
+        <img class="img-polaroid" src="@Model.ImageUrl" />
+    </div>
+    <div class="span8">
+        <h3>@Model.Name</h3>
+        <div class="row-fluid">
+            <div class="span8">
+                <div class="well well-small">
+                    @using (Html.BeginForm("AddToCart", "StoreEDAFSharp", new {id = Model.Id}, FormMethod.Post))
+                    {
+                        <p class="clearfix">
+                            <span class="input-prepend span8">
+                                <span class="current-price">@Model.PriceDisplay</span>
+                                <input name="amount" type="text" readonly="readonly" required="true" class="input-small" value="@Model.PriceDisplay">
+                                <input name="quantity" type="number" required="true" class="input-small" value="1">
+                            </span>
+                            <input type="submit" value="Add to Cart" class="btn btn-primary" />
+                        </p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#"><strong>Description</strong></a>
+        </li>
+    </ul>
+    <section id="description">
+        @Model.Description
+    </section>
+</div>

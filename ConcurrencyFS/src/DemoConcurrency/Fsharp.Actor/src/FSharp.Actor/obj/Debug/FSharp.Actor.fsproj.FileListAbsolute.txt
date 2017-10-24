@@ -1,6 +1,0 @@
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.dll
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.pdb
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\bin\FSharp.Actor.XML
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor\obj\Debug\FSharp.Actor.fsprojResolveAssemblyReference.cache
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor\obj\Debug\FSharp.Actor.dll
-C:\Demo\ConcurrecnyFSharp\DemoConcurrency\Fsharp.Actor\src\FSharp.Actor\obj\Debug\FSharp.Actor.pdb

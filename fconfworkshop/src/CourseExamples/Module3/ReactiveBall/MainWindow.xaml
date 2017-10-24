@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="600" Width="800">
+
+    <Canvas Name="Canvas" Background="White">
+		<!--<Rectangle Name="Ball" Fill="Orange" Width="100" Height="100" RadiusX="60" RadiusY="60" />-->
+		<Ellipse Name="Ball" Fill="Orange" Width="100" Height="100" />
+		<Polyline x:Name="polyline" Stroke="DarkGreen" StrokeThickness="3"/>
+    </Canvas>
+    
+</Window>

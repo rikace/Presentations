@@ -1,0 +1,11 @@
+START ./src/Lighthouse/bin/Debug/Lighthouse.exe
+timeout 3
+START ./src/API/bin/Debug/API.exe
+timeout 3
+START ./src/API/bin/Debug/API.exe
+timeout 3
+START ./src/API/bin/Debug/API.exe
+timeout 3
+START ./src/Client/bin/Debug/Client.exe
+timeout 3
+START ./src/Client/bin/Debug/Client.exe

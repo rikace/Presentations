@@ -1,8 +1,0 @@
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\_2.RxModule.exe.config
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\_2.RxModule.XML
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\_2.RxModule.exe
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\_2.RxModule.pdb
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\FSharp.Core.dll
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\bin\Debug\FSharp.Core.xml
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\obj\Debug\_2.RxModule.exe
-C:\Users\Riccardo\Documents\Visual Studio 2013\Projects\GothamFS\src\2.RxModule\obj\Debug\_2.RxModule.pdb

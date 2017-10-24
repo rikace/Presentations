@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="akka" type="Akka.Configuration.Hocon.AkkaConfigurationSection, Akka" />
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <runtime>
+    <gcServer enabled="true" />
+  </runtime>
+  <akka>
+    <hocon>
+      <![CDATA[
+					akka {
+            loglevel = INFO
+						actor {
+              provider = "Akka.Cluster.ClusterActorRefProvider, Akka.Cluster"
+            }
+            remote.helios.tcp {
+              hostname = "127.0.0.1"
+              port = 0
+            }           
+            cluster {
+              seed-nodes = ["akka.tcp://globomantics@127.0.0.1:4053"]
+              auto-down-unreachable-after = 10s
+              roles = [api]
+              sharding {
+                role = api
+                journal-plugin-id = "akka.persistence.journal.sharding"
+                snapshot-plugin-id = "akka.persistence.snapshot-store.sharding"
+                least-shard-allocation-strategy {
+                  rebalance-threshold = 3
+                }
+              }
+            }
+            persistence {
+              journal {
+                plugin = "akka.persistence.journal.sqlite"
+                sqlite {
+                  auto-initialize = on
+                  connection-string = "Data Source=C:\\Temp\\test.db;Version=3;"
+                }
+                sharding {
+                  connection-string = "Data Source=C:\\Temp\\test.db;Version=3;"
+                  auto-initialize = on
+                  plugin-dispatcher = "akka.actor.default-dispatcher"
+                  class = "Akka.Persistence.Sqlite.Journal.SqliteJournal, Akka.Persistence.Sqlite"
+                  connection-timeout = 30s
+                  table-name = sharding_journal
+                  timestamp-provider = "Akka.Persistence.Sql.Common.Journal.DefaultTimestampProvider, Akka.Persistence.Sql.Common"
+                  metadata-table-name = sharding_meta
+                }
+              }
+              snapshot-store {
+                plugin = "akka.persistence.snapshot-store.sqlite"
+                sqlite {
+                  auto-initialize = on
+                  connection-string = "Data Source=C:\\Temp\\test.db;Version=3;"
+                }
+                sharding {
+                  class = "Akka.Persistence.Sqlite.Snapshot.SqliteSnapshotStore, Akka.Persistence.Sqlite"
+                  plugin-dispatcher = "akka.actor.default-dispatcher"
+                  connection-string = "Data Source=C:\\Temp\\test.db;Version=3;"
+                  connection-timeout = 30s
+                  table-name = sharding_snapshots
+                  auto-initialize = on
+                }
+              }
+            }
+          }
+			]]>
+    </hocon>
+  </akka>
+</configuration>

@@ -1,7 +1,0 @@
-C:\Demo\Mario\src\main\FunScript.Interop\bin\Debug\FunScript.Interop.XML
-C:\Demo\Mario\src\main\FunScript.Interop\bin\Debug\FunScript.Interop.dll
-C:\Demo\Mario\src\main\FunScript.Interop\bin\Debug\FunScript.Interop.pdb
-C:\Demo\Mario\src\main\FunScript.Interop\bin\Debug\FSharp.Core.dll
-C:\Demo\Mario\src\main\FunScript.Interop\bin\Debug\FSharp.Core.xml
-C:\Demo\Mario\src\main\FunScript.Interop\obj\Debug\FunScript.Interop.dll
-C:\Demo\Mario\src\main\FunScript.Interop\obj\Debug\FunScript.Interop.pdb
