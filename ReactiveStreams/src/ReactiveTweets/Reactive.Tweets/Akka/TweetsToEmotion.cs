@@ -10,6 +10,7 @@ using LiveCharts;
 using LiveCharts.WinForms;
 using System.Windows.Forms;
 using System.Windows.Threading;
+using Shared.Reactive;
 
 namespace Reactive.Tweets
 {
@@ -44,7 +45,7 @@ namespace Reactive.Tweets
             {
                 InnerRadius = 100,
                 LegendLocation = LegendLocation.Right,
-                Series = new SeriesCollection
+                Series = new SeriesCollection()
                 {
                     CreatePieSeries("Unhappy"),
                     CreatePieSeries("Indifferent"),

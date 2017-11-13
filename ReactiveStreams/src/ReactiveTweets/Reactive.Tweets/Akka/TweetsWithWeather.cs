@@ -5,11 +5,14 @@ using Akka;
 using Akka.Streams;
 using Akka.Streams.Dsl;
 using Tweetinvi.Models;
+using Shared.Reactive;
 
 namespace Reactive.Tweets
 {
     public static class TweetsWithWeather
     {
+        // Buffer and SelectAsync
+        // 2 channels can be handled independently 
         public static IRunnableGraph<TMat>
             CreateRunnableGraph<TMat>(Source<ITweet, TMat> tweetSource)
         {
@@ -28,11 +31,14 @@ namespace Reactive.Tweets
                         .Throttle(10, TimeSpan.FromSeconds(1), 1, ThrottleMode.Shaping))
                     .Via(formatUser)
                     .To(merge.In(0));
+
                 b.From(broadcast.Out(1))
                     .Via(Flow.Create<ITweet>().Select(tweet => tweet.Coordinates)
                         .Buffer(10, OverflowStrategy.DropNew)
                         .Throttle(1, TimeSpan.FromSeconds(1), 10, ThrottleMode.Shaping))
-                    .Via(Flow.Create<ICoordinates>().SelectAsync(5, Utils.GetWeatherAsync))
+                    .Via(Flow.Create<ICoordinates>()
+                    // Async !!
+                    .SelectAsync(5, Utils.GetWeatherAsync))
                     .Via(formatTemperature)
                     .To(merge.In(1));
 

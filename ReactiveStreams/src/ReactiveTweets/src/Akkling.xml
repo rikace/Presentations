@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Akkling</name></assembly>
+<members>
+<member name="M:Akkling.Strategy.OneForOne(Microsoft.FSharp.Quotations.FSharpExpr{Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive}},Microsoft.FSharp.Core.FSharpOption{System.Int32},Microsoft.FSharp.Core.FSharpOption{System.TimeSpan})">
+ <summary>
+ Returns a supervisor strategy appliable only to child actor which faulted during execution.
+ </summary>
+ <param name="retries">Defines a number of times, an actor could be restarted. If it's a negative value, there is not limit.</param>
+ <param name="timeout">Defines time window for number of retries to occur.</param>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="M:Akkling.Strategy.OneForOne(Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive},Microsoft.FSharp.Core.FSharpOption{System.Int32},Microsoft.FSharp.Core.FSharpOption{System.TimeSpan})">
+ <summary>
+ Returns a supervisor strategy appliable only to child actor which faulted during execution.
+ </summary>
+ <param name="retries">Defines a number of times, an actor could be restarted. If it's a negative value, there is not limit.</param>
+ <param name="timeout">Defines time window for number of retries to occur.</param>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="M:Akkling.Strategy.OneForOne(Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive})">
+ <summary>
+ Returns a supervisor strategy appliable only to child actor which faulted during execution.
+ </summary>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="M:Akkling.Strategy.AllForOne(Microsoft.FSharp.Quotations.FSharpExpr{Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive}},Microsoft.FSharp.Core.FSharpOption{System.Int32},Microsoft.FSharp.Core.FSharpOption{System.TimeSpan})">
+ <summary>
+ Returns a supervisor strategy appliable to each supervised actor when any of them had faulted during execution.
+ </summary>
+ <param name="retries">Defines a number of times, an actor could be restarted. If it's a negative value, there is not limit.</param>
+ <param name="timeout">Defines time window for number of retries to occur.</param>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="M:Akkling.Strategy.AllForOne(Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive},Microsoft.FSharp.Core.FSharpOption{System.Int32},Microsoft.FSharp.Core.FSharpOption{System.TimeSpan})">
+ <summary>
+ Returns a supervisor strategy appliable to each supervised actor when any of them had faulted during execution.
+ </summary>
+ <param name="retries">Defines a number of times, an actor could be restarted. If it's a negative value, there is not limit.</param>
+ <param name="timeout">Defines time window for number of retries to occur.</param>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="M:Akkling.Strategy.AllForOne(Microsoft.FSharp.Core.FSharpFunc{System.Exception,Akka.Actor.Directive})">
+ <summary>
+ Returns a supervisor strategy appliable to each supervised actor when any of them had faulted during execution.
+ </summary>
+ <param name="decider">Used to determine a actor behavior response depending on exception occurred.</param>
+</member>
+<member name="P:Akkling.ActorRefs.TypedActorSelection`1.Underlying">
+ <summary>
+ Returns an underlying untyped <see cref="ActorSelection"/> instance.
+ </summary>
+</member>
+<member name="P:Akkling.ActorRefs.TypedActorSelection`1.PathString">
+ <summary>
+ Gets string representation for all elements in actor selection path.
+ </summary>
+</member>
+<member name="P:Akkling.ActorRefs.TypedActorSelection`1.Path">
+ <summary>
+ Gets collection of elements, actor selection path is build from.
+ </summary>
+</member>
+<member name="P:Akkling.ActorRefs.TypedActorSelection`1.Anchor">
+ <summary>
+ Gets and actor ref anchor for current selection.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.TypedActorSelection`1.ResolveOne(System.TimeSpan)">
+ <summary>
+ Tries to resolve an actor reference from current actor selection.
+ </summary>
+</member>
+<member name="T:Akkling.ActorRefs.TypedActorSelection`1">
+ <summary>
+ Typed wrapper for <see cref="ActorSelection"/> objects.
+ </summary>
+</member>
+<member name="P:Akkling.ActorRefs.TypedActorRef`1.Underlying">
+ <summary>
+ Gets an underlying actor reference wrapped by current object.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.TypedActorRef`1.Akkling-ActorRefs-IActorRef`1-Retype``1">
+ <summary>
+ Changes the type of handled messages, returning new typed ActorRef.
+ </summary>
+</member>
+<member name="T:Akkling.ActorRefs.TypedActorRef`1">
+ <summary>
+ Wrapper around untyped instance of IActorRef interface.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.IActorRef`1.Retype``1">
+ <summary>
+ Changes the type of handled messages, returning new typed ActorRef.
+ </summary>
+</member>
+<member name="T:Akkling.ActorRefs.IActorRef`1">
+ <summary>
+ Typed version of <see cref="IActorRef"/> interface. Allows to tell/ask using only messages of restricted type.
+ </summary>
+</member>
+<member name="T:Akkling.ActorRefs.IInternalTypedActorRef">
+<summary>
+ INTERNAL API.
+</summary>
+</member>
+<member name="T:Akkling.ActorRefs.ICanTell`1">
+ <summary>
+ Typed version of <see cref="ICanTell"/> interface. Allows to tell/ask using only messages of restricted type.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.select``1(Akka.Actor.IActorRefFactory,System.String)">
+ <summary>
+ Returns an instance of <see cref="ActorSelection" /> for specified path.
+ If no matching receiver will be found, a <see cref="ActorRefs.NoSender" /> instance will be returned.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.op_LessBangBar``1(Akkling.ActorRefs.ICanTell{``0},Microsoft.FSharp.Control.FSharpAsync{``0})">
+<summary>
+ Pipe operator which sends an output of asynchronous expression directly to the recipients mailbox
+</summary>
+</member>
+<member name="M:Akkling.ActorRefs.op_BarBangGreater``1(Microsoft.FSharp.Control.FSharpAsync{``0},Akkling.ActorRefs.ICanTell{``0})">
+<summary>
+ Pipe operator which sends an output of asynchronous expression directly to the recipients mailbox.
+</summary>
+</member>
+<member name="M:Akkling.ActorRefs.pipeTo``1(Akka.Actor.IActorRef,Akkling.ActorRefs.ICanTell{``0},Microsoft.FSharp.Control.FSharpAsync{``0})">
+<summary>
+ Pipes an output of asynchronous expression directly to the recipients mailbox.
+</summary>
+</member>
+<member name="M:Akkling.ActorRefs.op_LessLessBang``2(``0,``1)">
+ <summary>
+ Unidirectional forward operator.
+ Sends a message object directly to actor tracked by actorRef without overriding it's sender.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.op_LessQmark``3(``0,``1)">
+ <summary>
+ Bidirectional send operator. Sends a message object directly to actor
+ tracked by actorRef and awaits for response send back from corresponding actor.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.op_LessBang``2(``0,``1)">
+ <summary>
+ Unidirectional send operator.
+ Sends a message object directly to actor tracked by actorRef.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.retype``2(Akkling.ActorRefs.IActorRef{``0})">
+ <summary>
+ Changes type of messages handled by provided typedRef, returning new typed actor ref.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.untyped``1(Akkling.ActorRefs.IActorRef{``0})">
+ <summary>
+ Returns untyped <see cref="IActorRef" /> form of current typed actor.
+ </summary>
+</member>
+<member name="M:Akkling.ActorRefs.typed``1(Akka.Actor.IActorRef)">
+ <summary>
+ Returns typed wrapper over provided actor reference.
+ </summary>
+</member>
+<member name="T:Akkling.Actors.ExtActor`1">
+ <summary>
+ Exposes an Akka.NET extended actor API accessible from inside of F# continuations 
+ </summary>
+</member>
+<member name="M:Akkling.Actors.ExtContext.Unhandled(System.Object)">
+ <summary>
+ Marks message as unhandled.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.ExtContext.Stop``1(Akkling.ActorRefs.IActorRef{``0})">
+ <summary>
+ Stops execution of provided actor.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.ExtContext.Incarnation">
+ <summary>
+ Returns current actor incarnation
+ </summary>
+</member>
+<member name="P:Akkling.Actors.Actor`1.UntypedContext">
+ <summary>
+ A raw Actor context in it's untyped form.
+ </summary>
+</member>
+<member name="P:Akkling.Actors.Actor`1.System">
+ <summary>
+ Gets <see cref="ActorSystem" /> for the current actor.
+ </summary>
+</member>
+<member name="P:Akkling.Actors.Actor`1.Self">
+ <summary>
+ Gets <see cref="IActorRef" /> for the current actor.
+ </summary>
+</member>
+<member name="P:Akkling.Actors.Actor`1.Log">
+ <summary>
+ Lazy logging adapter. It won't be initialized until logging function will be called. 
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.UnstashAll">
+ <summary>
+ Unstashes all messages by prepending them to the actor's mailbox.
+ The stash is guaranteed to be empty afterwards.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Unstash">
+ <summary>
+ Unstash the oldest message in the stash and prepends it to the actor's mailbox.
+ The message is removed from the stash.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Stash">
+ <summary>
+ Stashes the current message (the message that the actor received last)
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.SetReceiveTimeout(Microsoft.FSharp.Core.FSharpOption{System.TimeSpan})">
+ <summary>
+ Sets or clears a timeout before <see="ReceiveTimeout"/> message will be send to an actor.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Sender``1">
+ <summary>
+ Returns a sender of current message or <see cref="ActorRefs.NoSender" />, if none could be determined.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.ScheduleRepeatedly``1(System.TimeSpan,System.TimeSpan,Akkling.ActorRefs.IActorRef{``0},``0)">
+ <summary>
+ Schedules a message to be repeatedly transmited, starting at specified delay with provided intervals.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Schedule``1(System.TimeSpan,Akkling.ActorRefs.IActorRef{``0},``0)">
+ <summary>
+ Schedules a message to be transmited in specified delay.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Receive">
+ <summary>
+ Explicitly retrieves next incoming message from the mailbox.
+ </summary>
+</member>
+<member name="M:Akkling.Actors.Actor`1.Parent``1">
+ <summary>
+ Returns a parrent of current actor.
+ </summary>
+</member>
+<member name="T:Akkling.Actors.Actor`1">
+ <summary>
+ Exposes an Akka.NET actor API accessible from inside of F# continuations
+ </summary>
+</member>
+<member name="M:Akkling.MessagePatterns.|ActorIdentity|_|``2(System.Object)">
+ <summary>
+ Active pattern that matches message agains <see cref="ActorIdentity"/> message.
+ This is the result of <see cref="Identify"/> request send with matching correlation id.
+ Response contains actor ref of the requested identity or None if no actor was found.
+ </summary>
+</member>
+<member name="M:Akkling.MessagePatterns.|Terminated|_|``1(System.Object)">
+ <summary>
+ Active pattern that matches message agains <see cref="Terminated"/> message.
+ First parameter is ref to terminated actor, second is existence confirmed, third address terminated flag.
+ </summary>
+</member>
+<member name="T:Akkling.ComputationExpressions.ActorBuilder">
+<summary>
+ Gives access to the next message throu let! binding in actor computation expression.
+ The builder for actor computation expression.
+</summary>
+</member>
+<member name="P:Akkling.ComputationExpressions.actor">
+<summary>
+ Builds an actor message handler using an actor expression syntax.
+</summary>
+</member>
+<member name="P:Akkling.Props.Props`1.SupervisionStrategy">
+ <summary>
+ Custom supervision strategy used by current actor.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.Router">
+ <summary>
+ Router settings in case when current actor is used in router configuration.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.Deploy">
+ <summary>
+ Deploy settings of the current actor.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.Mailbox">
+ <summary>
+ Config key to mailbox type used by current actor.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.Dispatcher">
+ <summary>
+ Config key to dispatcher responsible for managing current actor's threading.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.Args">
+ <summary>
+ INTERNAL API.
+ </summary>
+</member>
+<member name="P:Akkling.Props.Props`1.ActorType">
+ <summary>
+ INTERNAL API.
+ </summary>
+</member>
+<member name="T:Akkling.Props.Props`1">
+ <summary>
+ Typed props are descriptors of how particular actor should be instantiated.
+ </summary>
+</member>
+<member name="M:Akkling.Props.propse``1(Microsoft.FSharp.Quotations.FSharpExpr{Microsoft.FSharp.Core.FSharpFunc{Akkling.Actors.Actor{``0},Akkling.Actors.Effect{``0}}})">
+ <summary>
+ Creates a props describing a way to incarnate actor with behavior described by <paramref name="expr"/> expression.
+ </summary>
+</member>
+<member name="M:Akkling.Props.props``1(Microsoft.FSharp.Core.FSharpFunc{Akkling.Actors.Actor{``0},Akkling.Actors.Effect{``0}})">
+ <summary>
+ Creates a props describing a way to incarnate actor with behavior described by <paramref name="receive"/> function.
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.op_LessBarGreater``2(Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``0,Akkling.Actors.Effect{``0}}},Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``0,Akkling.Actors.Effect{``0}}},``1,``0)">
+ <summary>
+ Joins two receive functions, passing message to the <paramref name="right"/> one 
+ only when result of a <paramref name="left"/> one is <see cref="Unhandled"/>
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.op_LessAmpGreater``2(Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``0,Akkling.Actors.Effect{``0}}},Microsoft.FSharp.Core.FSharpFunc{``1,Microsoft.FSharp.Core.FSharpFunc{``0,Akkling.Actors.Effect{``0}}},``1,``0)">
+ <summary>
+ Joins two receive functions, passing message to the <paramref name="right"/> one 
+ only when result of a <paramref name="left"/> one is other than <see cref="Unhandled"/>
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.become``1(Microsoft.FSharp.Core.FSharpFunc{``0,Akkling.Actors.Effect{``0}})">
+ <summary>
+ Returns an actor effect causing actor to switch its behavior.
+ </summary>
+ <param name="next">New receive function.</param>
+</member>
+<member name="M:Akkling.Spawn.stop``2(``0)">
+ <summary>
+ Returns an actor effect causing actor to stop.
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.unhandled``2(``0)">
+ <summary>
+ Returns an actor effect causing messages to become unhandled.
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.ignored``2(``0)">
+ <summary>
+ Returns an actor effect causing no changes in message handling pipeline.
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.actorOf2``2(Microsoft.FSharp.Core.FSharpFunc{Akkling.Actors.Actor{``0},Microsoft.FSharp.Core.FSharpFunc{``0,``1}},Akkling.Actors.Actor{``0})">
+ <summary>
+ Wraps provided function with actor behavior. 
+ It will be invoked each time, an actor will receive a message. 
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.actorOf``2(Microsoft.FSharp.Core.FSharpFunc{``0,``1},Akkling.Actors.Actor{``0})">
+ <summary>
+ Wraps provided function with actor behavior. 
+ It will be invoked each time, an actor will receive a message. 
+ </summary>
+</member>
+<member name="M:Akkling.Spawn.spawnAnonymous``1(Akka.Actor.IActorRefFactory,Akkling.Props.Props{``0})">
+ <summary>
+ Spawns an anonymous actor with automatically generated name using specified actor <see cref="Props{Message}"/>.
+ </summary>
+ <param name="actorFactory">Either actor system or parent actor</param>
+ <param name="name">Name of spawned child actor</param>
+ <param name="f">Used by actor for handling response for incoming request</param>
+</member>
+<member name="M:Akkling.Spawn.spawn``1(Akka.Actor.IActorRefFactory,System.String,Akkling.Props.Props{``0})">
+ <summary>
+ Spawns an actor using specified actor <see cref="Props{Message}"/>.
+ </summary>
+ <param name="actorFactory">Either actor system or parent actor</param>
+ <param name="name">Name of spawned child actor</param>
+ <param name="f">Used by actor for handling response for incoming request</param>
+</member>
+<member name="M:Akkling.System.create(System.String,Akka.Configuration.Config)">
+<summary>
+ Creates an actor system with remote deployment serialization enabled.
+</summary>
+</member>
+<member name="M:Akkling.Configuration.load">
+<summary>
+ Loads Akka configuration from the project&apos;s .config file.
+</summary>
+</member>
+<member name="M:Akkling.Configuration.defaultConfig">
+<summary>
+ Returns default Akka for F# configuration.
+</summary>
+</member>
+<member name="M:Akkling.Configuration.parse(System.String)">
+<summary>
+ Parses provided HOCON string into a valid Akka configuration object.
+</summary>
+</member>
+<member name="M:Akkling.Behaviors.printf``1(Microsoft.FSharp.Core.PrintfFormat{Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.Unit},System.IO.TextWriter,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},Akkling.Actors.Actor{``0})">
+ <summary>
+ Actor behavior, which prints message in formatted string to standard output.
+ </summary>
+</member>
+<member name="M:Akkling.Behaviors.echo``1(Akkling.Actors.Actor{``0})">
+ <summary>
+ Actor behavior, which resends message back to it's sender.
+ </summary>
+</member>
+<member name="M:Akkling.Behaviors.ignore``1(Akkling.Actors.Actor{``0})">
+ <summary>
+ An empty actor behavior, which ignores all incoming messages.
+ </summary>
+</member>
+<member name="M:Akkling.Schedulers.ITellScheduler.ScheduleTellOnce``1(Akka.Actor.ITellScheduler,System.TimeSpan,Akkling.ActorRefs.ICanTell{``0},``0)">
+ <summary>
+ Schedules a single <paramref name="message"/> send to the provided <paramref name="receiver"/>.
+ </summary>
+ <param name="after">Delay before sending a message.</param>
+ <param name="message">Message to be sent to the receiver by the scheduler.</param>
+ <param name="receiver">Message receiver.</param>
+</member>
+<member name="M:Akkling.Schedulers.ITellScheduler.ScheduleTellRepeatedly``1(Akka.Actor.ITellScheduler,System.TimeSpan,System.TimeSpan,Akkling.ActorRefs.ICanTell{``0},``0)">
+ <summary>
+ Schedules a <paramref name="message"/> to be sent to the provided <paramref name="receiver"/> in specified time intervals.
+ </summary>
+ <param name="after">Initial delay to first function call.</param>
+ <param name="every">Interval.</param>
+ <param name="message">Message to be sent to the receiver by the scheduler.</param>
+ <param name="receiver">Message receiver.</param>
+</member>
+<member name="M:Akkling.Schedulers.IActionScheduler.ScheduleOnce(Akka.Actor.IActionScheduler,System.TimeSpan,Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpOption{Akka.Actor.ICancelable})">
+ <summary>
+ Schedules a single function call using specified sheduler.
+ </summary>
+ <param name="after">Delay before calling the function.</param>
+ <param name="fn">Function called by the scheduler.</param>
+ <param name="cancelable">Optional cancelation token</param>
+</member>
+<member name="M:Akkling.Schedulers.IActionScheduler.ScheduleRepeatedly(Akka.Actor.IActionScheduler,System.TimeSpan,System.TimeSpan,Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpOption{Akka.Actor.ICancelable})">
+ <summary>
+ Schedules a function to be invoked repeatedly in the provided time intervals. 
+ </summary>
+ <param name="after">Initial delay to first function call.</param>
+ <param name="every">Interval.</param>
+ <param name="fn">Function called by the scheduler.</param>
+ <param name="cancelable">Optional cancelation token</param>
+</member>
+<member name="M:Akkling.Logging.logErrorf``2(Akkling.Actors.Actor{``0})">
+<summary>
+ Logs a message at Error level using configured Akka logger. 
+</summary>
+</member>
+<member name="M:Akkling.Logging.logWarningf``2(Akkling.Actors.Actor{``0})">
+<summary>
+ Logs a message at Warning level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logInfof``2(Akkling.Actors.Actor{``0})">
+<summary>
+ Logs a message at Info level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logDebugf``2(Akkling.Actors.Actor{``0})">
+<summary>
+ Logs a message at Debug level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logf``2(Akka.Event.LogLevel,Akkling.Actors.Actor{``0})">
+<summary>
+ Logs a message using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logException``1(Akkling.Actors.Actor{``0},System.Exception)">
+<summary>
+ Logs an exception message at Error level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logError``1(Akkling.Actors.Actor{``0},System.String)">
+<summary>
+ Logs a message at Error level using configured Akka logger. 
+</summary>
+</member>
+<member name="M:Akkling.Logging.logWarning``1(Akkling.Actors.Actor{``0},System.String)">
+<summary>
+ Logs a message at Warning level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logInfo``1(Akkling.Actors.Actor{``0},System.String)">
+<summary>
+ Logs a message at Info level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.logDebug``1(Akkling.Actors.Actor{``0},System.String)">
+<summary>
+ Logs a message at Debug level using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.Logging.log``1(Akka.Event.LogLevel,Akkling.Actors.Actor{``0},System.String)">
+<summary>
+ Logs a message using configured Akka logger.
+</summary>
+</member>
+<member name="M:Akkling.EventStreaming.publish``1(``0,Akka.Event.EventStream)">
+ <summary>
+ Publishes an event on the provided event stream. Event channel is resolved from event's type.
+ </summary>
+</member>
+<member name="M:Akkling.EventStreaming.unsubscribe``1(Akkling.ActorRefs.IActorRef{``0},Akka.Event.EventStream)">
+ <summary>
+ Unubscribes an actor reference from target channel of the provided event stream.
+ </summary>
+</member>
+<member name="M:Akkling.EventStreaming.subscribe``1(Akkling.ActorRefs.IActorRef{``0},Akka.Event.EventStream)">
+ <summary>
+ Subscribes an actor reference to target channel of the provided event stream.
+ </summary>
+</member>
+<member name="M:Akkling.Watchers.demonitor``2(``0,Akkling.ActorRefs.IActorRef{``1})">
+ <summary>
+ Orders a <paramref name="watcher"/> to stop monitoring an actor refered by provided <paramref name="subject"/>.
+ </summary>
+</member>
+<member name="M:Akkling.Watchers.monitor``2(``0,Akkling.ActorRefs.IActorRef{``1})">
+ <summary>
+ Orders a <paramref name="watcher"/> to monitor an actor targeted by provided <paramref name="subject"/>.
+ When an actor refered by subject dies, a watcher should receive a <see cref="Terminated"/> message.
+ </summary>
+</member>
+<member name="M:Akkling.IO.Udp``1(Akkling.Actors.Actor{``0})">
+ <summary>
+ Gets UDP manager for current actor.
+ </summary>
+</member>
+<member name="M:Akkling.IO.Tcp``1(Akkling.Actors.Actor{``0})">
+ <summary>
+ Gets TCP manager for current actor.
+ </summary>
+</member>
+</members>
+</doc>

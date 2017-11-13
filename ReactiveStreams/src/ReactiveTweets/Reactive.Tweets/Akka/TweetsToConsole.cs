@@ -6,6 +6,7 @@ using Akka.Actor;
 using Akka.Streams;
 using Akka.Streams.Dsl;
 using Tweetinvi.Models;
+using Shared.Reactive;
 
 namespace Reactive.Tweets
 {
@@ -16,6 +17,7 @@ namespace Reactive.Tweets
         {
             var formatFlow = Flow.Create<ITweet>().Select(Utils.FormatTweet);
             var writeSink = Sink.ForEach<string>(Console.WriteLine);
+
             return tweetSource.Via(formatFlow).To(writeSink);
         }
     }

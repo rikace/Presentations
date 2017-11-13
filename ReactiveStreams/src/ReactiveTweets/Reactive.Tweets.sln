@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactive.Tweets", "Reactive.Tweets\Reactive.Tweets.csproj", "{E5AD9B5B-D02F-477C-B2AC-EA4DD77CD376}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Reactive.Stream", "Reactive.Stream\Reactive.Stream.fsproj", "{80E1BCB3-DC2A-43F5-ACF7-FCE5D7554371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{51A06197-6B03-4EDF-A3F8-39354E87FA4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{E5AD9B5B-D02F-477C-B2AC-EA4DD77CD376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5AD9B5B-D02F-477C-B2AC-EA4DD77CD376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5AD9B5B-D02F-477C-B2AC-EA4DD77CD376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E1BCB3-DC2A-43F5-ACF7-FCE5D7554371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E1BCB3-DC2A-43F5-ACF7-FCE5D7554371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E1BCB3-DC2A-43F5-ACF7-FCE5D7554371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E1BCB3-DC2A-43F5-ACF7-FCE5D7554371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A06197-6B03-4EDF-A3F8-39354E87FA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A06197-6B03-4EDF-A3F8-39354E87FA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A06197-6B03-4EDF-A3F8-39354E87FA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A06197-6B03-4EDF-A3F8-39354E87FA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91FA36A0-4DBE-4F1F-B657-2582A8CAC279}
 	EndGlobalSection
 EndGlobal

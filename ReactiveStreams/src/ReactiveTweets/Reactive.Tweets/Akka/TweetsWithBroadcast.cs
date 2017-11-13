@@ -5,6 +5,8 @@ using Akka;
 using Akka.Streams;
 using Akka.Streams.Dsl;
 using Tweetinvi.Models;
+using Shared.Reactive;
+
 
 namespace Reactive.Tweets
 {
@@ -15,9 +17,10 @@ namespace Reactive.Tweets
         {
             var formatUser = Flow.Create<IUser>().Select(Utils.FormatUser);
             var formatCoordinates = Flow.Create<ICoordinates>().Select(Utils.FormatCoordinates);
+
             var writeSink = Sink.ForEach<string>(Console.WriteLine);
 
-            var graph = GraphDsl.Create(b =>
+            var graph = GraphDsl.Create(buildBlock: b =>
             {
                 var broadcast = b.Add(new Broadcast<ITweet>(2));
                 var merge = b.Add(new Merge<string>(2));
