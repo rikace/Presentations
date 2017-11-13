@@ -25,7 +25,7 @@
 | [Workshop: Functional Concurrency in .NET](https://github.com/rikace/Presentations/tree/master/fconfworkshop)| 09/13/17 | Krakow PL - DevConf |
 | [Reactive Programming with Commands, Actors and Events](https://github.com/rikace/Presentations/tree/master/CommandsEventsActors) |  09/14/17 | Krakow PL - DevConf |
 | [Taming and Composing High Performance Stream-Oriented Processing Systems for Big Data](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  09/14/17 | Krakow PL - DevConf |
-| [Reactive Programming with Commands, Actors and Events](https://github.com/rikace/Presentations/tree/master/ActorTabasco) |  10/07/17 | Reston (VA) - Nova Code Camp |
+| [Reactive Programming with Commands, Actors and Events](https://github.com/rikace/Presentations/tree/master/CommandsEventsActors) |  10/07/17 | Reston (VA) - Nova Code Camp |
 | [Taming and Composing High Performance Stream-Oriented Processing Systems for Big Data](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  10/14/17 | NYC - Code Camp |
 
 
