@@ -1,0 +1,13 @@
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\DBImporter.exe.config
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\DBImporter.XML
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\DBImporter.exe
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\DBImporter.pdb
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Core.dll
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Data.dll
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Data.TypeProviders.dll
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Data.pdb
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Data.xml
+C:\temp\FilterExpressionPoc\DBImporter\bin\Debug\FSharp.Core.xml
+C:\temp\FilterExpressionPoc\DBImporter\obj\Debug\DBImporter.fsproj.DBImporter.exe.config
+C:\temp\FilterExpressionPoc\DBImporter\obj\Debug\DBImporter.exe
+C:\temp\FilterExpressionPoc\DBImporter\obj\Debug\DBImporter.pdb

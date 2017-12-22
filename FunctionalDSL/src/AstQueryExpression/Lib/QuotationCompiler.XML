@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>QuotationCompiler</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="F:QuotationCompiler.QuotationCompiler.compiledExprs">
+<summary>
+ Memoized compiled expression trees
+</summary>
+</member>
+<member name="M:QuotationCompiler.QuotationCompiler.ToFunc``1(Microsoft.FSharp.Quotations.FSharpExpr{``0},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+     Compiles provided quotation tree to function.
+ </summary>
+ <param name="expr">Quotation tree to be compiled.</param>
+ <param name="useCache">Keep compiled functions for syntactically equal quotations in cache. Defaults to true.</param>
+</member>
+<member name="M:QuotationCompiler.QuotationCompiler.ToDynamicAssembly(Microsoft.FSharp.Quotations.FSharpExpr,Microsoft.FSharp.Core.FSharpOption{System.String})">
+ <summary>
+     Compiles provided quotation tree to dynamic assembly.
+ </summary>
+ <param name="expr">Quotation tree to be compiled.</param>
+ <param name="assemblyName">Assembly name. Defaults to auto generated name.</param>
+</member>
+<member name="M:QuotationCompiler.QuotationCompiler.ToAssembly(Microsoft.FSharp.Quotations.FSharpExpr,Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String})">
+ <summary>
+     Compiles provided quotation tree to assembly.
+ </summary>
+ <param name="expr">Quotation to be compiled.</param>
+ <param name="targetDirectory">Target directory. Defaults to system temp folder.</param>
+ <param name="assemblyName">Assembly name. Defaults to auto generated name.</param>
+ <param name="compiledModuleName">Name of compiled module containing AST.</param>
+ <param name="compiledFunctionName">Name of compiled function name containing AST.</param>
+</member>
+<member name="M:QuotationCompiler.QuotationCompiler.Eval``1(Microsoft.FSharp.Quotations.FSharpExpr{``0},Microsoft.FSharp.Core.FSharpOption{System.Boolean})">
+ <summary>
+     Compiles provided quotation tree to value.
+ </summary>
+ <param name="expr">Quotation tree to be compiled.</param>
+ <param name="useCache">Keep compiled functions for syntactically equal quotations in cache. Defaults to true.</param>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:QuotationCompiler.Compiler.convertExprToAst(QuotationCompiler.Utilities.IExprSerializer,System.String,System.String,Microsoft.FSharp.Quotations.FSharpExpr)">
+ <summary>
+     Converts provided quotation to an untyped F# AST
+ </summary>
+ <param name="serializer">Serializer used for pickling values spliced into expression trees.</param>
+ <param name="compiledModuleName">Name of compiled module containing AST.</param>
+ <param name="compiledFunctionName">Name of compiled function name containing AST.</param>
+ <param name="expr">Expression to be converted.</param>
+ <returns>Untyped AST and assembly dependencies.</returns>
+</member>
+<member name="T:QuotationCompiler.Compiler">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:QuotationCompiler.Dependencies.DependencyContainer.Assemblies">
+<summary>
+ Get resolved assembly dependencies
+</summary>
+</member>
+<member name="M:QuotationCompiler.Dependencies.DependencyContainer.Append(System.Type)">
+<summary>
+ Append type to dependencies
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Dependencies.DependencyContainer">
+<summary>
+ Quotation assembly dependency aggregator
+</summary>
+</member>
+<member name="T:QuotationCompiler.Dependencies">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utilities.BinaryFormatterExprSerializer">
+<summary>
+ BinaryFormatter-based quotation serializer
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utilities.ExprEqualityComparer">
+<summary>
+ Quotation Syntactic Equality comparer implementation
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utilities.IExprSerializer.Pickle``1(``0)">
+<summary>
+ Produces an expression tree that performs
+ deserialization for provided value at runtime.
+</summary>
+</member>
+<member name="T:QuotationCompiler.Utilities.IExprSerializer">
+<summary>
+ Expression-based value serialization abstraction
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.QuotationAst.FunctionName">
+<summary>
+ F# function name defining converted quotation
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.QuotationAst.ModuleName">
+<summary>
+ F# module containing converted quotation
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.QuotationAst.Dependencies">
+<summary>
+ Assembly dependencies of F# Quotation
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.QuotationAst.Tree">
+<summary>
+ Syntax tree containing the converted quotation
+</summary>
+</member>
+<member name="T:QuotationCompiler.Utilities.QuotationAst">
+<summary>
+ Contains the result of a quotation converted to F# AST
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utilities.QuotationCompiler.ToParsedInput(Microsoft.FSharp.Quotations.FSharpExpr,Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Core.FSharpOption{QuotationCompiler.Utilities.IExprSerializer})">
+ <summary>
+     Converts supplied quotation tree to F# AST.
+ </summary>
+ <param name="expr">Quotation to be converted.</param>
+ <param name="compiledModuleName">Name of compiled module containing AST.</param>
+ <param name="compiledFunctionName">Name of compiled function name containing AST.</param>
+ <param name="serializer">Serializer used for pickling values spliced into expression trees. Defaults to BinaryFormatter.</param>
+ <returns>Untyped AST and assembly dependencies.</returns>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:QuotationCompiler.Utilities.Pickle.PickledValueManager.PickledValues">
+<summary>
+ Returns all cached values
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utilities.Pickle.PickledValueManager.Append(System.Object,System.Type)">
+<summary>
+ Caches value and returns unique identifier for instance
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utilities.Pickle.PickledValueManager">
+<summary>
+ Manages serialized Expr.Value bindings
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.Pickle.ExprPickle.Expr">
+<summary>
+ Expression constructing the value.
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utilities.Pickle.ExprPickle.Ident">
+<summary>
+ Identifier used for referencing the value.
+</summary>
+</member>
+<member name="T:QuotationCompiler.Utilities.Pickle.ExprPickle">
+<summary>
+ Represents a value that has been pickled as expression
+</summary>
+</member>
+<member name="T:QuotationCompiler.Utilities.Pickle">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utils.IAsyncFunc`1">
+<summary>
+ Generic asynchronous function
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utils.IFunc`1">
+<summary>
+ Generic function
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utils.Existential`1">
+<summary>
+ Existential container of type &apos;T
+</summary>
+</member>
+<member name="P:QuotationCompiler.Utils.Existential.Type">
+<summary>
+ System.Type representation of type
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.Existential.FromType(System.Type)">
+ <summary>
+     Use reflection to initialize an encapsulated type.
+ </summary>
+ <param name="t"></param>
+</member>
+<member name="M:QuotationCompiler.Utils.Existential.Apply``1(QuotationCompiler.Utils.IAsyncFunc{``0})">
+<summary>
+ Accepts a generic asynchronous thunk to encapsulated type
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.Existential.Apply``1(QuotationCompiler.Utils.IFunc{``0})">
+<summary>
+ Accepts a generic thunk to encapsulated type
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utils.Existential">
+<summary>
+ Type existential container
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.|UnionCasePropertyGet|_|(Microsoft.FSharp.Quotations.FSharpExpr)">
+<summary>
+ recognizes bindings to union case fields in pattern matches
+ Quotations directly access propertyInfo instances, which are
+ not public. Recovers union metadata required for a proper pattern match expression
+ in the F# ast.
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.mkArgumentBinding(Microsoft.FSharp.Compiler.Range.range,Microsoft.FSharp.Core.FSharpOption{System.String},Microsoft.FSharp.Compiler.Ast.SynExpr)">
+<summary>
+ creates a syntactic argument passed to method calls
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.sysMemberToSynMember(Microsoft.FSharp.Compiler.Range.range,System.Reflection.MemberInfo)">
+<summary>
+ converts a System.Reflection.MemberInfo to an SynExpr identifier
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.tryGetCurriedFunctionGroupings(System.Reflection.MethodInfo)">
+<summary>
+ recover curried function argument groupings for given method declaration
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.mkUciIdent(Microsoft.FSharp.Compiler.Range.range,Microsoft.FSharp.Reflection.UnionCaseInfo)">
+<summary>
+ creates a union case identifier
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.sysTypeToSynType(Microsoft.FSharp.Compiler.Range.range,System.Type)">
+<summary>
+ converts a System.Type to a F# compiler SynType expression
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.getMemberPath(Microsoft.FSharp.Compiler.Range.range,System.Reflection.MemberInfo)">
+<summary>
+ generate full path for given memberinfo
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.getFSharpName(System.Reflection.MemberInfo)">
+<summary>
+ recover the F# source name for given member declaration
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:QuotationCompiler.Utils.tryParseRange(Microsoft.FSharp.Quotations.FSharpExpr)">
+<summary>
+ build a range value parsing the Expr.CustomAttributes property.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:QuotationCompiler.Utils.hash4``4(``0,``1,``2,``3)">
+<summary>
+ quadruple hashcode generation without tuple allocation
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.hash3``3(``0,``1,``2)">
+<summary>
+ triple hashcode generation without tuple allocation
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.hash2``2(``0,``1)">
+<summary>
+ pair hashcode generation without tuple allocation
+</summary>
+</member>
+<member name="M:QuotationCompiler.Utils.combineHash(System.Int32,System.Int32)">
+<summary>
+ taken from mscorlib&apos;s Tuple.GetHashCode() implementation
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:QuotationCompiler.Utils">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:System.AssemblyVersionInformation">
+
+</member>
+</members>
+</doc>

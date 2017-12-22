@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Classifiers", "3 Classifiers", "{9020E4E5-A368-477D-9DD8-98D97AF8C71C}"
+	ProjectSection(SolutionItems) = preProject
+		Classifiers\1 Pricing.fsx = Classifiers\1 Pricing.fsx
+		..\DSL_2\Classifiers\Classifiers.fsx = ..\DSL_2\Classifiers\Classifiers.fsx
+		..\DSL_2\Classifiers\Demo.fsx = ..\DSL_2\Classifiers\Demo.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Functional 3D", "1 Functional 3D", "{97B3B763-2B9B-4A47-9BD7-0729E13D3CE4}"
+	ProjectSection(SolutionItems) = preProject
+		Functional3D\1 Demo.fsx = Functional3D\1 Demo.fsx
+		Functional3D\1 Samples.fsx = Functional3D\1 Samples.fsx
+		Functional3D\2 Puzzle.fsx = Functional3D\2 Puzzle.fsx
+		codesnp.txt = codesnp.txt
+		Functional3D\functional3d.fs = Functional3D\functional3d.fs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Markdown", "2 Markdown", "{B2BC6183-675E-483E-96CF-A140404903AF}"
+	ProjectSection(SolutionItems) = preProject
+		Markdown\1 Formatting.fsx = Markdown\1 Formatting.fsx
+		Markdown\2 Processing.fsx = Markdown\2 Processing.fsx
+		Markdown\3 Parsing.fsx = Markdown\3 Parsing.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Stocks", "4 Stocks", "{232D20EC-FAA8-48A3-BCAA-62B4F51E9446}"
+	ProjectSection(SolutionItems) = preProject
+		Stocks\1 Options.fsx = Stocks\1 Options.fsx
+		Stocks\2 Options DSL.fsx = Stocks\2 Options DSL.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 EventQuery", "5 EventQuery", "{B2F8940C-CCFC-46E2-93BC-69A137077159}"
+	ProjectSection(SolutionItems) = preProject
+		..\DSL_2\EventQuery\EventQuery.fsx = ..\DSL_2\EventQuery\EventQuery.fsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E31612C-9208-4723-BEF0-B6E9CBB92726}
+	EndGlobalSection
+EndGlobal

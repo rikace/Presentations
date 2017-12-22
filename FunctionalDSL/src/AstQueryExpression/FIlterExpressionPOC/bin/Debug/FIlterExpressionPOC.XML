@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FIlterExpressionPOC</name></assembly>
+<members>
+<member name="M:PredicateModel.ExpUtil.translateLambda``2(Microsoft.FSharp.Quotations.FSharpExpr{Microsoft.FSharp.Core.FSharpFunc{``0,``1}})">
+<summary>
+ Translates a simple F# quotation to a lambda expression
+</summary>
+</member>
+</members>
+</doc>

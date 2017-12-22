@@ -1,0 +1,14 @@
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FIlterExpressionPOC.exe.config
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FIlterExpressionPOC.XML
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FIlterExpressionPOC.exe
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FIlterExpressionPOC.pdb
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\EntityFramework.dll
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\EntityFramework.SqlServer.dll
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FSharp.Core.dll
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\LinqKit.dll
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\EntityFramework.xml
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\EntityFramework.SqlServer.xml
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\LinqKit.xml
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\bin\Debug\FSharp.Core.xml
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\obj\Debug\FIlterExpressionPOC.exe
+C:\temp\FilterExpressionPoc\FIlterExpressionPOC\obj\Debug\FIlterExpressionPOC.pdb
