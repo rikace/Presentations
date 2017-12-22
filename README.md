@@ -13,10 +13,10 @@
 
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
-| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  12/19/17 | Baltimore Software Patterns and Practices (https://www.meetup.com/Baltimore-Software-Patterns-Practices/events/245625690/)|
-| [Taming and Composing High Performance Stream-Oriented Processing](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  11/29/17 | Tech Talk DC (https://www.meetup.com/TechTalkDC/events/244146824/)|
+| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  12/19/17 | [Baltimore Software Patterns and Practices](https://www.meetup.com/Baltimore-Software-Patterns-Practices/events/245625690/)|
+| [Taming and Composing High Performance Stream-Oriented Processing](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  11/29/17 | [Tech Talk DC](https://www.meetup.com/TechTalkDC/events/244146824/)|
 | [Workshop: Functional Concurrency in .NET](https://functionalconf.com/) |  11/19/17 | Bengaluru India - FunctionalConf |
-| [Taming and Composing High Performance Stream-Oriented Processing Systems for Big Data](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  11/18/17 | Bengaluru India - FunctionalConf (https://functionalconf.com/)|
+| [Taming and Composing High Performance Stream-Oriented Processing Systems for Big Data](https://github.com/rikace/Presentations/tree/master/ReactiveStreams) |  11/18/17 | Bengaluru India - [FunctionalConf](https://functionalconf.com/)|
 | [Fast Neural Networks… a no brainer!](https://github.com/rikace/Presentations/tree/master/FastNN)| 02/10/17 | Krakow PL - LambdaDays |
 | [Distributed System with Akka.NET and Docker Containers](https://github.com/rikace/Presentations/tree/master/ActorTabasco)| 03/11/17 | South Florida Code Camp |
 | [Fast Neural Networks… a no brainer!](https://github.com/rikace/Presentations/tree/master/FastNN)| 03/11/17 | South Florida Code Camp |
