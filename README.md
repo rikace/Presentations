@@ -9,6 +9,7 @@
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
 | [Deep Neural Networks with Actor Model](http://www.codemash.org/) |  01/09/18 | Sandusky OH - CodeMash |
+| [Functional Concurrency in .NET (Wrokshop)9http://www.codemash.org/) |  01/08/18 | Sandusky OH - CodeMash |
 
 
 # Presentations 2017
