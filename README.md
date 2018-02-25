@@ -8,9 +8,11 @@
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
-| [Deep Neural Networks with Actor Model](http://www.codemash.org/) |  01/09/18 | Sandusky OH - CodeMash |
-| [Functional Concurrency in .NET (Wrokshop)](http://www.codemash.org/) |  01/08/18 | Sandusky OH - CodeMash |
-
+| [Functional Programming in Practice, DSL in action]](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/23/18 | [Jet](http://www.jet.com) |
+| [Deep Neural Networks with Actor Model]](https://github.com/rikace/Presentations/tree/master/FastNN) |  02/22/18 | [NYC F# User](https://www.meetup.com/nyc-fsharp/events/247709187/) |
+| [Functional Programming in Practice, DSL in action]](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/22/18 | [NYC F# User[(https://www.meetup.com/nyc-fsharp/events/247709187/) |
+| [Functional Concurrency in .NET (Wrokshop)](https://github.com/rikace/fConcBook) |  01/08/18 | [Sandusky OH - CodeMash](http://www.codemash.org/) |
+| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  01/09/18 | Sandusky OH - [CodeMash](http://www.codemash.org/) |
 
 # Presentations 2017
 
