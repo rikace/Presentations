@@ -8,9 +8,12 @@
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
-| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/23/18 | [Jet](http://www.jet.com) |
-| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  02/22/18 | [NYC F# User](https://www.meetup.com/nyc-fsharp/events/247709187/) |
-| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/22/18 | [NYC F# User](https://www.meetup.com/nyc-fsharp/events/247709187/) |
+| [Go Faster with Azure Funcions](https://github.com/rikace/Presentations/tree/master/AzureFunctions) |  03/28/18 | [Microsoft-Maniacs](https://www.meetup.com/Microsoft-Maniacs/events/247522073/) |
+| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  03/24/18 | [Philly Code Camp](http://phillydotnet.org/codecamp.html) |
+| [Concurrency .NET Workshop](https://github.com/rikace/mpconc-ws) |  03/23/18 | [Philly Code Camp](http://phillydotnet.org/sessions/modern-patterns-of-concurrent-and-parallel-programming-in-net/) |
+| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/22/18 | [Jet](http://www.jet.com) |
+| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  02/21/18 | [NYC F# User](https://www.meetup.com/nyc-fsharp/events/247709187/) |
+| [Functional Programming in Practice, DSL in action](https://github.com/rikace/Presentations/tree/master/FunctionalDSL) |  02/21/18 | [NYC F# User](https://www.meetup.com/nyc-fsharp/events/247709187/) |
 | [Functional Concurrency in .NET (Wrokshop)](https://github.com/rikace/fConcBook) |  01/08/18 | [Sandusky OH - CodeMash](http://www.codemash.org/) |
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  01/09/18 | [Sandusky OH - CodeMash](http://www.codemash.org/) |
 
