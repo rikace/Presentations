@@ -4,6 +4,11 @@
 [Let me know](mailto:tericcardo@gmail.com) -- I will do my best to present on it!
 
 # Upcoming Presentations
+| Presentation Name | Date | Where |
+|-------------------|------|-------|
+| Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 04/07/18 | NovaCode Camp - Reston VA |
+| Deep Neural Networks with Actor Model | 04/13/18 | CarolinaConf - Raleigh NC |
+| Deep Neural Networks with Actor Model | 05/02/18 | LambdaConf - Boulder CO |
 
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
