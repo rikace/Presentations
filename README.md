@@ -6,15 +6,18 @@
 # Upcoming Presentations
 | Presentation Name | Date | Where |
 |-------------------|------|-------|
-| Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 05/12/18 | NovaCode Camp - Reston VA |
-| Best and modern patterns for parallel programming| 05/20/18 | NCrafts (Paris - France)  |
-| Deep Neural Networks with Actor Model | 05/22/18 | DC .NET  |
-| Deep Neural Networks with Actor Model | 06/02/18 | LambdaConf - Boulder CO |
+
+
+
 
 
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
+| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  06/02/18 | LambdaConf - Boulder (CO) |
+| [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  05/22/18 | [DC .NET](https://www.meetup.com/dotnetdc/events/249973253/) |
+| Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 05/12/18 | [NovaCode Camp - Reston VA](http://novacodecamp.org) |
+| Best and modern patterns for parallel programming| 05/20/18 | [NCrafts Paris - France](http://ncrafts.io/speaker/trikace) |
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) | 04/13/18 | [CarolinaConf - Raleigh NC](https://www.carolinacon.org/schedule.html) |
 | [Go Faster with Azure Funcions](https://github.com/rikace/Presentations/tree/master/AzureFunctions) |  03/28/18 | [Microsoft-Maniacs](https://www.meetup.com/Microsoft-Maniacs/events/247522073/) |
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  03/24/18 | [Philly Code Camp](http://phillydotnet.org/codecamp.html) |
