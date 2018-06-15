@@ -7,7 +7,7 @@
 | Presentation Name | Date | Where |
 |-------------------|------|-------|
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  08/12/18 | [Code on the Beach - Atlantic Beach, FL](https://www.codeonthebeach.com) |
-| Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 06/12/18 | [Enterprise Developers Guild](https://www.meetup.com/Enterprise-Developers-Guild/events/250284949/) |
+| Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 06/26/18 | [Enterprise Developers Guild](https://www.meetup.com/Enterprise-Developers-Guild/events/250284949/) |
 
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
