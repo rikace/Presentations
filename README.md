@@ -6,8 +6,8 @@
 # Upcoming Presentations
 | Presentation Name | Date | Where |
 |-------------------|------|-------|
-| [Quantum computing](https://github.com/rikace/Presentations/tree/master/Quantum) |  09/12/18 
-| Best and modern patterns for parallel programming| 09/18/18 | | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
+| [Quantum computing](https://github.com/rikace/Presentations/tree/master/Quantum) |  09/12/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
+| Best and modern patterns for parallel programming| 09/18/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
 
 
 # Presentations 2018
