@@ -6,13 +6,13 @@
 # Upcoming Presentations
 | Presentation Name | Date | Where |
 |-------------------|------|-------|
-| [Quantum computing](https://github.com/rikace/Presentations/tree/master/Quantum) |  09/12/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
-| Best and modern patterns for parallel programming| 09/18/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
-
 
 # Presentations 2018
 | Presentation Name (link) | Date | Where |
 |-------------------|------|-------|
+Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 10/06/18 | [Raleigh Code Camp](https://codecamp.org/Sessions/) |
+| [Quantum computing](https://github.com/rikace/Presentations/tree/master/Quantum) |  09/12/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
+| Best and modern patterns for parallel programming| 09/18/18 | [SkillsMatter - CodeNode, Lodon](https://skillsmatter.com/conferences/10107-prognet-london-2018) |
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  08/12/18 | [Code on the Beach - Atlantic Beach, FL](https://www.codeonthebeach.com) |
 | Multi-paradigm for the win… The secrets to becoming a better .NET programmer | 06/26/18 | [Enterprise Developers Guild](https://www.meetup.com/Enterprise-Developers-Guild/events/250284949/) |
 | [Deep Neural Networks with Actor Model](https://github.com/rikace/Presentations/tree/master/FastNN) |  06/02/18 | LambdaConf - Boulder (CO) |
